@@ -176,7 +176,7 @@
     function loadCSV (file) {
         const path = window.location.origin + "/certificates/" + file;
         console.log("Loading file: ", path)
-        taxa = [];
+        taxa.length = 0; // Clear the taxa array
         return fetch(path)
             .then(response => response.text())
             .then(text => {
