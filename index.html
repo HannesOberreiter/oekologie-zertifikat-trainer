@@ -265,12 +265,12 @@
 
         const data = await fetchObs(currentTaxon.scientificName);
         if (!data) {
-            alert("Fehler beim Laden der Beobachtung", currentTaxon.scientificName);
+            alert(`Fehler beim Laden der Beobachtung: ${currentTaxon.scientificName}`);
             return;
         }
         if (!data.results.length) {
-            alert("Keine Beobachtung gefunden", currentTaxon.scientificName);
-            return;
+            alert(`Keine Beobachtung gefunden für ${currentTaxon.scientificName}, lade nächste...`);
+            next(true);
         }
         const photo = data.results[0].photos[0];
 
