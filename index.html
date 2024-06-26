@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="at">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ökologie Zertifikat Trainer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav>* {
+            margin: 0 15px;
+            padding: 10px 20px;
+            background-color: #eee;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav>*:hover {
+            background-color: #ddd;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            margin: 10px 0;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .transparent {
+            opacity: 0.5;
+        }
+
+        .stats-text {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        #attribution {
+            margin-top: 10px;
+            font-size: 0.8em;
+        }
+
+        #link {
+            color: #4CAF50;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ökologie Zertifikat Tester</h1>
+    </header>
+    <nav>
+        <button id="weiter">Weiter</button>
+        <button id="skip">Überspringen</button>
+        <stats-text count="0" total="0" correct="0"></stats-text>
+        <select id="files">
+        </select>
+    </nav>
+
+    <section>
+        <input type="text" id="antwort" placeholder="Antwort eingeben">
+        <img id="bild" src="">
+        <p id="attribution"></p>
+        <a id="link" href="">Link zur Beobachtung</a>
+    </section>
+</body>
+
+</html>
+
+<script>
+    /**
+     * @typedef {Object} Photo
+     * @property {number} id - The photo's ID.
+     * @property {string} attribution - The photo's attribution text.
+     * @property {string} url - The URL of the photo.
+    
+     * @typedef {Object} Result
+     * @property {string} uuid - The unique identifier of the result.
+     * @property {number} id - The ID of the result.
+     * @property {Photo[]} photos - An array of photos associated with the result.
+    
+     * @typedef {Object} ApiResponse
+     * @property {number} total_results - The total number of results.
+     * @property {number} page - The current page number.
+     * @property {number} per_page - The number of results per page.
+     * @property {Result[]} results - An array of result objects.
+     
+    * @typedef {Object} Taxon
+    * @property {string} scientificName - The scientific name of the taxon.
+    * @property {string} commonName - The common name of the taxon.
+    * @property {string} family - The family of the taxon.
+    * @property {string} order - The order of the taxon.
+    * @property {string} class - The class of the taxon.
+    */
+
+    const files = ["Tieroekologie-Zertifikat_250-Arten-Tirols_Version-5_Artenliste.csv"];
+    const selectFiles = document.getElementById("files");
+    files.forEach(file => {
+        const option = document.createElement("option");
+        option.value = file;
+        option.textContent = file;
+        selectFiles.appendChild(option);
+    });
+
+    const buttonNext = document.getElementById("weiter");
+    const buttonSkip = document.getElementById("skip");
+
+    const image = document.getElementById("bild");
+    const attribution = document.getElementById("attribution");
+    const link = document.getElementById("link");
+
+    const input = document.getElementById("antwort");
+
+    buttonNext.addEventListener("click", () => next(false));
+    buttonSkip.addEventListener("click", () => next(true));
+
+    input.addEventListener("keyup", function (event) {
+        if (event.key === "Enter") {
+            next(false);
+        }
+    });
+
+    const stats = {
+        total: 0,
+        correct: 0,
+        count: 0
+    };
+    let currentTaxon = null;
+
+    /** @type {Taxon[]} */
+    const taxa = []
+
+    function loadCSV (file) {
+        const path = window.location.origin + "/certificates/" + file;
+        console.log("Loading file: ", path)
+        taxa = [];
+        return fetch(path)
+            .then(response => response.text())
+            .then(text => {
+                const lines = text.split("\n");
+                for (let i = 1; i < lines.length; i++) {
+                    const [scientificName, commonName, family, order, class_] = lines[i].split(";");
+                    taxa.push({ scientificName, commonName, family, order, class: class_ });
+                }
+            });
+    }
+
+    /* Update the statistics display */
+    function updateStatsSpan () {
+        const statsSpan = document.querySelector("stats-text");
+        statsSpan.setAttribute("count", stats.count);
+        statsSpan.setAttribute("correct", stats.correct);
+        statsSpan.setAttribute("total", stats.total);
+    }
+
+    /**
+     * Fetches a random observation from iNaturalist#
+     * @param {string} name - The name of the taxon to fetch
+     * @returns {Promise<ApiResponse>} The observation data
+     */
+    async function fetchObs (name) {
+        const url = "https://api.inaturalist.org/v2/observations?photo_license=cc-by,cc-by-nc,cc0&photo_licensed=true&place_id=143465&quality_grade=research&per_page=1&order_by=random&fields=(id:!t,photos:(attribution:!t,url:!t))&taxon_name=" + name;
+        const response = await fetch(url);
+        const data = await response.json();
+        return data;
+    }
+
+    function checkCorrect () {
+        if (currentTaxon === null) {
+            return;
+        }
+        const text = `Wissenschaftlicher Name: ${currentTaxon.scientificName}\n` +
+            `Deutscher Name: ${currentTaxon.commonName}\n` +
+            `Familie: ${currentTaxon.family}\n` +
+            `Ordnung: ${currentTaxon.order}\n` +
+            `Klasse: ${currentTaxon.class}\n`;
+
+        const distanceLat = LevenshteinDistance(input.value.toLowerCase(), currentTaxon.scientificName.toLowerCase());
+        const distanceDe = LevenshteinDistance(input.value.toLowerCase(), currentTaxon.commonName.toLowerCase());
+
+        const distance = Math.min(distanceLat, distanceDe);
+
+
+        console.log("input.value", input.value.toLowerCase())
+        console.log("currentTaxon", JSON.stringify(currentTaxon, null, 2));
+
+        console.log("distance", distance);
+        if (distance <= 2 && distance !== false) {
+            stats.correct++;
+            alert(`✅✅✅ Richtig!\n${text}`);
+        } else {
+            alert(`❌❌❌ Falsch!\n${text}`);
+        }
+    }
+
+    /**
+     * Fetch a new observation and update the image and attribution
+     * @param {boolean} [skip=false] - Whether to skip checking the answer
+     */
+    async function next (skip = false) {
+        stats.count++;
+
+        if (!skip) checkCorrect();
+        updateStatsSpan();
+
+        if (taxa.length === 0) {
+            alert("Keine Taxa mehr übrig 🎆 🎆 🎆");
+            return;
+        }
+        input.value = "";
+        const n = Math.floor(Math.random() * taxa.length);
+        currentTaxon = taxa[n];
+        taxa.splice(n, 1);
+
+
+        input.disabled = true;
+        image.classList.add("transparent");
+
+        const data = await fetchObs(currentTaxon.scientificName);
+        if (!data) {
+            alert("Fehler beim Laden der Beobachtung", currentTaxon.scientificName);
+            return;
+        }
+        if (!data.results.length) {
+            alert("Keine Beobachtung gefunden", currentTaxon.scientificName);
+            return;
+        }
+        const photo = data.results[0].photos[0];
+
+        input.disabled = false;
+        input.focus();
+        image.classList.remove("transparent");
+        image.src = photo.url.replace("square", "medium");
+        attribution.textContent = photo.attribution;
+        link.href = "https://www.inaturalist.org/observations/" + data.results[0].id;
+    }
+
+    /**
+    * Custom element for displaying statistics
+    */
+    class Stats extends HTMLElement {
+        constructor() {
+            super();
+            this.attachShadow({ mode: 'open' });
+        }
+
+        static get observedAttributes () {
+            return ['total', 'correct', 'count'];
+        }
+
+        connectedCallback () {
+            this.render();
+        }
+
+        attributeChangedCallback (name, oldValue, newValue) {
+            this.render();
+        }
+
+        render () {
+            const total = this.getAttribute('total') || '0';
+            const correct = this.getAttribute('correct') || '0';
+            const count = this.getAttribute('count') || '0';
+
+            this.shadowRoot.innerHTML = `
+            <span>Total: ${count}/${total}, Korrekt: ${correct}</span>
+        `;
+        }
+    }
+
+    customElements.define('stats-text', Stats);
+
+
+    /**
+    * Calculate the Levenshtein distance between two strings.
+    * @see https://en.wikipedia.org/wiki/Levenshtein_distance#Iterative_with_two_matrix_rows
+    */
+    function LevenshteinDistance (a, b) {
+        let v0 = [];
+        let v1 = [];
+
+        for (let i = 0; i <= b.length; i += 1) {
+            v0[i] = i;
+        }
+
+        for (let i = 0; i < a.length; i += 1) {
+            v1[0] = i + 1;
+
+            for (let j = 0; j < b.length; j += 1) {
+                const deletionCost = v0[j + 1] + 1;
+                const insertionConst = v1[j] + 1;
+                const substitutionCost = a[i] === b[j] ? v0[j] : v0[j] + 1;
+
+                v1[j + 1] = Math.min(deletionCost, insertionConst, substitutionCost);
+            }
+
+            const tmp = v1;
+
+            v1 = v0;
+            v0 = tmp;
+        }
+
+        return v0[b.length];
+    }
+
+    loadCSV(files[0]).then(() => {
+        stats.total = taxa.length;
+        next();
+    });
+
+</script>
