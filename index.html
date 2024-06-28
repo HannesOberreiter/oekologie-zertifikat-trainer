@@ -93,8 +93,10 @@
         <h1>Ökologie Zertifikat Tester</h1>
     </header>
     <nav>
-        <button id="weiter">Weiter</button>
-        <button id="skip">Überspringen</button>
+        <button id="weiter">(ALT+W) Weiter</button>
+        <button id="skip">(ALT+S) Überspringen</button>
+        <button id="solution">(ALT+D) Lösung</button>
+
         <stats-text count="0" total="0" correct="0"></stats-text>
         <select id="files">
         </select>
@@ -108,8 +110,15 @@
     </section>
 
     <footer style="text-align: center; margin-top: 20vh;">
-        <a href="https://github.com/HannesOberreiter/oekologie-zertifikat-trainer" target="_blank">github.com/HannesOberreiter/oekologie-zertifikat-trainer</a>
+        <a href="https://github.com/HannesOberreiter/oekologie-zertifikat-trainer"
+            target="_blank">github.com/HannesOberreiter/oekologie-zertifikat-trainer</a>
     </footer>
+
+    <dialog id="dialog-solution">
+        <p id="text-solution"></p>
+        <button autofocus>Ok</button>
+    </dialog>
+
 </body>
 
 </html>
@@ -152,6 +161,33 @@
     const buttonNext = document.getElementById("weiter");
     const buttonSkip = document.getElementById("skip");
 
+    /** type {HTMLDialogElement} */
+    const buttonSolution = document.getElementById("solution");
+    const buttonSolutionClose = document.querySelector("#dialog-solution button");
+    const dialogSolution = document.getElementById("dialog-solution");
+    buttonSolution.addEventListener("click", () => {
+        if (currentTaxon !== null) {
+            document.getElementById("text-solution").innerHTML = `Wissenschaftlicher Name: <i>${currentTaxon.scientificName}</i><br/>` +
+                `Deutscher Name: ${currentTaxon.commonName}<br/>` +
+                `Familie: ${currentTaxon.family}<br/>` +
+                `Ordnung: ${currentTaxon.order}<br/>` +
+                `Klasse: ${currentTaxon.class}<br/>`;
+        }
+        dialogSolution.showModal()
+    });
+    buttonSolutionClose.addEventListener("click", () => {
+        dialogSolution.close();
+    });
+
+    document.addEventListener("keydown", function (event) {
+        if (event.altKey && event.key === "w") {
+            buttonNext.click();
+        }
+        if (event.altKey && event.key === "s") {
+            buttonSkip.click();
+        }
+    });
+
     const image = document.getElementById("bild");
     const attribution = document.getElementById("attribution");
     const link = document.getElementById("link");
@@ -176,6 +212,8 @@
 
     /** @type {Taxon[]} */
     const taxa = []
+    /** @type {Taxon[]} */
+    const missingTaxa = [];
 
     function loadCSV (file) {
         const path = window.location.href + "/files/" + file;
@@ -247,7 +285,9 @@
     async function next (skip = false) {
         stats.count++;
 
-        if (!skip) checkCorrect();
+        if (!skip){
+            checkCorrect();
+        }
         updateStatsSpan();
 
         if (taxa.length === 0) {
@@ -269,6 +309,7 @@
             return;
         }
         if (!data.results.length) {
+            missingTaxa.push(currentTaxon);
             alert(`Keine Beobachtung gefunden für ${currentTaxon.scientificName}, lade nächste...`);
             next(true);
         }
