@@ -100,7 +100,8 @@
     <nav>
         <button id="weiter">(1) Weiter</button>
         <button id="skip">(2) Überspringen</button>
-        <button id="solution">(3) Lösung</button>
+        <button id="large">(3) Größer</button>
+        <button id="solution">(4) Lösung</button>
     </nav>
 
     <section>
@@ -123,6 +124,10 @@
     <dialog id="dialog-missing">
         <button autofocus>Ok</button>
         <p id="text-missing"></p>
+    </dialog>
+
+    <dialog id="dialog-image">
+        <img id="image-large" src="">
     </dialog>
 
 </body>
@@ -155,6 +160,16 @@
     * @property {string} class - The class of the taxon.
     */
 
+
+    const buttonNext = document.getElementById("weiter");
+    const buttonSkip = document.getElementById("skip");
+    const buttonLarge = document.getElementById("large");
+    const image = document.getElementById("bild");
+    const attribution = document.getElementById("attribution");
+    const link = document.getElementById("link");
+    const input = document.getElementById("antwort");
+
+    /**** FILE SELECTION ****/
     const files = ["Tieroekologie-Zertifikat_250-Arten-Tirols_Version-5_Artenliste.csv"];
     const selectFiles = document.getElementById("files");
     files.forEach(file => {
@@ -164,9 +179,7 @@
         selectFiles.appendChild(option);
     });
 
-    const buttonNext = document.getElementById("weiter");
-    const buttonSkip = document.getElementById("skip");
-
+    /**** SOLUTIONS DIALOG ****/
     const buttonSolution = document.getElementById("solution");
     const buttonSolutionClose = document.querySelector("#dialog-solution button");
     /** type {HTMLDialogElement} */
@@ -183,8 +196,10 @@
     });
     buttonSolutionClose.addEventListener("click", () => {
         dialogSolution.close();
+        input.focus();
     });
 
+    /**** MISSING DIALOG ****/
     const buttonStats = document.getElementById("stats");
     const buttonMissingClose = document.querySelector("#dialog-missing button");
     /** type {HTMLDialogElement} */
@@ -202,45 +217,64 @@
         dialogMissing.close();
     });
 
+    /**** LARGE IMAGE DIALOG ****/
+    /** type {HTMLDialogElement} */
+    const dialogImage = document.getElementById("dialog-image");
+    image.addEventListener("click", () => {
+        document.getElementById("image-large").src = image.src.replace("medium", "large");
+        dialogImage.showModal();
+    });
+    // any click should close the modal and prevent anything other from happening
+    dialogImage.addEventListener("click", () => {
+        dialogImage.close();
+        input.focus();
+    });
+
+    /**** NAVIGATION ****/
     document.addEventListener("keydown", function (event) {
         if (event.key === "1") {
             buttonNext.click();
-        }
-        if (event.key === "2") {
+        } else if (event.key === "2") {
             buttonSkip.click();
-        }
-        if (event.key === "3") {
+        } else if (event.key === "3") {
+            event.preventDefault();
+            buttonLarge.click();
+        } else if (event.key === "4") {
+            event.preventDefault();
             buttonSolution.click();
+        } else if (event.key === "Enter" && document.activeElement === input) {
+            next(false);
+        } else if (event.key === "Escape") {
+            dialogSolution.close();
+            dialogMissing.close();
+            dialogImage.close();
         }
     });
-
-    const image = document.getElementById("bild");
-    const attribution = document.getElementById("attribution");
-    const link = document.getElementById("link");
-
-    const input = document.getElementById("antwort");
-
     buttonNext.addEventListener("click", () => next(false));
     buttonSkip.addEventListener("click", () => next(true));
-
-    input.addEventListener("keyup", function (event) {
-        if (event.key === "Enter") {
-            next(false);
-        }
+    buttonLarge.addEventListener("click", () => {
+        document.getElementById("image-large").src = image.src.replace("medium", "large");
+        dialogImage.showModal();
     });
 
+    /**** GLOBALS ****/
     const stats = {
         total: 0,
         correct: 0,
         count: 0
     };
+    /** @type {Taxon | null} */
     let currentTaxon = null;
-
     /** @type {Taxon[]} */
     const taxa = []
     /** @type {Taxon[]} */
     const missingTaxa = [];
-
+    
+    /**
+     * Load a CSV file and parse its contents into the taxa array
+     * @param {string} file - The name of the file to load
+     * @returns {Promise<void>}
+     */
     function loadCSV (file) {
         const path = window.location.href + "/files/" + file;
         console.log("Loading file: ", path)
@@ -260,7 +294,7 @@
     function updateStatsSpan () {
         const statsSpan = document.querySelector("stats-text");
         statsSpan.setAttribute("count", stats.count);
-        statsSpan.setAttribute("correct", stats.correct);
+        statsSpan.setAttribute("missing", missingTaxa.length);
         statsSpan.setAttribute("total", stats.total);
     }
 
@@ -276,6 +310,10 @@
         return data;
     }
 
+    /**
+     * Check if the user's answer is correct
+     * @returns {boolean | undefined} - Whether the answer is correct
+     */
     function checkCorrect () {
         if (currentTaxon === null) {
             return undefined;
@@ -300,7 +338,6 @@
      * @param {boolean} [skip=false] - Whether to skip checking the answer
      */
     async function next (skip = false) {
-
         if (!skip){
             const isCorrect = checkCorrect();
             const text = `Wissenschaftlicher Name: ${currentTaxon.scientificName}\n` +
@@ -384,7 +421,6 @@
         `;
         }
     }
-
     customElements.define('stats-text', Stats);
 
 
@@ -420,6 +456,7 @@
         return v0[b.length];
     }
 
+    /*** INITIALIZATION ***/
     loadCSV(files[0]).then(() => {
         stats.total = taxa.length;
         next(true);
