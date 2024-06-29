@@ -158,6 +158,7 @@
     * @property {string} family - The family of the taxon.
     * @property {string} order - The order of the taxon.
     * @property {string} class - The class of the taxon.
+    * @property {string} taxonId - The INaturalist ID of the taxon.
     */
 
 
@@ -284,8 +285,8 @@
             .then(text => {
                 const lines = text.split("\n");
                 for (let i = 1; i < lines.length; i++) {
-                    const [scientificName, commonName, family, order, class_] = lines[i].split(";");
-                    taxa.push({ scientificName, commonName, family, order, class: class_ });
+                    const [scientificName, commonName, family, order, class_, taxonId] = lines[i].split(";");
+                    taxa.push({ scientificName, commonName, family, order, class: class_, taxonId: taxonId });
                 }
             });
     }
@@ -300,12 +301,12 @@
 
     /**
      * Fetches a random observation from iNaturalist#
-     * @param {string} name - The name of the taxon to fetch
+     * @param {string} id - The taxon ID to fetch observations for
      * @returns {Promise<ApiResponse>} The observation data
      */
-    async function fetchObs (name) {
+    async function fetchObs (id) {
         /* place_id=97391 is Europe */
-        const url = "https://api.inaturalist.org/v2/observations?photo_license=cc-by,cc-by-nc,cc0&photo_licensed=true&place_id=97391&quality_grade=research&per_page=1&order_by=random&fields=(id:!t,photos:(attribution:!t,url:!t))&taxon_name=" + name;
+        const url = "https://api.inaturalist.org/v2/observations?photo_license=cc-by,cc-by-nc,cc0&photo_licensed=true&place_id=97391&quality_grade=research&per_page=1&order_by=random&fields=(id:!t,photos:(attribution:!t,url:!t))&taxon_id=" + id;
         const response = await fetch(url);
         const data = await response.json();
         return data;
@@ -370,7 +371,7 @@
         input.disabled = true;
         image.classList.add("transparent");
 
-        const data = await fetchObs(currentTaxon.scientificName);
+        const data = await fetchObs(currentTaxon.taxonId);
         if (!data) {
             alert(`Fehler beim Laden der Beobachtung: ${currentTaxon.scientificName}`);
             return;
