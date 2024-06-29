@@ -363,12 +363,15 @@
             `Ordnung: ${currentTaxon.order}\n` +
             `Klasse: ${currentTaxon.class}\n`;
             const confirmText = isCorrect ? `✅✅✅ Richtig! Weiter? \n${text}` : `❌❌❌ Falsch! Weiter?\n${text}`;
+            if(!isCorrect){
+                taxa.push(currentTaxon);
+            } else {
+                stats.count++;
+            }
             const res = confirm(confirmText);
             if (!res){
-                taxa.push(currentTaxon);
                 return;
             }
-            stats.count++;
         }
 
         updateStatsSpan();
