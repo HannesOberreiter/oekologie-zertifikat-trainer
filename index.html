@@ -304,7 +304,8 @@
      * @returns {Promise<ApiResponse>} The observation data
      */
     async function fetchObs (name) {
-        const url = "https://api.inaturalist.org/v2/observations?photo_license=cc-by,cc-by-nc,cc0&photo_licensed=true&place_id=143465&quality_grade=research&per_page=1&order_by=random&fields=(id:!t,photos:(attribution:!t,url:!t))&taxon_name=" + name;
+        /* place_id=97391 is Europe */
+        const url = "https://api.inaturalist.org/v2/observations?photo_license=cc-by,cc-by-nc,cc0&photo_licensed=true&place_id=97391&quality_grade=research&per_page=1&order_by=random&fields=(id:!t,photos:(attribution:!t,url:!t))&taxon_name=" + name;
         const response = await fetch(url);
         const data = await response.json();
         return data;
