@@ -127,7 +127,8 @@
     </dialog>
 
     <dialog id="dialog-image">
-        <img id="image-large" src="">
+        <div id="large-image" style="text-align: center;">
+        </div>
     </dialog>
 
 </body>
@@ -222,10 +223,22 @@
     /** type {HTMLDialogElement} */
     const dialogImage = document.getElementById("dialog-image");
     image.addEventListener("click", () => {
-        document.getElementById("image-large").src = image.src.replace("medium", "large");
+        const divLargeImage = document.getElementById("large-image");
+        while (divLargeImage.firstChild) {
+            console.log(divLargeImage.firstChild)
+            divLargeImage.removeChild(divLargeImage.firstChild);
+        }
+        for (const url of currentImages.flat()) {
+            const img = document.createElement("img");
+            img.src = url.replace("square", "large");
+            img.style.maxWidth = "100%";
+            img.style.height = "auto";
+            img.style.borderRadius = "10px";
+            img.loading = "lazy";
+            divLargeImage.appendChild(img);
+        }
         dialogImage.showModal();
     });
-    // any click should close the modal and prevent anything other from happening
     dialogImage.addEventListener("click", () => {
         dialogImage.close();
         input.focus();
@@ -266,6 +279,8 @@
     };
     /** @type {Taxon | null} */
     let currentTaxon = null;
+    /** @type {string[]} */
+    let currentImages = [];
     /** @type {Taxon[]} */
     const taxa = []
     /** @type {Taxon[]} */
@@ -365,6 +380,7 @@
         input.value = "";
         const n = Math.floor(Math.random() * taxa.length);
         currentTaxon = taxa[n];
+        currentImages.length = 0;
         taxa.splice(n, 1);
 
 
@@ -376,13 +392,14 @@
             alert(`Fehler beim Laden der Beobachtung: ${currentTaxon.scientificName}`);
             return;
         }
-        if (!data.results.length) {
+        if (data.status === "422" || !data.results.length) {
             missingTaxa.push(currentTaxon);
             alert(`Keine Beobachtung gefunden für ${currentTaxon.scientificName}, lade nächste...`);
             next(true);
             return;
         }
         const photo = data.results[0].photos[0];
+        currentImages.push(data.results[0].photos.map(photo => photo.url));
 
         input.disabled = false;
         input.focus();
