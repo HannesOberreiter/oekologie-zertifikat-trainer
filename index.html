@@ -300,8 +300,8 @@
             .then(text => {
                 const lines = text.split("\n");
                 for (let i = 1; i < lines.length; i++) {
-                    const [scientificName, commonName, family, order, class_, taxonId] = lines[i].split(";");
-                    taxa.push({ scientificName, commonName, family, order, class: class_, taxonId: taxonId });
+                    const [scientificName, commonName, _class, order, family, taxonId] = lines[i].split(";");
+                    taxa.push({ scientificName, commonName, class: _class, order, family: family, taxonId: taxonId });
                 }
             });
     }
@@ -326,6 +326,17 @@
         const data = await response.json();
         return data;
     }
+
+
+    /**
+     * Alert the user when there are no taxa left
+     */
+    function alertWhenFinished(){
+        if (taxa.length === 0) {
+            alert("Keine Taxa mehr übrig 🎆 🎆 🎆");
+        }
+    }
+
 
     /**
      * Check if the user's answer is correct
