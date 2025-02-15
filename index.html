@@ -161,8 +161,6 @@
     * @property {string} class - The class of the taxon.
     * @property {string} taxonId - The INaturalist ID of the taxon.
     */
-
-
     const buttonNext = document.getElementById("weiter");
     const buttonSkip = document.getElementById("skip");
     const buttonLarge = document.getElementById("large");
@@ -172,13 +170,28 @@
     const input = document.getElementById("antwort");
 
     /**** FILE SELECTION ****/
-    const files = ["Tieroekologie-Zertifikat_250-Arten-Tirols_Version-5_Artenliste.csv"];
+    const files = [
+    { 
+        value: "Tieroekologie-Zertifikat_250-Arten-Tirols_Version-5_Artenliste.csv", 
+        name: "Tierökologie Tirol Stufe 1 [V5]"
+    },
+    {
+        value: "Tieroekologie-Zertifikat_250-Arten-Salzburg_Artenliste.csv",
+        name: "Tierökologie Salzburg Stufe 1"
+    }
+    ];
     const selectFiles = document.getElementById("files");
     files.forEach(file => {
         const option = document.createElement("option");
-        option.value = file;
-        option.textContent = file;
+        option.value = file.value;
+        option.textContent = file.name;
         selectFiles.appendChild(option);
+    });
+    selectFiles.addEventListener("change", () => {
+        loadCSV(selectFiles.value).then(() => {
+            stats.total = taxa.length;
+            next(true);
+        });
     });
 
     /**** SOLUTIONS DIALOG ****/
@@ -225,7 +238,6 @@
     image.addEventListener("click", () => {
         const divLargeImage = document.getElementById("large-image");
         while (divLargeImage.firstChild) {
-            console.log(divLargeImage.firstChild)
             divLargeImage.removeChild(divLargeImage.firstChild);
         }
         for (const url of currentImages.flat()) {
@@ -267,8 +279,7 @@
     buttonNext.addEventListener("click", () => next(false));
     buttonSkip.addEventListener("click", () => next(true));
     buttonLarge.addEventListener("click", () => {
-        document.getElementById("image-large").src = image.src.replace("medium", "large");
-        dialogImage.showModal();
+        image.click();
     });
 
     /**** GLOBALS ****/
@@ -285,7 +296,7 @@
     const taxa = []
     /** @type {Taxon[]} */
     const missingTaxa = [];
-    
+
     /**
      * Load a CSV file and parse its contents into the taxa array
      * @param {string} file - The name of the file to load
@@ -298,7 +309,7 @@
         return fetch(path)
             .then(response => response.text())
             .then(text => {
-                const lines = text.split("\n");
+                const lines = text.split(/\r?\n/);
                 for (let i = 1; i < lines.length; i++) {
                     const [scientificName, commonName, _class, order, family, taxonId] = lines[i].split(";");
                     taxa.push({ scientificName, commonName, class: _class, order, family: family, taxonId: taxonId });
@@ -331,7 +342,7 @@
     /**
      * Alert the user when there are no taxa left
      */
-    function alertWhenFinished(){
+    function alertWhenFinished () {
         if (taxa.length === 0) {
             alert("Keine Taxa mehr übrig 🎆 🎆 🎆");
         }
@@ -366,21 +377,21 @@
      * @param {boolean} [skip=false] - Whether to skip checking the answer
      */
     async function next (skip = false) {
-        if (!skip){
+        if (!skip) {
             const isCorrect = checkCorrect();
             const text = `Wissenschaftlicher Name: ${currentTaxon.scientificName}\n` +
-            `Deutscher Name: ${currentTaxon.commonName}\n` +
-            `Familie: ${currentTaxon.family}\n` +
-            `Ordnung: ${currentTaxon.order}\n` +
-            `Klasse: ${currentTaxon.class}\n`;
+                `Deutscher Name: ${currentTaxon.commonName}\n` +
+                `Familie: ${currentTaxon.family}\n` +
+                `Ordnung: ${currentTaxon.order}\n` +
+                `Klasse: ${currentTaxon.class}\n`;
             const confirmText = isCorrect ? `✅✅✅ Richtig! Weiter? \n${text}` : `❌❌❌ Falsch! Weiter?\n${text}`;
-            if(!isCorrect){
+            if (!isCorrect) {
                 taxa.push(currentTaxon);
             } else {
                 stats.count++;
             }
             const res = confirm(confirmText);
-            if (!res){
+            if (!res) {
                 return;
             }
         }
@@ -490,9 +501,16 @@
     }
 
     /*** INITIALIZATION ***/
-    loadCSV(files[0]).then(() => {
+    loadCSV(files[0].value).then(() => {
         stats.total = taxa.length;
         next(true);
     });
 
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+            dialogSolution.close();
+            dialogMissing.close();
+            dialogImage.close();
+        }
+    });
 </script>

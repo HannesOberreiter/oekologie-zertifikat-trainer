@@ -1,6 +1,6 @@
 # Ökologie Zertifikat Tester
 
-Trainingswebsite für das österreichische Tierökologie und Freilandbotanik Zertifikat.
+Trainingswebsite für das österreichische Tierökologie Zertifikat.
 
 ## Local Development
 
