@@ -5,65 +5,137 @@
     <meta charset="UTF-8">
     <title>Ökologie Zertifikat Trainer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <style>
+        :root {
+            --primary-color: #4CAF50;
+            --primary-dark: #45a049;
+            --text-color: #333;
+            --bg-color: #f9f9f9;
+            --nav-bg: #333;
+            --card-bg: #fff;
+            --border-radius: 8px;
+            --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-            padding: 20px;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
         header {
-            background-color: #4CAF50;
+            background-color: var(--primary-color);
             color: white;
-            padding: 20px;
+            padding: 15px;
             text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+        }
+
+        .nav-container {
+            background-color: var(--nav-bg);
+            padding: 10px;
         }
 
         nav {
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-            background-color: #333;
-            padding: 10px 0;
+            gap: 10px;
+            max-width: 600px;
+            margin: 0 auto;
         }
 
-        nav>* {
-            margin: 0 15px;
-            padding: 10px 20px;
+        nav select, .stats-text {
+            padding: 8px 12px;
             background-color: #eee;
-            color: #333;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
+            color: var(--text-color);
+            border-radius: var(--border-radius);
+            border: none;
+            font-size: 0.9rem;
+            flex-grow: 1;
         }
 
-        nav>*:hover {
-            background-color: #ddd;
+        .button-group {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            width: 100%;
         }
 
-        section {
+        @media (min-width: 480px) {
+            .button-group {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        button {
+            padding: 10px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: var(--primary-dark);
+        }
+
+        .shortcut-text {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .shortcut-text {
+                display: inline;
+                opacity: 0.8;
+                font-size: 0.8em;
+            }
+        }
+
+        main {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            margin-top: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            flex: 1;
         }
 
         input[type="text"] {
-            padding: 10px;
-            margin: 10px 0;
-            width: 300px;
+            padding: 12px;
+            width: 100%;
             border: 1px solid #ccc;
-            border-radius: 5px;
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            margin-bottom: 15px;
         }
 
         img {
             max-width: 100%;
             height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin: 15px 0;
         }
 
         .transparent {
@@ -71,19 +143,72 @@
         }
 
         .stats-text {
-            color: #4CAF50;
+            color: var(--primary-color);
             font-weight: bold;
+            text-align: center;
         }
 
         #attribution {
             margin-top: 10px;
-            font-size: 0.8em;
+            font-size: 0.9rem;
+            text-align: center;
         }
 
         #link {
-            color: #4CAF50;
+            color: var(--primary-color);
             text-decoration: none;
-            margin-top: 10px;
+            margin-top: 15px;
+            padding: 8px 15px;
+            border: 1px solid var(--primary-color);
+            border-radius: var(--border-radius);
+            display: inline-block;
+            transition: all 0.3s;
+        }
+
+        #link:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f1f1f1;
+            font-size: 0.9rem;
+            margin-top: auto;
+        }
+
+        dialog {
+            border: none;
+            border-radius: var(--border-radius);
+            padding: 25px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            max-width: 90%;
+            margin: auto;
+        }
+
+        dialog button {
+            margin-top: 15px;
+            padding: 10px 20px;
+        }
+
+        #large-image img {
+            max-width: 100%;
+            max-height: 80vh;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            button, input[type="text"], nav select {
+                font-size: 1rem;
+            }
+            
+            main {
+                padding: 15px 10px;
+            }
         }
     </style>
 </head>
@@ -92,26 +217,33 @@
     <header>
         <h1>Ökologie Zertifikat Tester</h1>
     </header>
-    <nav>
-        <stats-text id="stats" count="0" total="0" missing="0"></stats-text>
-        <select id="files">
-        </select>
-    </nav>
-    <nav>
-        <button id="weiter">(1) Weiter</button>
-        <button id="skip">(2) Überspringen</button>
-        <button id="large">(3) Größer</button>
-        <button id="solution">(4) Lösung</button>
-    </nav>
+    
+    <div class="nav-container">
+        <nav>
+            <stats-text id="stats" count="0" total="0" missing="0" style="color:white;"></stats-text>
+            <select id="files"></select>
+        </nav>
+    </div>
+    
+    <div class="nav-container">
+        <nav class="button-group">
+            <button id="next">Weiter <span class="shortcut-text">(1)</span></button>
+            <button id="skip">Überspringen <span class="shortcut-text">(2)</span></button>
+            <button id="large">Größer <span class="shortcut-text">(3)</span></button>
+            <button id="solution">Lösung <span class="shortcut-text">(4)</span></button>
+        </nav>
+    </div>
 
-    <section>
-        <input type="text" id="antwort" placeholder="Antwort eingeben">
-        <img id="bild" src="">
+    <main>
+        <input type="text" id="answer" name="answer" placeholder="Antwort eingeben">
+        <img id="image" src="favicon.png" width="500" height="500" alt="Taxa Bild" onerror="this.src='favicon.png';">
         <p id="attribution"></p>
-        <a id="link" href="" target="_blank">Link zur Beobachtung</a>
-    </section>
+        <a id="link" target="_blank">Link zur Beobachtung</a>
+    </main>
 
-    <footer style="text-align: center; margin-top: 20vh;">
+    <img id="imageCache" src="" style="display: none;" alt="Cache">
+
+    <footer>
         <a href="https://github.com/HannesOberreiter/oekologie-zertifikat-trainer"
             target="_blank">github.com/HannesOberreiter/oekologie-zertifikat-trainer</a>
     </footer>
@@ -122,13 +254,18 @@
     </dialog>
 
     <dialog id="dialog-missing">
-        <button autofocus>Ok</button>
         <p id="text-missing"></p>
+        <button autofocus>Ok</button>
+    </dialog>
+
+    <dialog id="dialog-result">
+        <p id="text-result"></p>
+        <button id="dialog-result-ok" autofocus>Ok</button>
+        <button id="dialog-result-cancel">Cancel</button>
     </dialog>
 
     <dialog id="dialog-image">
-        <div id="large-image" style="text-align: center;">
-        </div>
+        <div id="large-image" style="text-align: center;"></div>
     </dialog>
 
 </body>
@@ -161,24 +298,25 @@
     * @property {string} class - The class of the taxon.
     * @property {string} taxonId - The INaturalist ID of the taxon.
     */
-    const buttonNext = document.getElementById("weiter");
+    const buttonNext = document.getElementById("next");
     const buttonSkip = document.getElementById("skip");
     const buttonLarge = document.getElementById("large");
-    const image = document.getElementById("bild");
+    const image = document.getElementById("image");
+    const imageCache = document.getElementById("imageCache");
     const attribution = document.getElementById("attribution");
     const link = document.getElementById("link");
-    const input = document.getElementById("antwort");
+    const input = document.getElementById("answer");
 
     /**** FILE SELECTION ****/
     const files = [
-    { 
-        value: "Tieroekologie-Zertifikat_250-Arten-Tirols_Version-5_Artenliste.csv", 
-        name: "Tierökologie Tirol Stufe 1 [V5]"
-    },
-    {
-        value: "Tieroekologie-Zertifikat_250-Arten-Salzburg_Artenliste.csv",
-        name: "Tierökologie Salzburg Stufe 1"
-    }
+        {
+            value: "Tieroekologie-Zertifikat_250-Arten-Tirols_Version-5_Artenliste.csv",
+            name: "Tierökologie Tirol Stufe 1 [V5]"
+        },
+        {
+            value: "Tieroekologie-Zertifikat_250-Arten-Salzburg_Artenliste.csv",
+            name: "Tierökologie Salzburg Stufe 1"
+        }
     ];
     const selectFiles = document.getElementById("files");
     files.forEach(file => {
@@ -194,6 +332,24 @@
         });
     });
 
+    /**** RESULT DIALOG ****/
+    const buttonResultClose = document.querySelector("#dialog-result-ok");
+    const buttonResultCancel = document.querySelector("#dialog-result-cancel");
+    /** type {HTMLDialogElement} */
+    const dialogResult = document.getElementById("dialog-result");
+    buttonResultClose.addEventListener("click", () => {
+        next(false);
+        dialogResult.close();
+    });
+    buttonResultCancel.addEventListener("click", () => {
+        dialogResult.close();
+    });
+    // on close event reset
+    dialogResult.addEventListener("close", () => {
+        document.getElementById("text-result").innerHTML = "";
+        input.focus();
+    });
+
     /**** SOLUTIONS DIALOG ****/
     const buttonSolution = document.getElementById("solution");
     const buttonSolutionClose = document.querySelector("#dialog-solution button");
@@ -201,11 +357,7 @@
     const dialogSolution = document.getElementById("dialog-solution");
     buttonSolution.addEventListener("click", () => {
         if (currentTaxon !== null) {
-            document.getElementById("text-solution").innerHTML = `Wissenschaftlicher Name: <i>${currentTaxon.scientificName}</i><br/>` +
-                `Deutscher Name: ${currentTaxon.commonName}<br/>` +
-                `Familie: ${currentTaxon.family}<br/>` +
-                `Ordnung: ${currentTaxon.order}<br/>` +
-                `Klasse: ${currentTaxon.class}<br/>`;
+            document.getElementById("text-solution").innerHTML = buildSolutionText();
         }
         dialogSolution.showModal()
     });
@@ -269,14 +421,15 @@
             event.preventDefault();
             buttonSolution.click();
         } else if (event.key === "Enter" && document.activeElement === input) {
-            next(false);
+            event.preventDefault();
+            buttonNext.click();
         } else if (event.key === "Escape") {
             dialogSolution.close();
             dialogMissing.close();
             dialogImage.close();
         }
     });
-    buttonNext.addEventListener("click", () => next(false));
+    buttonNext.addEventListener("click", () => showResult());
     buttonSkip.addEventListener("click", () => next(true));
     buttonLarge.addEventListener("click", () => {
         image.click();
@@ -296,6 +449,26 @@
     const taxa = []
     /** @type {Taxon[]} */
     const missingTaxa = [];
+
+    /** @type {Taxon | null} */
+    let cacheTaxon = null;
+    let cacheData = null;
+    let cacheLoading = false;
+
+    /** @type {boolean}  throttle next spaming */
+    let nextLoading = false;
+
+    /**
+     * Build the solution text for the solution and result dialog
+     * @returns {string} The solution text
+     */
+    function buildSolutionText () {
+        return `Wissenschaftlicher Name: <i>${currentTaxon.scientificName}</i><br/>` +
+            `Deutscher Name: ${currentTaxon.commonName}<br/>` +
+            `Familie: ${currentTaxon.family}<br/>` +
+            `Ordnung: ${currentTaxon.order}<br/>` +
+            `Klasse: ${currentTaxon.class}<br/>`;
+    }
 
     /**
      * Load a CSV file and parse its contents into the taxa array
@@ -326,7 +499,18 @@
     }
 
     /**
-     * Fetches a random observation from iNaturalist#
+     * Returns a random taxon from the taxa array
+     * @returns {Taxon} A random taxon
+     */
+    function randomTaxon () {
+        const n = Math.floor(Math.random() * taxa.length);
+        const taxon = taxa[n];
+        taxa.splice(n, 1);
+        return taxon;
+    }
+
+    /**
+     * Fetches observation from iNaturalist#
      * @param {string} id - The taxon ID to fetch observations for
      * @returns {Promise<ApiResponse>} The observation data
      */
@@ -347,7 +531,6 @@
             alert("Keine Taxa mehr übrig 🎆 🎆 🎆");
         }
     }
-
 
     /**
      * Check if the user's answer is correct
@@ -372,27 +555,34 @@
         return false;
     }
 
+    function showResult () {
+        const isCorrect = checkCorrect();
+        const header = isCorrect ? `✅✅✅ Richtig! Weiter?` : `❌❌❌ Falsch! Weiter?`;
+        const content = buildSolutionText();
+        document.getElementById("text-result").innerHTML = `<h3>${header}</h3><br/>${content}`;
+        dialogResult.showModal();
+    }
+
     /**
      * Fetch a new observation and update the image and attribution
      * @param {boolean} [skip=false] - Whether to skip checking the answer
      */
     async function next (skip = false) {
+        if (nextLoading) {
+            console.log("Throttling: Please wait for the next question to load...");
+            return;
+        }
+        nextLoading = true;
+        dialogSolution.close();
+        dialogMissing.close();
+        dialogImage.close();
+
         if (!skip) {
             const isCorrect = checkCorrect();
-            const text = `Wissenschaftlicher Name: ${currentTaxon.scientificName}\n` +
-                `Deutscher Name: ${currentTaxon.commonName}\n` +
-                `Familie: ${currentTaxon.family}\n` +
-                `Ordnung: ${currentTaxon.order}\n` +
-                `Klasse: ${currentTaxon.class}\n`;
-            const confirmText = isCorrect ? `✅✅✅ Richtig! Weiter? \n${text}` : `❌❌❌ Falsch! Weiter?\n${text}`;
             if (!isCorrect) {
                 taxa.push(currentTaxon);
             } else {
                 stats.count++;
-            }
-            const res = confirm(confirmText);
-            if (!res) {
-                return;
             }
         }
 
@@ -402,17 +592,43 @@
             alert("Keine Taxa mehr übrig 🎆 🎆 🎆");
             return;
         }
-        input.value = "";
-        const n = Math.floor(Math.random() * taxa.length);
-        currentTaxon = taxa[n];
+
+        let data;
+        if (cacheTaxon) {
+            while (cacheLoading) {
+                await new Promise(resolve => setTimeout(resolve, 100));
+            }
+            currentTaxon = JSON.parse(JSON.stringify(cacheTaxon));
+            data = JSON.parse(JSON.stringify(cacheData));
+            cacheTaxon = null;
+            cacheData = null;
+        } else {
+            currentTaxon = randomTaxon();
+            data = await fetchObs(currentTaxon.taxonId);
+        }
+
+        render(data);
+        if (taxa.length > 0) {
+            cacheLoading = true;
+            cacheTaxon = randomTaxon();
+            fetchObs(cacheTaxon.taxonId).then((data) => {
+                cacheData = data;
+                if (data.results && data.results.length) {
+                    const photo = data.results[0].photos[0];
+                    imageCache.src = photo.url.replace("square", "medium");
+                }
+                cacheLoading = false;
+            });
+        }
+        nextLoading = false;
+    }
+
+    function render (data) {
         currentImages.length = 0;
-        taxa.splice(n, 1);
-
-
+        input.value = "";
         input.disabled = true;
         image.classList.add("transparent");
 
-        const data = await fetchObs(currentTaxon.taxonId);
         if (!data) {
             alert(`Fehler beim Laden der Beobachtung: ${currentTaxon.scientificName}`);
             return;
@@ -420,6 +636,7 @@
         if (data.status === "422" || !data.results.length) {
             missingTaxa.push(currentTaxon);
             alert(`Keine Beobachtung gefunden für ${currentTaxon.scientificName}, lade nächste...`);
+            nextLoading = false;
             next(true);
             return;
         }
@@ -432,6 +649,7 @@
         image.src = photo.url.replace("square", "medium");
         attribution.textContent = photo.attribution;
         link.href = "https://www.inaturalist.org/observations/" + data.results[0].id;
+
     }
 
     /**
