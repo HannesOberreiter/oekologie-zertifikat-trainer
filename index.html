@@ -347,7 +347,7 @@
     // on close event reset
     dialogResult.addEventListener("close", () => {
         document.getElementById("text-result").innerHTML = "";
-        input.focus();
+        focusInput();
     });
 
     /**** SOLUTIONS DIALOG ****/
@@ -363,7 +363,7 @@
     });
     buttonSolutionClose.addEventListener("click", () => {
         dialogSolution.close();
-        input.focus();
+        focusInput();
     });
 
     /**** MISSING DIALOG ****/
@@ -405,7 +405,7 @@
     });
     dialogImage.addEventListener("click", () => {
         dialogImage.close();
-        input.focus();
+        focusInput();
     });
 
     /**** NAVIGATION ****/
@@ -457,6 +457,16 @@
 
     /** @type {boolean}  throttle next spaming */
     let nextLoading = false;
+
+    /**
+     * Focus the input field
+     */
+    function focusInput() {
+        // Do not focus on mobile devices
+        if (!window.matchMedia("(hover: none)").matches) {
+            input.focus();
+        }
+    }
 
     /**
      * Build the solution text for the solution and result dialog
@@ -644,7 +654,7 @@
         currentImages.push(data.results[0].photos.map(photo => photo.url));
 
         input.disabled = false;
-        input.focus();
+        focusInput();
         image.classList.remove("transparent");
         image.src = photo.url.replace("square", "medium");
         attribution.textContent = photo.attribution;
