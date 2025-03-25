@@ -254,7 +254,7 @@
         <input type="text" id="answer" name="answer" placeholder="Antwort eingeben" style="display: none;">
         <button id="start-button">Quiz starten</button>
         <div class="checkbox-container">
-            <input type="checkbox" id="random-inaturalist" name="random-inaturalist">
+            <input type="checkbox" id="random-inaturalist" name="random-inaturalist" checked>
             <label for="random-inaturalist">Zufällige iNaturalist Bilder</label>
         </div>
         <img id="image" src="favicon.png" width="500" height="500" alt="Taxa Bild" onerror="this.src='favicon.png';"
@@ -269,7 +269,7 @@
         <a href="https://github.com/HannesOberreiter/oekologie-zertifikat-trainer"
             target="_blank">github.com/HannesOberreiter/oekologie-zertifikat-trainer</a>
     </footer>
-    
+
     <div class="nav-container">
         <nav class="button-group">
             <button onclick="location.reload()">Neustart</button>
@@ -341,13 +341,14 @@
     /**** FILE SELECTION ****/
     const files = [
         {
+            value: "Tieroekologie-Zertifikat_250-Arten-Salzburg_Artenliste.csv",
+            name: "Tierökologie Salzburg Stufe 1"
+        },
+        {
             value: "Tieroekologie-Zertifikat_250-Arten-Tirols_Version-5_Artenliste.csv",
             name: "Tierökologie Tirol Stufe 1 [V5]"
         },
-        {
-            value: "Tieroekologie-Zertifikat_250-Arten-Salzburg_Artenliste.csv",
-            name: "Tierökologie Salzburg Stufe 1"
-        }
+
     ];
     const selectFiles = document.getElementById("files");
     files.forEach(file => {
