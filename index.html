@@ -61,7 +61,8 @@
             margin: 0 auto;
         }
 
-        nav select, .stats-text {
+        nav select,
+        .stats-text {
             padding: 8px 12px;
             background-color: #eee;
             color: var(--text-color);
@@ -201,11 +202,13 @@
             h1 {
                 font-size: 1.5rem;
             }
-            
-            button, input[type="text"], nav select {
+
+            button,
+            input[type="text"],
+            nav select {
                 font-size: 1rem;
             }
-            
+
             main {
                 padding: 15px 10px;
             }
@@ -217,14 +220,14 @@
     <header>
         <h1>Ökologie Zertifikat Tester</h1>
     </header>
-    
+
     <div class="nav-container">
         <nav>
             <stats-text id="stats" count="0" total="0" missing="0" style="color:white;"></stats-text>
             <select id="files"></select>
         </nav>
     </div>
-    
+
     <div class="nav-container">
         <nav class="button-group">
             <button id="next">Weiter <span class="shortcut-text">(1)</span></button>
@@ -410,6 +413,9 @@
 
     /**** NAVIGATION ****/
     document.addEventListener("keydown", function (event) {
+        if (["1", "2", "3", "4"].includes(event.key) && document.activeElement === input) {
+            event.preventDefault();
+        }
         if (event.key === "1") {
             buttonNext.click();
         } else if (event.key === "2") {
@@ -461,7 +467,7 @@
     /**
      * Focus the input field
      */
-    function focusInput() {
+    function focusInput () {
         // Do not focus on mobile devices
         if (!window.matchMedia("(hover: none)").matches) {
             input.focus();
