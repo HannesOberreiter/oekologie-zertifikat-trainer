@@ -360,7 +360,7 @@
     /*** IMAGE MAPPING ***/
     /** @type {Object<string, string[]>} */
     let mappingFile = {};
-    fetch(window.location.href + "/files/mapping.json")
+    fetch(window.location.href + "/files/mapping.json?t=" + new Date().getTime())
         .then(async (response) => {
             const res = await response.json();
             mappingFile = res;
@@ -576,7 +576,7 @@
      * @returns {Promise<void>}
      */
     function loadCSV (file) {
-        const path = window.location.href + "/files/" + file;
+        const path = window.location.href + "/files/" + file + "?t=" + new Date().getTime();
         console.log("Loading file: ", path)
         taxa.length = 0; // Clear the taxa array
         return fetch(path)
