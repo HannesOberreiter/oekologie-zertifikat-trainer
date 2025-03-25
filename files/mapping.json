@@ -1,0 +1,1454 @@
+{
+  "Bufo bufo": [
+    "Amphibia/Anura/Bufo_bufo___Erdkrote/Bufo_bufo_1.jpg",
+    "Amphibia/Anura/Bufo_bufo___Erdkrote/Bufo_bufo_2.jpg",
+    "Amphibia/Anura/Bufo_bufo___Erdkrote/Bufo_bufo_3.jpg",
+    "Amphibia/Anura/Bufo_bufo___Erdkrote/Bufo_bufo_4.jpg",
+    "Amphibia/Anura/Bufo_bufo___Erdkrote/Bufo_bufo_5.jpg"
+  ],
+  "Hyla arborea": [
+    "Amphibia/Anura/Hyla_arborea___Europaischer_Laubfosch/Hyla_arborea_1.jpg",
+    "Amphibia/Anura/Hyla_arborea___Europaischer_Laubfosch/Hyla_arborea_2.jpg",
+    "Amphibia/Anura/Hyla_arborea___Europaischer_Laubfosch/Hyla_arborea_3.jpg",
+    "Amphibia/Anura/Hyla_arborea___Europaischer_Laubfosch/Hyla_arborea_4.jpg",
+    "Amphibia/Anura/Hyla_arborea___Europaischer_Laubfosch/Hyla_arborea_5.jpg"
+  ],
+  "Ichtyosaura alpestris": [
+    "Amphibia/Caudata/Ichtyosaura_alpestris___Bergmolch/Ichtyosaura_alpestris_1.jpg",
+    "Amphibia/Caudata/Ichtyosaura_alpestris___Bergmolch/Ichtyosaura_alpestris_2.jpg",
+    "Amphibia/Caudata/Ichtyosaura_alpestris___Bergmolch/Ichtyosaura_alpestris_3.jpg"
+  ],
+  "Salamandra atra": [
+    "Amphibia/Caudata/Salamandra_atra__Alpensalamander/Salamandra_atra_1.jpg",
+    "Amphibia/Caudata/Salamandra_atra__Alpensalamander/Salamandra_atra_2.jpg",
+    "Amphibia/Caudata/Salamandra_atra__Alpensalamander/Salamandra_atra_3.jpg",
+    "Amphibia/Caudata/Salamandra_atra__Alpensalamander/Salamandra_atra_4.jpg"
+  ],
+  "Salamandra salamandra": [
+    "Amphibia/Caudata/Salamandra_salamandra___Feuersalamander/Salamandra_salamandra_1.jpg",
+    "Amphibia/Caudata/Salamandra_salamandra___Feuersalamander/Salamandra_salamandra_2.jpg",
+    "Amphibia/Caudata/Salamandra_salamandra___Feuersalamander/Salamandra_salamandra_3.jpg"
+  ],
+  "Gypaetus barbatus": [
+    "Aves/Accipitriformes/Gypaetus_barbatus___Bartgeier/Gypaetus_barbatus_1.jpg",
+    "Aves/Accipitriformes/Gypaetus_barbatus___Bartgeier/Gypaetus_barbatus_2.jpg",
+    "Aves/Accipitriformes/Gypaetus_barbatus___Bartgeier/Gypaetus_barbatus_3.jpg",
+    "Aves/Accipitriformes/Gypaetus_barbatus___Bartgeier/Gypaetus_barbatus_4.jpg"
+  ],
+  "Mergus merganser": [
+    "Aves/Anseriformes/Mergus_merganser___Gansesager/Mergus_merganser_1.jpg",
+    "Aves/Anseriformes/Mergus_merganser___Gansesager/Mergus_merganser_2.jpg",
+    "Aves/Anseriformes/Mergus_merganser___Gansesager/Mergus_merganser_3.jpg",
+    "Aves/Anseriformes/Mergus_merganser___Gansesager/Mergus_merganser_4.jpg"
+  ],
+  "Apus apus": [
+    "Aves/Apodiformes/Apus_apus___Mauersegler/Apus_apus_1.jpg",
+    "Aves/Apodiformes/Apus_apus___Mauersegler/Apus_apus_2.jpg",
+    "Aves/Apodiformes/Apus_apus___Mauersegler/Apus_apus_3.jpg",
+    "Aves/Apodiformes/Apus_apus___Mauersegler/Apus_apus_4.jpg",
+    "Aves/Apodiformes/Apus_apus___Mauersegler/Apus_apus_5.jpg"
+  ],
+  "Columba palumbus": [
+    "Aves/Columbiformes/Columba_palumbus___Ringeltaube/Columba_palumbus_1.jpg",
+    "Aves/Columbiformes/Columba_palumbus___Ringeltaube/Columba_palumbus_2.jpg",
+    "Aves/Columbiformes/Columba_palumbus___Ringeltaube/Columba_palumbus_3.jpg",
+    "Aves/Columbiformes/Columba_palumbus___Ringeltaube/Columba_palumbus_4.jpg"
+  ],
+  "Alcedo atthis": [
+    "Aves/Coraciformes/Alcedo_atthis___Eisvogel/Alcedo_atthis_1.jpg",
+    "Aves/Coraciformes/Alcedo_atthis___Eisvogel/Alcedo_atthis_2.jpg",
+    "Aves/Coraciformes/Alcedo_atthis___Eisvogel/Alcedo_atthis_3.jpg",
+    "Aves/Coraciformes/Alcedo_atthis___Eisvogel/Alcedo_atthis_4.jpg",
+    "Aves/Coraciformes/Alcedo_atthis___Eisvogel/Alcedo_atthis_5.jpg"
+  ],
+  "Cuculus canorus": [
+    "Aves/Cuculiformes/Cuculus_canorus___Kuckuck/Cuculus_canorus_1.jpg",
+    "Aves/Cuculiformes/Cuculus_canorus___Kuckuck/Cuculus_canorus_2.jpg",
+    "Aves/Cuculiformes/Cuculus_canorus___Kuckuck/Cuculus_canorus_3.jpg",
+    "Aves/Cuculiformes/Cuculus_canorus___Kuckuck/Cuculus_canorus_4.jpg",
+    "Aves/Cuculiformes/Cuculus_canorus___Kuckuck/Cuculus_canorus_5.jpg"
+  ],
+  "Falco tinnunculus": [
+    "Aves/Falconiformes/Falco_tinnunculus___Turmfalke/Falco_tinnunculus_1.jpg",
+    "Aves/Falconiformes/Falco_tinnunculus___Turmfalke/Falco_tinnunculus_2.jpg",
+    "Aves/Falconiformes/Falco_tinnunculus___Turmfalke/Falco_tinnunculus_3.jpg"
+  ],
+  "Lagopus muta": [
+    "Aves/Galliformes/Lagopus_muta___Alpenschneehuhn/Lagopus_muta_1.jpg",
+    "Aves/Galliformes/Lagopus_muta___Alpenschneehuhn/Lagopus_muta_2.jpg",
+    "Aves/Galliformes/Lagopus_muta___Alpenschneehuhn/Lagopus_muta_3.jpg",
+    "Aves/Galliformes/Lagopus_muta___Alpenschneehuhn/Lagopus_muta_4.jpg"
+  ],
+  "Anthus spinoletta": [
+    "Aves/Passeriformes/Anthus_spinoletta___Bergpieper/Anthus_spinoletta_1.jpg",
+    "Aves/Passeriformes/Anthus_spinoletta___Bergpieper/Anthus_spinoletta_2.jpg",
+    "Aves/Passeriformes/Anthus_spinoletta___Bergpieper/Anthus_spinoletta_3.jpg",
+    "Aves/Passeriformes/Anthus_spinoletta___Bergpieper/Anthus_spinoletta_4.jpg"
+  ],
+  "Corvus corax": [
+    "Aves/Passeriformes/Corvus_corax___Kolkrabe/Corvus_corax_1.jpg",
+    "Aves/Passeriformes/Corvus_corax___Kolkrabe/Corvus_corax_2.jpg",
+    "Aves/Passeriformes/Corvus_corax___Kolkrabe/Corvus_corax_3.jpg",
+    "Aves/Passeriformes/Corvus_corax___Kolkrabe/Corvus_corax_4.jpg"
+  ],
+  "Lanius collurio": [
+    "Aves/Passeriformes/Lanius_collurio___Neuntoter/Lanius_collurio_1.jpg",
+    "Aves/Passeriformes/Lanius_collurio___Neuntoter/Lanius_collurio_2.jpg",
+    "Aves/Passeriformes/Lanius_collurio___Neuntoter/Lanius_collurio_3.jpg",
+    "Aves/Passeriformes/Lanius_collurio___Neuntoter/Lanius_collurio_4.jpg",
+    "Aves/Passeriformes/Lanius_collurio___Neuntoter/Lanius_collurio_5.jpg"
+  ],
+  "Nucifraga caryocatactes": [
+    "Aves/Passeriformes/Nucifraga_caryocatactes___Tannenhaher/Nucifraga_caryocatactes_1.jpg",
+    "Aves/Passeriformes/Nucifraga_caryocatactes___Tannenhaher/Nucifraga_caryocatactes_2.jpg",
+    "Aves/Passeriformes/Nucifraga_caryocatactes___Tannenhaher/Nucifraga_caryocatactes_3.jpg"
+  ],
+  "Passer montanus": [
+    "Aves/Passeriformes/Passer_montanus___Feldsperling/Passer_montanus_1.jpg",
+    "Aves/Passeriformes/Passer_montanus___Feldsperling/Passer_montanus_2.jpg"
+  ],
+  "Regulus regulus": [
+    "Aves/Passeriformes/Regulus_regulus___Wintergoldhahnchen/Regulus_regulus_1.jpg",
+    "Aves/Passeriformes/Regulus_regulus___Wintergoldhahnchen/Regulus_regulus_2.jpg",
+    "Aves/Passeriformes/Regulus_regulus___Wintergoldhahnchen/Regulus_regulus_3.jpg"
+  ],
+  "Turdus merula": [
+    "Aves/Passeriformes/Turdus_merula___Amsel/Turdus_merula_1.jpg",
+    "Aves/Passeriformes/Turdus_merula___Amsel/Turdus_merula_2.jpg"
+  ],
+  "Dryocopus martius": [
+    "Aves/Piciformes/Dryocopus_martius___Schwarzspecht/Dryocopus_martius_1.jpg",
+    "Aves/Piciformes/Dryocopus_martius___Schwarzspecht/Dryocopus_martius_2.jpg",
+    "Aves/Piciformes/Dryocopus_martius___Schwarzspecht/Dryocopus_martius_3.jpg",
+    "Aves/Piciformes/Dryocopus_martius___Schwarzspecht/Dryocopus_martius_4.jpg"
+  ],
+  "Strix aluco": [
+    "Aves/Strigiformes/Strix_aluco___Waldkauz/Strix_aluco_1.jpg",
+    "Aves/Strigiformes/Strix_aluco___Waldkauz/Strix_aluco_2.jpg",
+    "Aves/Strigiformes/Strix_aluco___Waldkauz/Strix_aluco_3.jpg",
+    "Aves/Strigiformes/Strix_aluco___Waldkauz/Strix_aluco_4.jpg"
+  ],
+  "Anodonta anatina": [
+    "Bivalvia/Unionida/Anodonta_anatina__Gemeine_Teichmuschel/Anodonta_anatina_1.png",
+    "Bivalvia/Unionida/Anodonta_anatina__Gemeine_Teichmuschel/Anodonta_anatina_2.png",
+    "Bivalvia/Unionida/Anodonta_anatina__Gemeine_Teichmuschel/Anodonta_anatina_3.png",
+    "Bivalvia/Unionida/Anodonta_anatina__Gemeine_Teichmuschel/Anodonta_anatina_4.png",
+    "Bivalvia/Unionida/Anodonta_anatina__Gemeine_Teichmuschel/Anodonta_anatina_5.png",
+    "Bivalvia/Unionida/Anodonta_anatina__Gemeine_Teichmuschel/Anodonta_anatina_6.png"
+  ],
+  "Anodonta cygnea": [
+    "Bivalvia/Unionida/Anodonta_cygnea/Anodonta_cygnea_1.jpg",
+    "Bivalvia/Unionida/Anodonta_cygnea/Anodonta_cygnea_2.jpg"
+  ],
+  "Dreissena polymorpha": [
+    "Bivalvia/Veneroida/Dreissena_polymorpha___Wandermuschel/Dreissena_polymorpha_1.jpg",
+    "Bivalvia/Veneroida/Dreissena_polymorpha___Wandermuschel/Dreissena_polymorpha_2.jpg",
+    "Bivalvia/Veneroida/Dreissena_polymorpha___Wandermuschel/Dreissena_polymorpha_3.jpg",
+    "Bivalvia/Veneroida/Dreissena_polymorpha___Wandermuschel/Dreissena_polymorpha_4.jpg",
+    "Bivalvia/Veneroida/Dreissena_polymorpha___Wandermuschel/Dreissena_polymorpha_5.jpg"
+  ],
+  "Daphnia magna": [
+    "Branchiopoda/Cladocera/Daphnia_magna___Großer_Wasserfloh/Daphnia_magna_1.jpg",
+    "Branchiopoda/Cladocera/Daphnia_magna___Großer_Wasserfloh/Daphnia_magna_2.jpg",
+    "Branchiopoda/Cladocera/Daphnia_magna___Großer_Wasserfloh/Daphnia_magna_3.jpg",
+    "Branchiopoda/Cladocera/Daphnia_magna___Großer_Wasserfloh/Daphnia_magna_4.jpg"
+  ],
+  "Leptodora kindtii": [
+    "Branchiopoda/Cladocera/Leptodora_kindtii___Glaskrebschen/Leptodora_kindtii_1.jpg",
+    "Branchiopoda/Cladocera/Leptodora_kindtii___Glaskrebschen/Leptodora_kindtii_2.jpg"
+  ],
+  "Araneus diadematus": [
+    "Chelicerata/Araneae/Araneus_diadematus___Gartenkreuzspinne/Araneus_diadematus_1.jpg",
+    "Chelicerata/Araneae/Araneus_diadematus___Gartenkreuzspinne/Araneus_diadematus_2.jpg",
+    "Chelicerata/Araneae/Araneus_diadematus___Gartenkreuzspinne/Araneus_diadematus_3.jpg",
+    "Chelicerata/Araneae/Araneus_diadematus___Gartenkreuzspinne/Araneus_diadematus_4.jpg",
+    "Chelicerata/Araneae/Araneus_diadematus___Gartenkreuzspinne/Araneus_diadematus_5.jpg"
+  ],
+  "Arctosa cinerea": [
+    "Chelicerata/Araneae/Arctosa_cinerea___FlussuferRiesenwolfsp/Arctosa_cinerea_1.jpg",
+    "Chelicerata/Araneae/Arctosa_cinerea___FlussuferRiesenwolfsp/Arctosa_cinerea_2.jpg",
+    "Chelicerata/Araneae/Arctosa_cinerea___FlussuferRiesenwolfsp/Arctosa_cinerea_3.jpg",
+    "Chelicerata/Araneae/Arctosa_cinerea___FlussuferRiesenwolfsp/Arctosa_cinerea_4.jpg",
+    "Chelicerata/Araneae/Arctosa_cinerea___FlussuferRiesenwolfsp/Arctosa_cinerea_5.jpg"
+  ],
+  "Argiope bruennichi": [
+    "Chelicerata/Araneae/Argiope_bruennichi___Wespenspinne/Argiope_bruennichi_1.jpg",
+    "Chelicerata/Araneae/Argiope_bruennichi___Wespenspinne/Argiope_bruennichi_2.jpg",
+    "Chelicerata/Araneae/Argiope_bruennichi___Wespenspinne/Argiope_bruennichi_3.jpg",
+    "Chelicerata/Araneae/Argiope_bruennichi___Wespenspinne/Argiope_bruennichi_4.jpg",
+    "Chelicerata/Araneae/Argiope_bruennichi___Wespenspinne/Argiope_bruennichi_5.jpg"
+  ],
+  "Ero furcata": [
+    "Chelicerata/Araneae/Ero_furcata___ZweihockerSpinnenfresser/Ero_furcata_1.jpg",
+    "Chelicerata/Araneae/Ero_furcata___ZweihockerSpinnenfresser/Ero_furcata_2.jpg",
+    "Chelicerata/Araneae/Ero_furcata___ZweihockerSpinnenfresser/Ero_furcata_3.jpg",
+    "Chelicerata/Araneae/Ero_furcata___ZweihockerSpinnenfresser/Ero_furcata_4.jpg",
+    "Chelicerata/Araneae/Ero_furcata___ZweihockerSpinnenfresser/Ero_furcata_5.jpg"
+  ],
+  "Micrommata virescens": [
+    "Chelicerata/Araneae/Micrommata_virescens___Grune_Huschspinne/Micrommata_virescens_1.jpg",
+    "Chelicerata/Araneae/Micrommata_virescens___Grune_Huschspinne/Micrommata_virescens_2.jpg",
+    "Chelicerata/Araneae/Micrommata_virescens___Grune_Huschspinne/Micrommata_virescens_3.jpg",
+    "Chelicerata/Araneae/Micrommata_virescens___Grune_Huschspinne/Micrommata_virescens_4.jpg",
+    "Chelicerata/Araneae/Micrommata_virescens___Grune_Huschspinne/Micrommata_virescens_5.jpg"
+  ],
+  "Misumena vatia": [
+    "Chelicerata/Araneae/Misumena_vatia___Veranderliche_Krabbensp/Misumena_vatia_1.jpg",
+    "Chelicerata/Araneae/Misumena_vatia___Veranderliche_Krabbensp/Misumena_vatia_2.jpg",
+    "Chelicerata/Araneae/Misumena_vatia___Veranderliche_Krabbensp/Misumena_vatia_3.jpg",
+    "Chelicerata/Araneae/Misumena_vatia___Veranderliche_Krabbensp/Misumena_vatia_4.jpg",
+    "Chelicerata/Araneae/Misumena_vatia___Veranderliche_Krabbensp/Misumena_vatia_5.jpg"
+  ],
+  "Phlegra fasciata": [
+    "Chelicerata/Araneae/Phlegra_fasciata__gebanderter_Bodenspringer/Phlegra_fasciata_1.png",
+    "Chelicerata/Araneae/Phlegra_fasciata__gebanderter_Bodenspringer/Phlegra_fasciata_2.png",
+    "Chelicerata/Araneae/Phlegra_fasciata__gebanderter_Bodenspringer/Phlegra_fasciata_3.png",
+    "Chelicerata/Araneae/Phlegra_fasciata__gebanderter_Bodenspringer/Phlegra_fasciata_4.png",
+    "Chelicerata/Araneae/Phlegra_fasciata__gebanderter_Bodenspringer/Phlegra_fasciata_5.png",
+    "Chelicerata/Araneae/Phlegra_fasciata__gebanderter_Bodenspringer/Phlegra_fasciata_6.png"
+  ],
+  "Pholcus phalangioides": [
+    "Chelicerata/Araneae/Pholcus_phalangioides___Gr_Zitterspinne/Pholcus_phalangioides_1.jpg",
+    "Chelicerata/Araneae/Pholcus_phalangioides___Gr_Zitterspinne/Pholcus_phalangioides_2.jpg",
+    "Chelicerata/Araneae/Pholcus_phalangioides___Gr_Zitterspinne/Pholcus_phalangioides_3.jpg",
+    "Chelicerata/Araneae/Pholcus_phalangioides___Gr_Zitterspinne/Pholcus_phalangioides_4.jpg",
+    "Chelicerata/Araneae/Pholcus_phalangioides___Gr_Zitterspinne/Pholcus_phalangioides_5.jpg"
+  ],
+  "Pisaura mirabilis": [
+    "Chelicerata/Araneae/Pisaura_mirabilis___Brautgeschenkspinne/Pisaura_mirabilis_1.jpg",
+    "Chelicerata/Araneae/Pisaura_mirabilis___Brautgeschenkspinne/Pisaura_mirabilis_2.jpg",
+    "Chelicerata/Araneae/Pisaura_mirabilis___Brautgeschenkspinne/Pisaura_mirabilis_3.jpg",
+    "Chelicerata/Araneae/Pisaura_mirabilis___Brautgeschenkspinne/Pisaura_mirabilis_4.jpg",
+    "Chelicerata/Araneae/Pisaura_mirabilis___Brautgeschenkspinne/Pisaura_mirabilis_5.jpg"
+  ],
+  "Pseudeuophrys lanigera": [
+    "Chelicerata/Araneae/Pseudeuophrys_lanigera___HausKeilspringer/Pseudeuophrys_lanigera_1.png",
+    "Chelicerata/Araneae/Pseudeuophrys_lanigera___HausKeilspringer/Pseudeuophrys_lanigera_2.png",
+    "Chelicerata/Araneae/Pseudeuophrys_lanigera___HausKeilspringer/Pseudeuophrys_lanigera_3.png",
+    "Chelicerata/Araneae/Pseudeuophrys_lanigera___HausKeilspringer/Pseudeuophrys_lanigera_4.png",
+    "Chelicerata/Araneae/Pseudeuophrys_lanigera___HausKeilspringer/Pseudeuophrys_lanigera_5.png",
+    "Chelicerata/Araneae/Pseudeuophrys_lanigera___HausKeilspringer/Pseudeuophrys_lanigera_6.png"
+  ],
+  "Salticus scenicus": [
+    "Chelicerata/Araneae/Salticus_scenicus___Zebraspringspinne/Salticus_scenicus_1.jpg",
+    "Chelicerata/Araneae/Salticus_scenicus___Zebraspringspinne/Salticus_scenicus_2.jpg",
+    "Chelicerata/Araneae/Salticus_scenicus___Zebraspringspinne/Salticus_scenicus_3.jpg",
+    "Chelicerata/Araneae/Salticus_scenicus___Zebraspringspinne/Salticus_scenicus_4.jpg",
+    "Chelicerata/Araneae/Salticus_scenicus___Zebraspringspinne/Salticus_scenicus_5.jpg"
+  ],
+  "Synageles venator": [
+    "Chelicerata/Araneae/Synageles_venator___Schlanker_Ameisenspringer/Synageles_venator_1.png",
+    "Chelicerata/Araneae/Synageles_venator___Schlanker_Ameisenspringer/Synageles_venator_2.png",
+    "Chelicerata/Araneae/Synageles_venator___Schlanker_Ameisenspringer/Synageles_venator_3.png",
+    "Chelicerata/Araneae/Synageles_venator___Schlanker_Ameisenspringer/Synageles_venator_4.png"
+  ],
+  "Dermacentor marginatus": [
+    "Chelicerata/Ixodida/Dermacentor_marginatus___Schafzecke/Dermacentor_marginatus_1.png",
+    "Chelicerata/Ixodida/Dermacentor_marginatus___Schafzecke/Dermacentor_marginatus_2.png",
+    "Chelicerata/Ixodida/Dermacentor_marginatus___Schafzecke/Dermacentor_marginatus_3.png",
+    "Chelicerata/Ixodida/Dermacentor_marginatus___Schafzecke/Dermacentor_marginatus_4.png",
+    "Chelicerata/Ixodida/Dermacentor_marginatus___Schafzecke/Dermacentor_marginatus_5.png"
+  ],
+  "Ixodes ricinus": [
+    "Chelicerata/Ixodida/Ixodes_ricinus___Gemeiner_Holzbock/Ixodes_ricinus_1.jpg",
+    "Chelicerata/Ixodida/Ixodes_ricinus___Gemeiner_Holzbock/Ixodes_ricinus_2.jpg",
+    "Chelicerata/Ixodida/Ixodes_ricinus___Gemeiner_Holzbock/Ixodes_ricinus_3.jpg"
+  ],
+  "Megabunus lesserti": [
+    "Chelicerata/Opiliones/Megabunus_lesserti___Nordl_Riesenauge/Megabunus_lesserti_1.jpg",
+    "Chelicerata/Opiliones/Megabunus_lesserti___Nordl_Riesenauge/Megabunus_lesserti_2.jpg",
+    "Chelicerata/Opiliones/Megabunus_lesserti___Nordl_Riesenauge/Megabunus_lesserti_3.jpg"
+  ],
+  "Mitopus morio": [
+    "Chelicerata/Opiliones/Mitopus_morio___Gem._Gebirgsweberknecht/Mitopus_morio_1.jpg",
+    "Chelicerata/Opiliones/Mitopus_morio___Gem._Gebirgsweberknecht/Mitopus_morio_2.jpg",
+    "Chelicerata/Opiliones/Mitopus_morio___Gem._Gebirgsweberknecht/Mitopus_morio_3.jpg",
+    "Chelicerata/Opiliones/Mitopus_morio___Gem._Gebirgsweberknecht/Mitopus_morio_4.jpg",
+    "Chelicerata/Opiliones/Mitopus_morio___Gem._Gebirgsweberknecht/Mitopus_morio_5.jpg"
+  ],
+  "Phalangium opilio": [
+    "Chelicerata/Opiliones/Phalangium_opilio___Hornkanker/Phalangium_opilio_1.jpg",
+    "Chelicerata/Opiliones/Phalangium_opilio___Hornkanker/Phalangium_opilio_2.jpg",
+    "Chelicerata/Opiliones/Phalangium_opilio___Hornkanker/Phalangium_opilio_3.jpg",
+    "Chelicerata/Opiliones/Phalangium_opilio___Hornkanker/Phalangium_opilio_4.jpg",
+    "Chelicerata/Opiliones/Phalangium_opilio___Hornkanker/Phalangium_opilio_5.jpg"
+  ],
+  "Eukoenenia austriaca": [
+    "Chelicerata/Palpigradi/Eukoenenia_austriaca/Eukoenenia_austriaca_1.png",
+    "Chelicerata/Palpigradi/Eukoenenia_austriaca/Eukoenenia_austriaca_2.png"
+  ],
+  "Chelifer cancroides": [
+    "Chelicerata/Pseudoscorpiones/Chelifer_cancroides___Bucherskorpion/Chelifer_cancroides_1.jpg",
+    "Chelicerata/Pseudoscorpiones/Chelifer_cancroides___Bucherskorpion/Chelifer_cancroides_2.jpg",
+    "Chelicerata/Pseudoscorpiones/Chelifer_cancroides___Bucherskorpion/Chelifer_cancroides_3.jpg",
+    "Chelicerata/Pseudoscorpiones/Chelifer_cancroides___Bucherskorpion/Chelifer_cancroides_4.jpg"
+  ],
+  "Alpiscorpius germanus": [
+    "Chelicerata/Scorpiones/Alpiscorpius_germanus/Alpiscorpius_germanus_1.jpg",
+    "Chelicerata/Scorpiones/Alpiscorpius_germanus/Alpiscorpius_germanus_2.jpg",
+    "Chelicerata/Scorpiones/Alpiscorpius_germanus/Alpiscorpius_germanus_3.jpg",
+    "Chelicerata/Scorpiones/Alpiscorpius_germanus/Alpiscorpius_germanus_4.jpg",
+    "Chelicerata/Scorpiones/Alpiscorpius_germanus/Alpiscorpius_germanus_5.jpg"
+  ],
+  "Aceria macrorhynchus": [
+    "Chelicerata/Trombidiformes/Aceria_macrorhynchus/Aceria_macrorhynchus_1.jpg",
+    "Chelicerata/Trombidiformes/Aceria_macrorhynchus/Aceria_macrorhynchus_2.jpg",
+    "Chelicerata/Trombidiformes/Aceria_macrorhynchus/Aceria_macrorhynchus_3.jpg"
+  ],
+  "Caeculus echinipes": [
+    "Chelicerata/Trombidiformes/Caeculus_echinipes/Caeculus_echinipes_1.jpg",
+    "Chelicerata/Trombidiformes/Caeculus_echinipes/Caeculus_echinipes_2.jpg"
+  ],
+  "Cryptops parisi": [
+    "Chilopoda/Scolopendromorpha/Cryptops_parisi/Cryptops_parisi_1.jpg",
+    "Chilopoda/Scolopendromorpha/Cryptops_parisi/Cryptops_parisi_2.jpg"
+  ],
+  "Scutigera coleoptrata": [
+    "Chilopoda/Scutigeromorpha/Scutigera_coleoptrata___Spinnenlaufer/Scutigera_coleoptrata_1.jpg",
+    "Chilopoda/Scutigeromorpha/Scutigera_coleoptrata___Spinnenlaufer/Scutigera_coleoptrata_2.jpg",
+    "Chilopoda/Scutigeromorpha/Scutigera_coleoptrata___Spinnenlaufer/Scutigera_coleoptrata_3.jpg"
+  ],
+  "Haemopis sanguisuga": [
+    "Clitellata/Hirundinea/Haemopis_sanguisuga___Pferdeegel/Haemopis_sanguisuga_1.jpg",
+    "Clitellata/Hirundinea/Haemopis_sanguisuga___Pferdeegel/Haemopis_sanguisuga_2.jpg",
+    "Clitellata/Hirundinea/Haemopis_sanguisuga___Pferdeegel/Haemopis_sanguisuga_3.jpg",
+    "Clitellata/Hirundinea/Haemopis_sanguisuga___Pferdeegel/Haemopis_sanguisuga_4.jpg"
+  ],
+  "Aporrectodea nocturna": [
+    "Clitellata/Oligochaeta/Aporrectodea_nocturna___Schwarzkopfregenw/Aporrectodea_nocturna_1.jpg",
+    "Clitellata/Oligochaeta/Aporrectodea_nocturna___Schwarzkopfregenw/Aporrectodea_nocturna_2.jpg",
+    "Clitellata/Oligochaeta/Aporrectodea_nocturna___Schwarzkopfregenw/Aporrectodea_nocturna_3.jpg",
+    "Clitellata/Oligochaeta/Aporrectodea_nocturna___Schwarzkopfregenw/Aporrectodea_nocturna_4.jpg"
+  ],
+  "Aporrectodea smaragdina": [
+    "Clitellata/Oligochaeta/Aporrectodea_smaragdina___Smaragdgruner_R/Aporrectodea_smaragdina_1.jpg",
+    "Clitellata/Oligochaeta/Aporrectodea_smaragdina___Smaragdgruner_R/Aporrectodea_smaragdina_2.jpg",
+    "Clitellata/Oligochaeta/Aporrectodea_smaragdina___Smaragdgruner_R/Aporrectodea_smaragdina_3.jpg",
+    "Clitellata/Oligochaeta/Aporrectodea_smaragdina___Smaragdgruner_R/Aporrectodea_smaragdina_4.jpg",
+    "Clitellata/Oligochaeta/Aporrectodea_smaragdina___Smaragdgruner_R/Aporrectodea_smaragdina_5.jpg"
+  ],
+  "Lumbricus rubellus": [
+    "Clitellata/Oligochaeta/Lumbricus_rubellus___Roter_Laubwurm/Lumbricus_rubellus_1.jpg",
+    "Clitellata/Oligochaeta/Lumbricus_rubellus___Roter_Laubwurm/Lumbricus_rubellus_2.jpg",
+    "Clitellata/Oligochaeta/Lumbricus_rubellus___Roter_Laubwurm/Lumbricus_rubellus_3.jpg",
+    "Clitellata/Oligochaeta/Lumbricus_rubellus___Roter_Laubwurm/Lumbricus_rubellus_4.jpg",
+    "Clitellata/Oligochaeta/Lumbricus_rubellus___Roter_Laubwurm/Lumbricus_rubellus_5.jpg"
+  ],
+  "Desoria saltans": [
+    "Collembola/Entomobryomorpha/Desoria_saltans___Gletscherfloh/Desoria_saltans_1.jpg",
+    "Collembola/Entomobryomorpha/Desoria_saltans___Gletscherfloh/Desoria_saltans_2.jpg",
+    "Collembola/Entomobryomorpha/Desoria_saltans___Gletscherfloh/Desoria_saltans_3.jpg",
+    "Collembola/Entomobryomorpha/Desoria_saltans___Gletscherfloh/Desoria_saltans_4.jpg",
+    "Collembola/Entomobryomorpha/Desoria_saltans___Gletscherfloh/Desoria_saltans_5.jpg"
+  ],
+  "Orchesella cincta": [
+    "Collembola/Entomobryomorpha/Orchesella_cincta___Gegurtelter_Springsch/Orchesella_cincta_1.jpg",
+    "Collembola/Entomobryomorpha/Orchesella_cincta___Gegurtelter_Springsch/Orchesella_cincta_2.jpg",
+    "Collembola/Entomobryomorpha/Orchesella_cincta___Gegurtelter_Springsch/Orchesella_cincta_3.jpg",
+    "Collembola/Entomobryomorpha/Orchesella_cincta___Gegurtelter_Springsch/Orchesella_cincta_4.jpg"
+  ],
+  "Podura aquatica": [
+    "Collembola/Poduromorpha/Podura_aquatica___Schwarzer_Wasserspringe/Podura_aquatica_1.jpg",
+    "Collembola/Poduromorpha/Podura_aquatica___Schwarzer_Wasserspringe/Podura_aquatica_2.jpg",
+    "Collembola/Poduromorpha/Podura_aquatica___Schwarzer_Wasserspringe/Podura_aquatica_3.jpg",
+    "Collembola/Poduromorpha/Podura_aquatica___Schwarzer_Wasserspringe/Podura_aquatica_4.jpg",
+    "Collembola/Poduromorpha/Podura_aquatica___Schwarzer_Wasserspringe/Podura_aquatica_5.jpg"
+  ],
+  "Allacma fusca": [
+    "Collembola/Symphypleona/Allacma_fusca___Dunkelbrauner_Kugelspringer/Allacma_fusca_1.jpg",
+    "Collembola/Symphypleona/Allacma_fusca___Dunkelbrauner_Kugelspringer/Allacma_fusca_2.jpg",
+    "Collembola/Symphypleona/Allacma_fusca___Dunkelbrauner_Kugelspringer/Allacma_fusca_3.jpg",
+    "Collembola/Symphypleona/Allacma_fusca___Dunkelbrauner_Kugelspringer/Allacma_fusca_4.jpg"
+  ],
+  "Trimerophorella rhaetica": [
+    "Diplopoda/Chordeumatida/Trimerophorella_rhaetica/Trimerophorella_rhaetica_1.jpg",
+    "Diplopoda/Chordeumatida/Trimerophorella_rhaetica/Trimerophorella_rhaetica_2.jpg"
+  ],
+  "Glomeris pustulata": [
+    "Diplopoda/Glomerida/Glomeris_pustulata___Zweireihen_Saftkugler/Glomeris_pustulata_1.png",
+    "Diplopoda/Glomerida/Glomeris_pustulata___Zweireihen_Saftkugler/Glomeris_pustulata_2.png",
+    "Diplopoda/Glomerida/Glomeris_pustulata___Zweireihen_Saftkugler/Glomeris_pustulata_3.png",
+    "Diplopoda/Glomerida/Glomeris_pustulata___Zweireihen_Saftkugler/Glomeris_pustulata_4.png"
+  ],
+  "Cylindroiulus caeruleocinctus": [
+    "Diplopoda/Julida/Cylindroiulus_caeruleocinctus___Gem._Feldschnurfußer/Cylindroiulus_caeruleocinctus_1.png",
+    "Diplopoda/Julida/Cylindroiulus_caeruleocinctus___Gem._Feldschnurfußer/Cylindroiulus_caeruleocinctus_2.png"
+  ],
+  "Ommatoiulus sabulosus": [
+    "Diplopoda/Julida/Ommatoiulus_sabulosus___Sandschnurfußer/Ommatoiulus_sabulosus_1.jpg",
+    "Diplopoda/Julida/Ommatoiulus_sabulosus___Sandschnurfußer/Ommatoiulus_sabulosus_2.jpg",
+    "Diplopoda/Julida/Ommatoiulus_sabulosus___Sandschnurfußer/Ommatoiulus_sabulosus_3.jpg",
+    "Diplopoda/Julida/Ommatoiulus_sabulosus___Sandschnurfußer/Ommatoiulus_sabulosus_4.jpg"
+  ],
+  "Polydesmus denticulatus": [
+    "Diplopoda/Polydesmidae/Polydesmus_denticulatus___SommerBandfußer/Polydesmus_denticulatus_1.jpg",
+    "Diplopoda/Polydesmidae/Polydesmus_denticulatus___SommerBandfußer/Polydesmus_denticulatus_2.jpg",
+    "Diplopoda/Polydesmidae/Polydesmus_denticulatus___SommerBandfußer/Polydesmus_denticulatus_3.jpg",
+    "Diplopoda/Polydesmidae/Polydesmus_denticulatus___SommerBandfußer/Polydesmus_denticulatus_4.jpg",
+    "Diplopoda/Polydesmidae/Polydesmus_denticulatus___SommerBandfußer/Polydesmus_denticulatus_5.jpg"
+  ],
+  "Polyxenus lagurus": [
+    "Diplopoda/Polyxenida/Polyxenus_lagurus___Kleiner_Pinselfußer/Polyxenus_lagurus_1.jpg",
+    "Diplopoda/Polyxenida/Polyxenus_lagurus___Kleiner_Pinselfußer/Polyxenus_lagurus_2.jpg",
+    "Diplopoda/Polyxenida/Polyxenus_lagurus___Kleiner_Pinselfußer/Polyxenus_lagurus_3.jpg",
+    "Diplopoda/Polyxenida/Polyxenus_lagurus___Kleiner_Pinselfußer/Polyxenus_lagurus_4.jpg"
+  ],
+  "Ancylus fluviatilis": [
+    "Gastropoda/Pulmonata/Ancylus_fluviatilis/Ancylus_fluviatilis_1.jpg",
+    "Gastropoda/Pulmonata/Ancylus_fluviatilis/Ancylus_fluviatilis_2.jpg",
+    "Gastropoda/Pulmonata/Ancylus_fluviatilis/Ancylus_fluviatilis_3.jpg"
+  ],
+  "Cepaea hortensis": [
+    "Gastropoda/Pulmonata/Cepaea_hortensis___Gartenbanderschnecke/Cepaea_hortensis_1.jpg",
+    "Gastropoda/Pulmonata/Cepaea_hortensis___Gartenbanderschnecke/Cepaea_hortensis_2.jpg",
+    "Gastropoda/Pulmonata/Cepaea_hortensis___Gartenbanderschnecke/Cepaea_hortensis_3.jpg",
+    "Gastropoda/Pulmonata/Cepaea_hortensis___Gartenbanderschnecke/Cepaea_hortensis_4.jpg",
+    "Gastropoda/Pulmonata/Cepaea_hortensis___Gartenbanderschnecke/Cepaea_hortensis_5.jpg"
+  ],
+  "Cepaea nemoralis": [
+    "Gastropoda/Pulmonata/Cepaea_nemoralis___Hainbanderschnecke/Cepaea_nemoralis_1.jpg",
+    "Gastropoda/Pulmonata/Cepaea_nemoralis___Hainbanderschnecke/Cepaea_nemoralis_2.jpg"
+  ],
+  "Helix pomatia": [
+    "Gastropoda/Pulmonata/Helix_pomatia___Weinbergschnecke/Helix_pomatia_1.jpg",
+    "Gastropoda/Pulmonata/Helix_pomatia___Weinbergschnecke/Helix_pomatia_2.jpg",
+    "Gastropoda/Pulmonata/Helix_pomatia___Weinbergschnecke/Helix_pomatia_3.jpg",
+    "Gastropoda/Pulmonata/Helix_pomatia___Weinbergschnecke/Helix_pomatia_4.jpg",
+    "Gastropoda/Pulmonata/Helix_pomatia___Weinbergschnecke/Helix_pomatia_5.jpg"
+  ],
+  "Limax maximus": [
+    "Gastropoda/Pulmonata/Limax_maximus___Tigerschnegel/Limax_maximus_1.jpg",
+    "Gastropoda/Pulmonata/Limax_maximus___Tigerschnegel/Limax_maximus_2.jpg",
+    "Gastropoda/Pulmonata/Limax_maximus___Tigerschnegel/Limax_maximus_3.jpg"
+  ],
+  "Physella acuta": [
+    "Gastropoda/Pulmonata/Physella_acuta___Spitze_Blasenschnecke/Physella_acuta_1.jpg",
+    "Gastropoda/Pulmonata/Physella_acuta___Spitze_Blasenschnecke/Physella_acuta_2.jpg",
+    "Gastropoda/Pulmonata/Physella_acuta___Spitze_Blasenschnecke/Physella_acuta_3.jpg",
+    "Gastropoda/Pulmonata/Physella_acuta___Spitze_Blasenschnecke/Physella_acuta_4.jpg"
+  ],
+  "Machilis pallida": [
+    "Insecta/Archaeognatha/Machilis_pallida/Machilis_pallida_1.jpg",
+    "Insecta/Archaeognatha/Machilis_pallida/Machilis_pallida_2.jpg",
+    "Insecta/Archaeognatha/Machilis_pallida/Machilis_pallida_3.jpg"
+  ],
+  "Ectobius vittiventris": [
+    "Insecta/Blattodea/Ectobius_vittiventris___BernsteinWaldschabe/Ectobius_vittiventris_1.jpg",
+    "Insecta/Blattodea/Ectobius_vittiventris___BernsteinWaldschabe/Ectobius_vittiventris_2.jpg",
+    "Insecta/Blattodea/Ectobius_vittiventris___BernsteinWaldschabe/Ectobius_vittiventris_3.jpg",
+    "Insecta/Blattodea/Ectobius_vittiventris___BernsteinWaldschabe/Ectobius_vittiventris_4.jpg"
+  ],
+  "Gomphocerus sibiricus": [
+    "Insecta/Caelifera/Gomphocerus_sibiricus___Sibir_Keulenschrecke/Gomphocerus_sibiricus_1.jpg",
+    "Insecta/Caelifera/Gomphocerus_sibiricus___Sibir_Keulenschrecke/Gomphocerus_sibiricus_2.jpg",
+    "Insecta/Caelifera/Gomphocerus_sibiricus___Sibir_Keulenschrecke/Gomphocerus_sibiricus_3.jpg",
+    "Insecta/Caelifera/Gomphocerus_sibiricus___Sibir_Keulenschrecke/Gomphocerus_sibiricus_4.jpg"
+  ],
+  "Psophus stridulus": [
+    "Insecta/Caelifera/Psophus_stridulus_Rotfl_Schnarrschrecke/Psophus_stridulus_1.png",
+    "Insecta/Caelifera/Psophus_stridulus_Rotfl_Schnarrschrecke/Psophus_stridulus_2.png",
+    "Insecta/Caelifera/Psophus_stridulus_Rotfl_Schnarrschrecke/Psophus_stridulus_3.png",
+    "Insecta/Caelifera/Psophus_stridulus_Rotfl_Schnarrschrecke/Psophus_stridulus_4.png",
+    "Insecta/Caelifera/Psophus_stridulus_Rotfl_Schnarrschrecke/Psophus_stridulus_5.png"
+  ],
+  "Icerya purchasi": [
+    "Insecta/Coccoidea/Icerya_purchasi___Austral_Wollschildlaus/Icerya_purchasi_1.jpg",
+    "Insecta/Coccoidea/Icerya_purchasi___Austral_Wollschildlaus/Icerya_purchasi_2.jpg",
+    "Insecta/Coccoidea/Icerya_purchasi___Austral_Wollschildlaus/Icerya_purchasi_3.jpg",
+    "Insecta/Coccoidea/Icerya_purchasi___Austral_Wollschildlaus/Icerya_purchasi_4.jpg",
+    "Insecta/Coccoidea/Icerya_purchasi___Austral_Wollschildlaus/Icerya_purchasi_5.jpg"
+  ],
+  "Agriotes obscurus": [
+    "Insecta/Coleoptera/Agriotes_obscurus___Dusterer_Humusschnellkafer/Agriotes_obscurus_1.jpg",
+    "Insecta/Coleoptera/Agriotes_obscurus___Dusterer_Humusschnellkafer/Agriotes_obscurus_2.jpg",
+    "Insecta/Coleoptera/Agriotes_obscurus___Dusterer_Humusschnellkafer/Agriotes_obscurus_3.jpg",
+    "Insecta/Coleoptera/Agriotes_obscurus___Dusterer_Humusschnellkafer/Agriotes_obscurus_4.jpg",
+    "Insecta/Coleoptera/Agriotes_obscurus___Dusterer_Humusschnellkafer/Agriotes_obscurus_5.jpg"
+  ],
+  "Anthrenus verbasci": [
+    "Insecta/Coleoptera/Anthrenus_verbasci___Wollkrautblutenkafer/Anthrenus_verbasci_1.jpg",
+    "Insecta/Coleoptera/Anthrenus_verbasci___Wollkrautblutenkafer/Anthrenus_verbasci_2.jpg",
+    "Insecta/Coleoptera/Anthrenus_verbasci___Wollkrautblutenkafer/Anthrenus_verbasci_3.jpg",
+    "Insecta/Coleoptera/Anthrenus_verbasci___Wollkrautblutenkafer/Anthrenus_verbasci_4.jpg"
+  ],
+  "Cantharis fusca": [
+    "Insecta/Coleoptera/Cantharis_fusca___Gewohnlicher_Weichkafer/Cantharis_fusca_1.jpg",
+    "Insecta/Coleoptera/Cantharis_fusca___Gewohnlicher_Weichkafer/Cantharis_fusca_2.jpg",
+    "Insecta/Coleoptera/Cantharis_fusca___Gewohnlicher_Weichkafer/Cantharis_fusca_3.jpg",
+    "Insecta/Coleoptera/Cantharis_fusca___Gewohnlicher_Weichkafer/Cantharis_fusca_4.jpg",
+    "Insecta/Coleoptera/Cantharis_fusca___Gewohnlicher_Weichkafer/Cantharis_fusca_5.jpg"
+  ],
+  "Carabus coriaceus": [
+    "Insecta/Coleoptera/Carabus_coriaceus___Lederlaufkafer/Carabus_coriaceus_1.jpg",
+    "Insecta/Coleoptera/Carabus_coriaceus___Lederlaufkafer/Carabus_coriaceus_2.jpg",
+    "Insecta/Coleoptera/Carabus_coriaceus___Lederlaufkafer/Carabus_coriaceus_3.jpg",
+    "Insecta/Coleoptera/Carabus_coriaceus___Lederlaufkafer/Carabus_coriaceus_4.jpg"
+  ],
+  "Chrysomela populi": [
+    "Insecta/Coleoptera/Chrysomela_populi__Gr_Pappelblattkafer/Chrysomela_populi_1.png",
+    "Insecta/Coleoptera/Chrysomela_populi__Gr_Pappelblattkafer/Chrysomela_populi_2.png",
+    "Insecta/Coleoptera/Chrysomela_populi__Gr_Pappelblattkafer/Chrysomela_populi_3.png",
+    "Insecta/Coleoptera/Chrysomela_populi__Gr_Pappelblattkafer/Chrysomela_populi_4.png",
+    "Insecta/Coleoptera/Chrysomela_populi__Gr_Pappelblattkafer/Chrysomela_populi_5.png"
+  ],
+  "Cicindela campestris": [
+    "Insecta/Coleoptera/Cicindela_campestris___FeldSandlaufkafer/Cicindela_campestris_1.jpg",
+    "Insecta/Coleoptera/Cicindela_campestris___FeldSandlaufkafer/Cicindela_campestris_2.jpg",
+    "Insecta/Coleoptera/Cicindela_campestris___FeldSandlaufkafer/Cicindela_campestris_3.jpg",
+    "Insecta/Coleoptera/Cicindela_campestris___FeldSandlaufkafer/Cicindela_campestris_4.jpg"
+  ],
+  "Clytus arietis": [
+    "Insecta/Coleoptera/Clytus_arietis___Echter_Widderbock/Clytus_arietis_1.jpg",
+    "Insecta/Coleoptera/Clytus_arietis___Echter_Widderbock/Clytus_arietis_2.jpg",
+    "Insecta/Coleoptera/Clytus_arietis___Echter_Widderbock/Clytus_arietis_3.jpg",
+    "Insecta/Coleoptera/Clytus_arietis___Echter_Widderbock/Clytus_arietis_4.jpg",
+    "Insecta/Coleoptera/Clytus_arietis___Echter_Widderbock/Clytus_arietis_5.jpg"
+  ],
+  "Coccinella septempunctata": [
+    "Insecta/Coleoptera/Coccinella_septempunctata___Siebenpunkt/Coccinella_septempunctata_1.jpg",
+    "Insecta/Coleoptera/Coccinella_septempunctata___Siebenpunkt/Coccinella_septempunctata_2.jpg",
+    "Insecta/Coleoptera/Coccinella_septempunctata___Siebenpunkt/Coccinella_septempunctata_3.jpg",
+    "Insecta/Coleoptera/Coccinella_septempunctata___Siebenpunkt/Coccinella_septempunctata_4.jpg",
+    "Insecta/Coleoptera/Coccinella_septempunctata___Siebenpunkt/Coccinella_septempunctata_5.jpg"
+  ],
+  "Cryphalus abietis": [
+    "Insecta/Coleoptera/Cryphalus_abietis___Gekornter_Fichtenborkenk/Cryphalus_abietis_1.jpg"
+  ],
+  "Cychrus caraboides": [
+    "Insecta/Coleoptera/Cychrus_caraboides___Gewohnl_Schaufellaufer/Cychrus_caraboides_1.jpg",
+    "Insecta/Coleoptera/Cychrus_caraboides___Gewohnl_Schaufellaufer/Cychrus_caraboides_2.jpg",
+    "Insecta/Coleoptera/Cychrus_caraboides___Gewohnl_Schaufellaufer/Cychrus_caraboides_3.jpg"
+  ],
+  "Dorcus parallelipipedus": [
+    "Insecta/Coleoptera/Dorcus_parallelipipedus__Balkenschroter/Dorcus_parallelipipedus_1.png",
+    "Insecta/Coleoptera/Dorcus_parallelipipedus__Balkenschroter/Dorcus_parallelipipedus_2.png",
+    "Insecta/Coleoptera/Dorcus_parallelipipedus__Balkenschroter/Dorcus_parallelipipedus_3.png",
+    "Insecta/Coleoptera/Dorcus_parallelipipedus__Balkenschroter/Dorcus_parallelipipedus_4.png",
+    "Insecta/Coleoptera/Dorcus_parallelipipedus__Balkenschroter/Dorcus_parallelipipedus_5.png"
+  ],
+  "Dytiscus marginalis": [
+    "Insecta/Coleoptera/Dytiscus_marginalis___Gelbrandkafer/Dytiscus_marginalis_1.jpg",
+    "Insecta/Coleoptera/Dytiscus_marginalis___Gelbrandkafer/Dytiscus_marginalis_2.jpg",
+    "Insecta/Coleoptera/Dytiscus_marginalis___Gelbrandkafer/Dytiscus_marginalis_3.jpg",
+    "Insecta/Coleoptera/Dytiscus_marginalis___Gelbrandkafer/Dytiscus_marginalis_4.jpg",
+    "Insecta/Coleoptera/Dytiscus_marginalis___Gelbrandkafer/Dytiscus_marginalis_5.jpg"
+  ],
+  "Emus hirtus": [
+    "Insecta/Coleoptera/Emus_hirtus___Behaarter_Kurzflugler/Emus_hirtus_1.jpg",
+    "Insecta/Coleoptera/Emus_hirtus___Behaarter_Kurzflugler/Emus_hirtus_2.jpg",
+    "Insecta/Coleoptera/Emus_hirtus___Behaarter_Kurzflugler/Emus_hirtus_3.jpg",
+    "Insecta/Coleoptera/Emus_hirtus___Behaarter_Kurzflugler/Emus_hirtus_4.jpg"
+  ],
+  "Harmonia axyridis": [
+    "Insecta/Coleoptera/Harmonia_axyridis___Asiatischer_Marienkafer/Harmonia_axyridis_1.jpg",
+    "Insecta/Coleoptera/Harmonia_axyridis___Asiatischer_Marienkafer/Harmonia_axyridis_2.jpg",
+    "Insecta/Coleoptera/Harmonia_axyridis___Asiatischer_Marienkafer/Harmonia_axyridis_3.jpg",
+    "Insecta/Coleoptera/Harmonia_axyridis___Asiatischer_Marienkafer/Harmonia_axyridis_4.jpg",
+    "Insecta/Coleoptera/Harmonia_axyridis___Asiatischer_Marienkafer/Harmonia_axyridis_5.jpg"
+  ],
+  "Hydrophilus piceus": [
+    "Insecta/Coleoptera/Hydrophilus_piceus___Großer_Kolbenwasserkafe/Hydrophilus_piceus_1.jpg",
+    "Insecta/Coleoptera/Hydrophilus_piceus___Großer_Kolbenwasserkafe/Hydrophilus_piceus_3.jpg",
+    "Insecta/Coleoptera/Hydrophilus_piceus___Großer_Kolbenwasserkafe/Hydrophilus_piceus_4.jpg"
+  ],
+  "Lamprodila rutilans": [
+    "Insecta/Coleoptera/Lamprodila_rutilans__Großer_Lindenprachtkafer/Lamprodila_rutilans_1.png",
+    "Insecta/Coleoptera/Lamprodila_rutilans__Großer_Lindenprachtkafer/Lamprodila_rutilans_2.png"
+  ],
+  "Lampyris noctiluca": [
+    "Insecta/Coleoptera/Lampyris_noctiluca___Großer_Leuchtkafer/Lampyris_noctiluca_1.jpg",
+    "Insecta/Coleoptera/Lampyris_noctiluca___Großer_Leuchtkafer/Lampyris_noctiluca_2.jpg",
+    "Insecta/Coleoptera/Lampyris_noctiluca___Großer_Leuchtkafer/Lampyris_noctiluca_3.jpg",
+    "Insecta/Coleoptera/Lampyris_noctiluca___Großer_Leuchtkafer/Lampyris_noctiluca_4.jpg"
+  ],
+  "Liparus glabrirostris": [
+    "Insecta/Coleoptera/Liparus_glabrirostris___Gr_Pestwurzelrussler/Liparus_glabrirostris_1.jpg",
+    "Insecta/Coleoptera/Liparus_glabrirostris___Gr_Pestwurzelrussler/Liparus_glabrirostris_2.jpg",
+    "Insecta/Coleoptera/Liparus_glabrirostris___Gr_Pestwurzelrussler/Liparus_glabrirostris_3.jpg",
+    "Insecta/Coleoptera/Liparus_glabrirostris___Gr_Pestwurzelrussler/Liparus_glabrirostris_4.jpg",
+    "Insecta/Coleoptera/Liparus_glabrirostris___Gr_Pestwurzelrussler/Liparus_glabrirostris_5.jpg"
+  ],
+  "Meloe proscarabaeus": [
+    "Insecta/Coleoptera/Meloe_proscarabaeus___Schwarzblauer_Olkafer/Meloe_proscarabaeus_1.jpg",
+    "Insecta/Coleoptera/Meloe_proscarabaeus___Schwarzblauer_Olkafer/Meloe_proscarabaeus_2.jpg",
+    "Insecta/Coleoptera/Meloe_proscarabaeus___Schwarzblauer_Olkafer/Meloe_proscarabaeus_3.jpg",
+    "Insecta/Coleoptera/Meloe_proscarabaeus___Schwarzblauer_Olkafer/Meloe_proscarabaeus_4.jpg",
+    "Insecta/Coleoptera/Meloe_proscarabaeus___Schwarzblauer_Olkafer/Meloe_proscarabaeus_5.jpg"
+  ],
+  "Nebria jockischii": [
+    "Insecta/Coleoptera/Nebria_jockischii___Jokischs_Dammlaufer/Nebria_jockischii_1.jpg",
+    "Insecta/Coleoptera/Nebria_jockischii___Jokischs_Dammlaufer/Nebria_jockischii_2.jpg"
+  ],
+  "Nicrophorus vespilloides": [
+    "Insecta/Coleoptera/Nicrophorus_vespilloides_Schw.horn_Totengrab/Nicrophorus_vespilloides_1.jpg",
+    "Insecta/Coleoptera/Nicrophorus_vespilloides_Schw.horn_Totengrab/Nicrophorus_vespilloides_2.jpg",
+    "Insecta/Coleoptera/Nicrophorus_vespilloides_Schw.horn_Totengrab/Nicrophorus_vespilloides_3.jpg",
+    "Insecta/Coleoptera/Nicrophorus_vespilloides_Schw.horn_Totengrab/Nicrophorus_vespilloides_4.jpg"
+  ],
+  "Ocypus olens": [
+    "Insecta/Coleoptera/Ocypus_olens___Schwarzer_Moderkurzflugler/Ocypus_olens_1.jpg",
+    "Insecta/Coleoptera/Ocypus_olens___Schwarzer_Moderkurzflugler/Ocypus_olens_2.jpg",
+    "Insecta/Coleoptera/Ocypus_olens___Schwarzer_Moderkurzflugler/Ocypus_olens_3.jpg",
+    "Insecta/Coleoptera/Ocypus_olens___Schwarzer_Moderkurzflugler/Ocypus_olens_4.jpg",
+    "Insecta/Coleoptera/Ocypus_olens___Schwarzer_Moderkurzflugler/Ocypus_olens_5.jpg"
+  ],
+  "Paederidus ruficollis": [
+    "Insecta/Coleoptera/Paederidus_ruficollis/Paederidus_ruficollis_1.jpg",
+    "Insecta/Coleoptera/Paederidus_ruficollis/Paederidus_ruficollis_2.jpg"
+  ],
+  "Phyllopertha horticola": [
+    "Insecta/Coleoptera/Phyllopertha_horticola___Gartenlaubkafer/Phyllopertha_horticola_1.jpg",
+    "Insecta/Coleoptera/Phyllopertha_horticola___Gartenlaubkafer/Phyllopertha_horticola_2.jpg"
+  ],
+  "Sphaeridium scarabaeoides": [
+    "Insecta/Coleoptera/Sphaeridium_scarabaeoides___Gem_Dungkugelkaf/Sphaeridium_scarabaeoides_1.jpg",
+    "Insecta/Coleoptera/Sphaeridium_scarabaeoides___Gem_Dungkugelkaf/Sphaeridium_scarabaeoides_2.jpg",
+    "Insecta/Coleoptera/Sphaeridium_scarabaeoides___Gem_Dungkugelkaf/Sphaeridium_scarabaeoides_3.jpg",
+    "Insecta/Coleoptera/Sphaeridium_scarabaeoides___Gem_Dungkugelkaf/Sphaeridium_scarabaeoides_4.jpg"
+  ],
+  "Trypocopris vernalis": [
+    "Insecta/Coleoptera/Trypocopris_vernalis___Fruhlingsmistkafer/Trypocopris_vernalis_1.jpg",
+    "Insecta/Coleoptera/Trypocopris_vernalis___Fruhlingsmistkafer/Trypocopris_vernalis_2.jpg",
+    "Insecta/Coleoptera/Trypocopris_vernalis___Fruhlingsmistkafer/Trypocopris_vernalis_3.jpg",
+    "Insecta/Coleoptera/Trypocopris_vernalis___Fruhlingsmistkafer/Trypocopris_vernalis_4.jpg",
+    "Insecta/Coleoptera/Trypocopris_vernalis___Fruhlingsmistkafer/Trypocopris_vernalis_5.jpg"
+  ],
+  "Forficula auricularia": [
+    "Insecta/Dermaptera/Forficula_auricularia___Gemeiner_Ohrwurm/Forficula_auricularia_1.jpg",
+    "Insecta/Dermaptera/Forficula_auricularia___Gemeiner_Ohrwurm/Forficula_auricularia_2.jpg",
+    "Insecta/Dermaptera/Forficula_auricularia___Gemeiner_Ohrwurm/Forficula_auricularia_3.jpg"
+  ],
+  "Aedes albopictus": [
+    "Insecta/Diptera/Aedes_albopictus___Asiatische_Tigermucke/Aedes_albopictus_1.jpg",
+    "Insecta/Diptera/Aedes_albopictus___Asiatische_Tigermucke/Aedes_albopictus_2.jpg",
+    "Insecta/Diptera/Aedes_albopictus___Asiatische_Tigermucke/Aedes_albopictus_3.jpg",
+    "Insecta/Diptera/Aedes_albopictus___Asiatische_Tigermucke/Aedes_albopictus_4.jpg"
+  ],
+  "Bombylius major": [
+    "Insecta/Diptera/Bombylius_major___Großer_Wollschweber/Bombylius_major_1.jpg",
+    "Insecta/Diptera/Bombylius_major___Großer_Wollschweber/Bombylius_major_2.jpg",
+    "Insecta/Diptera/Bombylius_major___Großer_Wollschweber/Bombylius_major_3.jpg",
+    "Insecta/Diptera/Bombylius_major___Großer_Wollschweber/Bombylius_major_4.jpg"
+  ],
+  "Brillia bifida": [
+    "Insecta/Diptera/Brillia_bifida/Brillia_bifida_1.jpg",
+    "Insecta/Diptera/Brillia_bifida/Brillia_bifida_2.jpg",
+    "Insecta/Diptera/Brillia_bifida/Brillia_bifida_3.jpg"
+  ],
+  "Clitellaria ephippium": [
+    "Insecta/Diptera/Clitellaria_ephippium/Clitellaria_ephippium_1.jpg",
+    "Insecta/Diptera/Clitellaria_ephippium/Clitellaria_ephippium_2.jpg",
+    "Insecta/Diptera/Clitellaria_ephippium/Clitellaria_ephippium_3.jpg"
+  ],
+  "Clogmia albipunctata": [
+    "Insecta/Diptera/Clogmia_albipunctata___Weißpkt_Schmetterl.m/Clogmia_albipunctata_1.jpg",
+    "Insecta/Diptera/Clogmia_albipunctata___Weißpkt_Schmetterl.m/Clogmia_albipunctata_2.jpg",
+    "Insecta/Diptera/Clogmia_albipunctata___Weißpkt_Schmetterl.m/Clogmia_albipunctata_3.jpg",
+    "Insecta/Diptera/Clogmia_albipunctata___Weißpkt_Schmetterl.m/Clogmia_albipunctata_4.jpg"
+  ],
+  "Culiseta annulata": [
+    "Insecta/Diptera/Culiseta_annulata___Ringelmucke/Culiseta_annulata_1.jpg",
+    "Insecta/Diptera/Culiseta_annulata___Ringelmucke/Culiseta_annulata_2.jpg",
+    "Insecta/Diptera/Culiseta_annulata___Ringelmucke/Culiseta_annulata_3.jpg"
+  ],
+  "Drosophila suzukii": [
+    "Insecta/Diptera/Drosophila_suzukii___Kirschessigfliege/Drosophila_suzukii_1.jpg",
+    "Insecta/Diptera/Drosophila_suzukii___Kirschessigfliege/Drosophila_suzukii_2.jpg",
+    "Insecta/Diptera/Drosophila_suzukii___Kirschessigfliege/Drosophila_suzukii_3.jpg"
+  ],
+  "Episyrphus balteatus": [
+    "Insecta/Diptera/Episyrphus_balteatus___Hainschwebfliege/Episyrphus_balteatus_1.png",
+    "Insecta/Diptera/Episyrphus_balteatus___Hainschwebfliege/Episyrphus_balteatus_2.png",
+    "Insecta/Diptera/Episyrphus_balteatus___Hainschwebfliege/Episyrphus_balteatus_3.png"
+  ],
+  "Hartigiola annulipes": [
+    "Insecta/Diptera/Hartigiola_annulipes/Hartigiola_annulipes_1.jpg",
+    "Insecta/Diptera/Hartigiola_annulipes/Hartigiola_annulipes_2.jpg",
+    "Insecta/Diptera/Hartigiola_annulipes/Hartigiola_annulipes_3.jpg",
+    "Insecta/Diptera/Hartigiola_annulipes/Hartigiola_annulipes_4.jpg"
+  ],
+  "Helophilus pendulus": [
+    "Insecta/Diptera/Helophilus_pendulus___Gem_Sumpfschwebfliege/Helophilus_pendulus_1.png",
+    "Insecta/Diptera/Helophilus_pendulus___Gem_Sumpfschwebfliege/Helophilus_pendulus_2.png",
+    "Insecta/Diptera/Helophilus_pendulus___Gem_Sumpfschwebfliege/Helophilus_pendulus_3.png",
+    "Insecta/Diptera/Helophilus_pendulus___Gem_Sumpfschwebfliege/Helophilus_pendulus_4.png"
+  ],
+  "Lipoptena cervi": [
+    "Insecta/Diptera/Lipoptena_cervi___Hirschlausfliege/Lipoptena_cervi_1.jpg",
+    "Insecta/Diptera/Lipoptena_cervi___Hirschlausfliege/Lipoptena_cervi_2.jpg"
+  ],
+  "Mikiola fagi": [
+    "Insecta/Diptera/Mikiola_fagi___Buchengallmucke/Mikiola_fagi_1.jpg",
+    "Insecta/Diptera/Mikiola_fagi___Buchengallmucke/Mikiola_fagi_2.jpg",
+    "Insecta/Diptera/Mikiola_fagi___Buchengallmucke/Mikiola_fagi_3.jpg",
+    "Insecta/Diptera/Mikiola_fagi___Buchengallmucke/Mikiola_fagi_4.jpg",
+    "Insecta/Diptera/Mikiola_fagi___Buchengallmucke/Mikiola_fagi_5.jpg"
+  ],
+  "Musca domestica": [
+    "Insecta/Diptera/Musca_domestica___Stubenfliege/Musca_domestica_1.jpg",
+    "Insecta/Diptera/Musca_domestica___Stubenfliege/Musca_domestica_2.jpg",
+    "Insecta/Diptera/Musca_domestica___Stubenfliege/Musca_domestica_3.jpg"
+  ],
+  "Rhingia campestris": [
+    "Insecta/Diptera/Rhingia_campestris___Gemeine_Schnauzenschweb/Rhingia_campestris_1.jpg",
+    "Insecta/Diptera/Rhingia_campestris___Gemeine_Schnauzenschweb/Rhingia_campestris_2.jpg",
+    "Insecta/Diptera/Rhingia_campestris___Gemeine_Schnauzenschweb/Rhingia_campestris_3.jpg"
+  ],
+  "Simulium variegatum": [
+    "Insecta/Diptera/Simulium_variegatum/Simulium_variegatum_1.jpg",
+    "Insecta/Diptera/Simulium_variegatum/Simulium_variegatum_2.jpg",
+    "Insecta/Diptera/Simulium_variegatum/Simulium_variegatum_3.jpg",
+    "Insecta/Diptera/Simulium_variegatum/Simulium_variegatum_4.jpg",
+    "Insecta/Diptera/Simulium_variegatum/Simulium_variegatum_5.jpg"
+  ],
+  "Stomoxys calcitrans": [
+    "Insecta/Diptera/Stomoxys_calcitrans___Wadenstecher/Stomoxys_calcitrans_1.jpg",
+    "Insecta/Diptera/Stomoxys_calcitrans___Wadenstecher/Stomoxys_calcitrans_2.jpg",
+    "Insecta/Diptera/Stomoxys_calcitrans___Wadenstecher/Stomoxys_calcitrans_3.jpg",
+    "Insecta/Diptera/Stomoxys_calcitrans___Wadenstecher/Stomoxys_calcitrans_4.jpg"
+  ],
+  "Tabanus bromius": [
+    "Insecta/Diptera/Tabanus_bromius___Gemeine_Viehbremse/Tabanus_bromius_1.jpg",
+    "Insecta/Diptera/Tabanus_bromius___Gemeine_Viehbremse/Tabanus_bromius_2.jpg",
+    "Insecta/Diptera/Tabanus_bromius___Gemeine_Viehbremse/Tabanus_bromius_3.jpg",
+    "Insecta/Diptera/Tabanus_bromius___Gemeine_Viehbremse/Tabanus_bromius_4.jpg",
+    "Insecta/Diptera/Tabanus_bromius___Gemeine_Viehbremse/Tabanus_bromius_5.jpg"
+  ],
+  "Tanyptera atrata": [
+    "Insecta/Diptera/Tanyptera_atrata___Schwarze_Kammschnake/Tanyptera_atrata_1.png",
+    "Insecta/Diptera/Tanyptera_atrata___Schwarze_Kammschnake/Tanyptera_atrata_2.png",
+    "Insecta/Diptera/Tanyptera_atrata___Schwarze_Kammschnake/Tanyptera_atrata_3.png",
+    "Insecta/Diptera/Tanyptera_atrata___Schwarze_Kammschnake/Tanyptera_atrata_4.png"
+  ],
+  "Decticus verrucivorus": [
+    "Insecta/Ensifera/Decticus_verrucivorus___Warzenbeißer/Decticus_verrucivorus_1.jpg",
+    "Insecta/Ensifera/Decticus_verrucivorus___Warzenbeißer/Decticus_verrucivorus_2.jpg",
+    "Insecta/Ensifera/Decticus_verrucivorus___Warzenbeißer/Decticus_verrucivorus_3.jpg",
+    "Insecta/Ensifera/Decticus_verrucivorus___Warzenbeißer/Decticus_verrucivorus_4.jpg",
+    "Insecta/Ensifera/Decticus_verrucivorus___Warzenbeißer/Decticus_verrucivorus_5.jpg"
+  ],
+  "Gryllus campestris": [
+    "Insecta/Ensifera/Gryllus_campestris___Feldgrille/Gryllus_campestris_1.jpg",
+    "Insecta/Ensifera/Gryllus_campestris___Feldgrille/Gryllus_campestris_2.jpg",
+    "Insecta/Ensifera/Gryllus_campestris___Feldgrille/Gryllus_campestris_3.jpg",
+    "Insecta/Ensifera/Gryllus_campestris___Feldgrille/Gryllus_campestris_4.jpg"
+  ],
+  "Pholidoptera aptera": [
+    "Insecta/Ensifera/Pholidoptera_aptera___AlpenStrauchschnecke/Pholidoptera_aptera_1.jpg",
+    "Insecta/Ensifera/Pholidoptera_aptera___AlpenStrauchschnecke/Pholidoptera_aptera_2.jpg"
+  ],
+  "Pholidoptera griseoaptera": [
+    "Insecta/Ensifera/Pholidoptera_griseoaptera___Gew_Strauchschre/Pholidoptera_griseoaptera_1.jpg",
+    "Insecta/Ensifera/Pholidoptera_griseoaptera___Gew_Strauchschre/Pholidoptera_griseoaptera_2.jpg"
+  ],
+  "Tettigonia viridissima": [
+    "Insecta/Ensifera/Tettigonia_viridissima___Grunes_Heupferd/Tettigonia_viridissima_1.jpg",
+    "Insecta/Ensifera/Tettigonia_viridissima___Grunes_Heupferd/Tettigonia_viridissima_2.jpg",
+    "Insecta/Ensifera/Tettigonia_viridissima___Grunes_Heupferd/Tettigonia_viridissima_3.jpg"
+  ],
+  "Baetis alpinus": [
+    "Insecta/Ephemeroptera/Baetis_alpinus/Baetis_alpinus_1.jpg",
+    "Insecta/Ephemeroptera/Baetis_alpinus/Baetis_alpinus_2.jpg",
+    "Insecta/Ephemeroptera/Baetis_alpinus/Baetis_alpinus_3.jpg"
+  ],
+  "Centrotus cornutus": [
+    "Insecta/Hemiptera/Centrotus_cornutus___Dornzikade/Centrotus_cornutus_1.jpg",
+    "Insecta/Hemiptera/Centrotus_cornutus___Dornzikade/Centrotus_cornutus_2.jpg",
+    "Insecta/Hemiptera/Centrotus_cornutus___Dornzikade/Centrotus_cornutus_3.jpg",
+    "Insecta/Hemiptera/Centrotus_cornutus___Dornzikade/Centrotus_cornutus_4.jpg"
+  ],
+  "Cercopis vulnerata": [
+    "Insecta/Hemiptera/Cercopis_vulnerata___Gemeine_Blutzikade/Cercopis_vulnerata_1.jpg",
+    "Insecta/Hemiptera/Cercopis_vulnerata___Gemeine_Blutzikade/Cercopis_vulnerata_2.jpg",
+    "Insecta/Hemiptera/Cercopis_vulnerata___Gemeine_Blutzikade/Cercopis_vulnerata_3.jpg",
+    "Insecta/Hemiptera/Cercopis_vulnerata___Gemeine_Blutzikade/Cercopis_vulnerata_4.jpg",
+    "Insecta/Hemiptera/Cercopis_vulnerata___Gemeine_Blutzikade/Cercopis_vulnerata_5.jpg"
+  ],
+  "Cicadella viridis": [
+    "Insecta/Hemiptera/Cicadella_viridis___BinsenSchmuckzikade/Cicadella_viridis_1.jpg",
+    "Insecta/Hemiptera/Cicadella_viridis___BinsenSchmuckzikade/Cicadella_viridis_2.jpg",
+    "Insecta/Hemiptera/Cicadella_viridis___BinsenSchmuckzikade/Cicadella_viridis_3.jpg",
+    "Insecta/Hemiptera/Cicadella_viridis___BinsenSchmuckzikade/Cicadella_viridis_4.jpg",
+    "Insecta/Hemiptera/Cicadella_viridis___BinsenSchmuckzikade/Cicadella_viridis_5.jpg"
+  ],
+  "Cicadetta montana": [
+    "Insecta/Hemiptera/Cicadetta_montana___Echte_Bergzikade/Cicadetta_montana_1.jpg",
+    "Insecta/Hemiptera/Cicadetta_montana___Echte_Bergzikade/Cicadetta_montana_2.jpg",
+    "Insecta/Hemiptera/Cicadetta_montana___Echte_Bergzikade/Cicadetta_montana_3.jpg",
+    "Insecta/Hemiptera/Cicadetta_montana___Echte_Bergzikade/Cicadetta_montana_4.jpg",
+    "Insecta/Hemiptera/Cicadetta_montana___Echte_Bergzikade/Cicadetta_montana_5.jpg"
+  ],
+  "Cimex lectularius": [
+    "Insecta/Hemiptera/Cimex_lectularius___Bettwanze/Cimex_lectularius_1.jpg",
+    "Insecta/Hemiptera/Cimex_lectularius___Bettwanze/Cimex_lectularius_2.jpg",
+    "Insecta/Hemiptera/Cimex_lectularius___Bettwanze/Cimex_lectularius_3.jpg",
+    "Insecta/Hemiptera/Cimex_lectularius___Bettwanze/Cimex_lectularius_4.jpg",
+    "Insecta/Hemiptera/Cimex_lectularius___Bettwanze/Cimex_lectularius_5.jpg"
+  ],
+  "Corythucha ciliata": [
+    "Insecta/Hemiptera/Corythucha_ciliata___PlatanenNetzwanze/Corythucha_ciliata_1.jpg",
+    "Insecta/Hemiptera/Corythucha_ciliata___PlatanenNetzwanze/Corythucha_ciliata_2.jpg",
+    "Insecta/Hemiptera/Corythucha_ciliata___PlatanenNetzwanze/Corythucha_ciliata_3.jpg",
+    "Insecta/Hemiptera/Corythucha_ciliata___PlatanenNetzwanze/Corythucha_ciliata_4.jpg"
+  ],
+  "Hydrometra stagnorum": [
+    "Insecta/Hemiptera/Hydrometra_stagnorum___Gemeiner_Teichlaufer/Hydrometra_stagnorum_1.jpg",
+    "Insecta/Hemiptera/Hydrometra_stagnorum___Gemeiner_Teichlaufer/Hydrometra_stagnorum_2.jpg",
+    "Insecta/Hemiptera/Hydrometra_stagnorum___Gemeiner_Teichlaufer/Hydrometra_stagnorum_3.jpg"
+  ],
+  "Issus coleoptratus": [
+    "Insecta/Hemiptera/Issus_coleoptratus___Echte_Kaferzikade/Issus_coleoptratus_1.jpg",
+    "Insecta/Hemiptera/Issus_coleoptratus___Echte_Kaferzikade/Issus_coleoptratus_2.jpg",
+    "Insecta/Hemiptera/Issus_coleoptratus___Echte_Kaferzikade/Issus_coleoptratus_3.jpg",
+    "Insecta/Hemiptera/Issus_coleoptratus___Echte_Kaferzikade/Issus_coleoptratus_4.jpg",
+    "Insecta/Hemiptera/Issus_coleoptratus___Echte_Kaferzikade/Issus_coleoptratus_5.jpg"
+  ],
+  "Leptoglossus occidentalis": [
+    "Insecta/Hemiptera/Leptoglossus_occidentalis___Amerik_Kiefernwa/Leptoglossus_occidentalis_1.jpg"
+  ],
+  "Notonecta glauca": [
+    "Insecta/Hemiptera/Notonecta_glauca___Gewohnl._Ruckenschwimmer/Notonecta_glauca_1.jpg",
+    "Insecta/Hemiptera/Notonecta_glauca___Gewohnl._Ruckenschwimmer/Notonecta_glauca_2.jpg",
+    "Insecta/Hemiptera/Notonecta_glauca___Gewohnl._Ruckenschwimmer/Notonecta_glauca_3.jpg",
+    "Insecta/Hemiptera/Notonecta_glauca___Gewohnl._Ruckenschwimmer/Notonecta_glauca_4.jpg"
+  ],
+  "Pentatoma rufipes": [
+    "Insecta/Hemiptera/Pentatoma_rufipes___Rotbeinige_Baumwanze/Pentatoma_rufipes_1.jpg",
+    "Insecta/Hemiptera/Pentatoma_rufipes___Rotbeinige_Baumwanze/Pentatoma_rufipes_2.jpg"
+  ],
+  "Philaenus spumarius": [
+    "Insecta/Hemiptera/Philaenus_spumarius___Wiesenschaumzikade/Philaenus_spumarius_1.jpg",
+    "Insecta/Hemiptera/Philaenus_spumarius___Wiesenschaumzikade/Philaenus_spumarius_2.jpg",
+    "Insecta/Hemiptera/Philaenus_spumarius___Wiesenschaumzikade/Philaenus_spumarius_3.jpg",
+    "Insecta/Hemiptera/Philaenus_spumarius___Wiesenschaumzikade/Philaenus_spumarius_4.jpg",
+    "Insecta/Hemiptera/Philaenus_spumarius___Wiesenschaumzikade/Philaenus_spumarius_5.jpg"
+  ],
+  "Picromerus bidens": [
+    "Insecta/Hemiptera/Picromerus_bidens___Zweizahnige_Dornwanze/Picromerus_bidens_1.jpg",
+    "Insecta/Hemiptera/Picromerus_bidens___Zweizahnige_Dornwanze/Picromerus_bidens_2.jpg",
+    "Insecta/Hemiptera/Picromerus_bidens___Zweizahnige_Dornwanze/Picromerus_bidens_3.jpg"
+  ],
+  "Pyrrhocoris apterus": [
+    "Insecta/Hemiptera/Pyrrhocoris_apterus___Gewohnliche_Feuerwanze/Pyrrhocoris_apterus_1.jpg",
+    "Insecta/Hemiptera/Pyrrhocoris_apterus___Gewohnliche_Feuerwanze/Pyrrhocoris_apterus_2.jpg",
+    "Insecta/Hemiptera/Pyrrhocoris_apterus___Gewohnliche_Feuerwanze/Pyrrhocoris_apterus_3.jpg",
+    "Insecta/Hemiptera/Pyrrhocoris_apterus___Gewohnliche_Feuerwanze/Pyrrhocoris_apterus_4.jpg",
+    "Insecta/Hemiptera/Pyrrhocoris_apterus___Gewohnliche_Feuerwanze/Pyrrhocoris_apterus_5.jpg"
+  ],
+  "Rhynocoris iracundus": [
+    "Insecta/Hemiptera/Rhynocoris_iracundus___Rote_Mordwanze/Rhynocoris_iracundus_1.jpg",
+    "Insecta/Hemiptera/Rhynocoris_iracundus___Rote_Mordwanze/Rhynocoris_iracundus_2.jpg"
+  ],
+  "Siphoninus phillyreae": [
+    "Insecta/Hemiptera/Siphoninus_phillyreae___EschenWeiße_Fliege/Siphoninus_phillyreae_1.jpg",
+    "Insecta/Hemiptera/Siphoninus_phillyreae___EschenWeiße_Fliege/Siphoninus_phillyreae_2.jpg",
+    "Insecta/Hemiptera/Siphoninus_phillyreae___EschenWeiße_Fliege/Siphoninus_phillyreae_3.jpg",
+    "Insecta/Hemiptera/Siphoninus_phillyreae___EschenWeiße_Fliege/Siphoninus_phillyreae_4.jpg",
+    "Insecta/Hemiptera/Siphoninus_phillyreae___EschenWeiße_Fliege/Siphoninus_phillyreae_5.jpg"
+  ],
+  "Strictocephala bisonia": [
+    "Insecta/Hemiptera/Strictocephala_bisonia___Buffelzikade/Strictocephala_bisonia_1.jpg",
+    "Insecta/Hemiptera/Strictocephala_bisonia___Buffelzikade/Strictocephala_bisonia_2.jpg",
+    "Insecta/Hemiptera/Strictocephala_bisonia___Buffelzikade/Strictocephala_bisonia_3.jpg",
+    "Insecta/Hemiptera/Strictocephala_bisonia___Buffelzikade/Strictocephala_bisonia_4.jpg"
+  ],
+  "Agriotypus armatus": [
+    "Insecta/Hymenoptera/Agriotypus_armatus___Wasserschlupfwespe/Agriotypus_armatus_1.jpg",
+    "Insecta/Hymenoptera/Agriotypus_armatus___Wasserschlupfwespe/Agriotypus_armatus_2.jpg",
+    "Insecta/Hymenoptera/Agriotypus_armatus___Wasserschlupfwespe/Agriotypus_armatus_3.jpg",
+    "Insecta/Hymenoptera/Agriotypus_armatus___Wasserschlupfwespe/Agriotypus_armatus_4.jpg"
+  ],
+  "Ammophila sabulosa": [
+    "Insecta/Hymenoptera/Ammophila_sabulosa___Gewohnl_Sandwespe/Ammophila_sabulosa_1.jpg",
+    "Insecta/Hymenoptera/Ammophila_sabulosa___Gewohnl_Sandwespe/Ammophila_sabulosa_2.jpg"
+  ],
+  "Andrena hattorfiana": [
+    "Insecta/Hymenoptera/Andrena_hattorfiana___KnautienSandbiene/Andrena_hattorfiana_1.jpg",
+    "Insecta/Hymenoptera/Andrena_hattorfiana___KnautienSandbiene/Andrena_hattorfiana_2.jpg",
+    "Insecta/Hymenoptera/Andrena_hattorfiana___KnautienSandbiene/Andrena_hattorfiana_3.jpg"
+  ],
+  "Andrena vaga": [
+    "Insecta/Hymenoptera/Andrena_vaga__WeidenSandbiene/Andrena_vaga_1.jpg",
+    "Insecta/Hymenoptera/Andrena_vaga__WeidenSandbiene/Andrena_vaga_2.jpg",
+    "Insecta/Hymenoptera/Andrena_vaga__WeidenSandbiene/Andrena_vaga_3.jpg",
+    "Insecta/Hymenoptera/Andrena_vaga__WeidenSandbiene/Andrena_vaga_4.jpg",
+    "Insecta/Hymenoptera/Andrena_vaga__WeidenSandbiene/Andrena_vaga_5.jpg"
+  ],
+  "Anthidium manicatum": [
+    "Insecta/Hymenoptera/Anthidium_manicatum___GartenWollbiene/Anthidium_manicatum_1.jpg",
+    "Insecta/Hymenoptera/Anthidium_manicatum___GartenWollbiene/Anthidium_manicatum_2.jpg",
+    "Insecta/Hymenoptera/Anthidium_manicatum___GartenWollbiene/Anthidium_manicatum_3.jpg",
+    "Insecta/Hymenoptera/Anthidium_manicatum___GartenWollbiene/Anthidium_manicatum_4.jpg"
+  ],
+  "Apis mellifera": [
+    "Insecta/Hymenoptera/Apis_mellifera___Westliche_Honigbiene/Apis_mellifera_1.jpg",
+    "Insecta/Hymenoptera/Apis_mellifera___Westliche_Honigbiene/Apis_mellifera_2.jpg",
+    "Insecta/Hymenoptera/Apis_mellifera___Westliche_Honigbiene/Apis_mellifera_3.jpg",
+    "Insecta/Hymenoptera/Apis_mellifera___Westliche_Honigbiene/Apis_mellifera_4.jpg",
+    "Insecta/Hymenoptera/Apis_mellifera___Westliche_Honigbiene/Apis_mellifera_5.jpg"
+  ],
+  "Bombus alpinus": [
+    "Insecta/Hymenoptera/Bombus_alpinus___Alpenhummel/Bombus_alpinus_1.png",
+    "Insecta/Hymenoptera/Bombus_alpinus___Alpenhummel/Bombus_alpinus_2.png",
+    "Insecta/Hymenoptera/Bombus_alpinus___Alpenhummel/Bombus_alpinus_3.png",
+    "Insecta/Hymenoptera/Bombus_alpinus___Alpenhummel/Bombus_alpinus_4.png",
+    "Insecta/Hymenoptera/Bombus_alpinus___Alpenhummel/Bombus_alpinus_5.png",
+    "Insecta/Hymenoptera/Bombus_alpinus___Alpenhummel/Bombus_alpinus_6.png"
+  ],
+  "Bombus pascuorum": [
+    "Insecta/Hymenoptera/Bombus_pascuorum_Ackerhummel/Bombus_pascuorum_1.png",
+    "Insecta/Hymenoptera/Bombus_pascuorum_Ackerhummel/Bombus_pascuorum_10.png",
+    "Insecta/Hymenoptera/Bombus_pascuorum_Ackerhummel/Bombus_pascuorum_11.png",
+    "Insecta/Hymenoptera/Bombus_pascuorum_Ackerhummel/Bombus_pascuorum_2.png",
+    "Insecta/Hymenoptera/Bombus_pascuorum_Ackerhummel/Bombus_pascuorum_3.png",
+    "Insecta/Hymenoptera/Bombus_pascuorum_Ackerhummel/Bombus_pascuorum_4.png",
+    "Insecta/Hymenoptera/Bombus_pascuorum_Ackerhummel/Bombus_pascuorum_5.png",
+    "Insecta/Hymenoptera/Bombus_pascuorum_Ackerhummel/Bombus_pascuorum_6.png",
+    "Insecta/Hymenoptera/Bombus_pascuorum_Ackerhummel/Bombus_pascuorum_7.png",
+    "Insecta/Hymenoptera/Bombus_pascuorum_Ackerhummel/Bombus_pascuorum_8.png",
+    "Insecta/Hymenoptera/Bombus_pascuorum_Ackerhummel/Bombus_pascuorum_9.png"
+  ],
+  "Camponotus ligniperda": [
+    "Insecta/Hymenoptera/Camponotus_ligniperda__Braunschw_Rossameise/Camponotus_ligniperda_1.png",
+    "Insecta/Hymenoptera/Camponotus_ligniperda__Braunschw_Rossameise/Camponotus_ligniperda_2.png",
+    "Insecta/Hymenoptera/Camponotus_ligniperda__Braunschw_Rossameise/Camponotus_ligniperda_3.png"
+  ],
+  "Ceropales maculata": [
+    "Insecta/Hymenoptera/Ceropales_maculata___Gefl_Kuckuckswegwespe/Ceropales_maculata_1.jpg",
+    "Insecta/Hymenoptera/Ceropales_maculata___Gefl_Kuckuckswegwespe/Ceropales_maculata_2.jpg"
+  ],
+  "Colletes hederae": [
+    "Insecta/Hymenoptera/Colletes_hederae___EfeuSeidenbiene/Colletes_hederae_1.jpg",
+    "Insecta/Hymenoptera/Colletes_hederae___EfeuSeidenbiene/Colletes_hederae_2.jpg",
+    "Insecta/Hymenoptera/Colletes_hederae___EfeuSeidenbiene/Colletes_hederae_3.jpg",
+    "Insecta/Hymenoptera/Colletes_hederae___EfeuSeidenbiene/Colletes_hederae_4.jpg"
+  ],
+  "Diplolepis rosae": [
+    "Insecta/Hymenoptera/Diplolepis_rosae___SchlafapfelGallwespe/Diplolepis_rosae_1.jpg",
+    "Insecta/Hymenoptera/Diplolepis_rosae___SchlafapfelGallwespe/Diplolepis_rosae_2.jpg",
+    "Insecta/Hymenoptera/Diplolepis_rosae___SchlafapfelGallwespe/Diplolepis_rosae_3.jpg",
+    "Insecta/Hymenoptera/Diplolepis_rosae___SchlafapfelGallwespe/Diplolepis_rosae_4.jpg"
+  ],
+  "D. quadripunctatus": [
+    "Insecta/Hymenoptera/Dolichoderus_quadripunctatus___Vierpkt_Druse/D._quadripunctatus_1.jpg",
+    "Insecta/Hymenoptera/Dolichoderus_quadripunctatus___Vierpkt_Druse/D._quadripunctatus_2.jpg",
+    "Insecta/Hymenoptera/Dolichoderus_quadripunctatus___Vierpkt_Druse/D._quadripunctatus_3.jpg",
+    "Insecta/Hymenoptera/Dolichoderus_quadripunctatus___Vierpkt_Druse/D._quadripunctatus_4.jpg"
+  ],
+  "Formica exsecta": [
+    "Insecta/Hymenoptera/Formica_exsecta___Große_Kerbameise/Formica_exsecta_1.jpg",
+    "Insecta/Hymenoptera/Formica_exsecta___Große_Kerbameise/Formica_exsecta_2.jpg",
+    "Insecta/Hymenoptera/Formica_exsecta___Große_Kerbameise/Formica_exsecta_3.jpg",
+    "Insecta/Hymenoptera/Formica_exsecta___Große_Kerbameise/Formica_exsecta_4.jpg",
+    "Insecta/Hymenoptera/Formica_exsecta___Große_Kerbameise/Formica_exsecta_5.jpg"
+  ],
+  "Formica sanguinea": [
+    "Insecta/Hymenoptera/Formica_sanguinea___Blutrote_Raubameise/Formica_sanguinea_1.jpg",
+    "Insecta/Hymenoptera/Formica_sanguinea___Blutrote_Raubameise/Formica_sanguinea_2.jpg",
+    "Insecta/Hymenoptera/Formica_sanguinea___Blutrote_Raubameise/Formica_sanguinea_3.jpg",
+    "Insecta/Hymenoptera/Formica_sanguinea___Blutrote_Raubameise/Formica_sanguinea_4.jpg"
+  ],
+  "Halictus scabiosae": [
+    "Insecta/Hymenoptera/Halictus_scabiosae___Gelbbindige_Furchenbien/Halictus_scabiosae_1.jpg",
+    "Insecta/Hymenoptera/Halictus_scabiosae___Gelbbindige_Furchenbien/Halictus_scabiosae_2.jpg",
+    "Insecta/Hymenoptera/Halictus_scabiosae___Gelbbindige_Furchenbien/Halictus_scabiosae_3.jpg",
+    "Insecta/Hymenoptera/Halictus_scabiosae___Gelbbindige_Furchenbien/Halictus_scabiosae_4.jpg"
+  ],
+  "Hedychrum rutilans": [
+    "Insecta/Hymenoptera/Hedychrum_rutilans___BienenwolfGoldwespe/Hedychrum_rutilans_1.jpg",
+    "Insecta/Hymenoptera/Hedychrum_rutilans___BienenwolfGoldwespe/Hedychrum_rutilans_2.jpg",
+    "Insecta/Hymenoptera/Hedychrum_rutilans___BienenwolfGoldwespe/Hedychrum_rutilans_3.jpg"
+  ],
+  "Lasius emarginatus": [
+    "Insecta/Hymenoptera/Lasius_emarginatus_Rotruckige_Hausameise/Lasius_emarginatus_1.png",
+    "Insecta/Hymenoptera/Lasius_emarginatus_Rotruckige_Hausameise/Lasius_emarginatus_2.png",
+    "Insecta/Hymenoptera/Lasius_emarginatus_Rotruckige_Hausameise/Lasius_emarginatus_3.png"
+  ],
+  "Lasius fuliginosus": [
+    "Insecta/Hymenoptera/Lasius_fuliginosus___Glanzendschw_Holzameise/Lasius_fuliginosus_1.jpg",
+    "Insecta/Hymenoptera/Lasius_fuliginosus___Glanzendschw_Holzameise/Lasius_fuliginosus_2.jpg",
+    "Insecta/Hymenoptera/Lasius_fuliginosus___Glanzendschw_Holzameise/Lasius_fuliginosus_3.jpg",
+    "Insecta/Hymenoptera/Lasius_fuliginosus___Glanzendschw_Holzameise/Lasius_fuliginosus_4.jpg",
+    "Insecta/Hymenoptera/Lasius_fuliginosus___Glanzendschw_Holzameise/Lasius_fuliginosus_5.jpg"
+  ],
+  "Macropis europaea": [
+    "Insecta/Hymenoptera/Macropis_europaea___AuenSchenkelbiene/Macropis_europaea_1.jpg",
+    "Insecta/Hymenoptera/Macropis_europaea___AuenSchenkelbiene/Macropis_europaea_2.jpg",
+    "Insecta/Hymenoptera/Macropis_europaea___AuenSchenkelbiene/Macropis_europaea_3.jpg"
+  ],
+  "Manica rubida": [
+    "Insecta/Hymenoptera/Manica_rubida/Manica_rubida_1.jpg",
+    "Insecta/Hymenoptera/Manica_rubida/Manica_rubida_2.jpg",
+    "Insecta/Hymenoptera/Manica_rubida/Manica_rubida_3.jpg"
+  ],
+  "Nomada lothburiana": [
+    "Insecta/Hymenoptera/Nomada_lothburiana___Rothhaarige_Wespenbiene/Nomada_lothburiana_1.jpg",
+    "Insecta/Hymenoptera/Nomada_lothburiana___Rothhaarige_Wespenbiene/Nomada_lothburiana_2.jpg",
+    "Insecta/Hymenoptera/Nomada_lothburiana___Rothhaarige_Wespenbiene/Nomada_lothburiana_3.jpg",
+    "Insecta/Hymenoptera/Nomada_lothburiana___Rothhaarige_Wespenbiene/Nomada_lothburiana_4.jpg"
+  ],
+  "Osmia bicolor": [
+    "Insecta/Hymenoptera/Osmia_bicolor___Zweifarbige_Schneckenhausbie/Osmia_bicolor_1.jpg",
+    "Insecta/Hymenoptera/Osmia_bicolor___Zweifarbige_Schneckenhausbie/Osmia_bicolor_2.jpg",
+    "Insecta/Hymenoptera/Osmia_bicolor___Zweifarbige_Schneckenhausbie/Osmia_bicolor_3.jpg",
+    "Insecta/Hymenoptera/Osmia_bicolor___Zweifarbige_Schneckenhausbie/Osmia_bicolor_4.jpg"
+  ],
+  "Philanthus triangulum": [
+    "Insecta/Hymenoptera/Philanthus_triangulum___Bienenwolf/Philanthus_triangulum_1.jpg",
+    "Insecta/Hymenoptera/Philanthus_triangulum___Bienenwolf/Philanthus_triangulum_2.jpg",
+    "Insecta/Hymenoptera/Philanthus_triangulum___Bienenwolf/Philanthus_triangulum_3.jpg",
+    "Insecta/Hymenoptera/Philanthus_triangulum___Bienenwolf/Philanthus_triangulum_4.jpg"
+  ],
+  "Polistes dominula": [
+    "Insecta/Hymenoptera/Polistes_dominula___HausFeldwespe/Polistes_dominula_1.jpg",
+    "Insecta/Hymenoptera/Polistes_dominula___HausFeldwespe/Polistes_dominula_2.jpg",
+    "Insecta/Hymenoptera/Polistes_dominula___HausFeldwespe/Polistes_dominula_3.jpg",
+    "Insecta/Hymenoptera/Polistes_dominula___HausFeldwespe/Polistes_dominula_4.jpg",
+    "Insecta/Hymenoptera/Polistes_dominula___HausFeldwespe/Polistes_dominula_5.jpg"
+  ],
+  "Pompilus cinereus": [
+    "Insecta/Hymenoptera/Pompilus_cinereus___Bleigraue_Wegwespe/Pompilus_cinereus_1.jpg",
+    "Insecta/Hymenoptera/Pompilus_cinereus___Bleigraue_Wegwespe/Pompilus_cinereus_2.jpg",
+    "Insecta/Hymenoptera/Pompilus_cinereus___Bleigraue_Wegwespe/Pompilus_cinereus_3.jpg"
+  ],
+  "Rhyssa persuasoria": [
+    "Insecta/Hymenoptera/Rhyssa_persuasoria___HolzwespenSchlupfwespe/Rhyssa_persuasoria_1.jpg",
+    "Insecta/Hymenoptera/Rhyssa_persuasoria___HolzwespenSchlupfwespe/Rhyssa_persuasoria_2.jpg",
+    "Insecta/Hymenoptera/Rhyssa_persuasoria___HolzwespenSchlupfwespe/Rhyssa_persuasoria_3.jpg",
+    "Insecta/Hymenoptera/Rhyssa_persuasoria___HolzwespenSchlupfwespe/Rhyssa_persuasoria_4.jpg"
+  ],
+  "Sceliphron curvatum": [
+    "Insecta/Hymenoptera/Sceliphron_curvatum___Oriental._Mauerwespe/Sceliphron_curvatum_1.jpg",
+    "Insecta/Hymenoptera/Sceliphron_curvatum___Oriental._Mauerwespe/Sceliphron_curvatum_2.jpg",
+    "Insecta/Hymenoptera/Sceliphron_curvatum___Oriental._Mauerwespe/Sceliphron_curvatum_3.jpg",
+    "Insecta/Hymenoptera/Sceliphron_curvatum___Oriental._Mauerwespe/Sceliphron_curvatum_4.jpg",
+    "Insecta/Hymenoptera/Sceliphron_curvatum___Oriental._Mauerwespe/Sceliphron_curvatum_5.jpg"
+  ],
+  "Tenthredo scrophulariae": [
+    "Insecta/Hymenoptera/Tenthredo_scrophulariae___Braunwurzelblattwe/Tenthredo_scrophulariae_1.jpg",
+    "Insecta/Hymenoptera/Tenthredo_scrophulariae___Braunwurzelblattwe/Tenthredo_scrophulariae_2.jpg",
+    "Insecta/Hymenoptera/Tenthredo_scrophulariae___Braunwurzelblattwe/Tenthredo_scrophulariae_3.jpg"
+  ],
+  "Tetramorium alpestre": [
+    "Insecta/Hymenoptera/Tetramorium_alpestre/Tetramorium_alpestre_1.jpg",
+    "Insecta/Hymenoptera/Tetramorium_alpestre/Tetramorium_alpestre_2.jpg",
+    "Insecta/Hymenoptera/Tetramorium_alpestre/Tetramorium_alpestre_3.jpg",
+    "Insecta/Hymenoptera/Tetramorium_alpestre/Tetramorium_alpestre_4.jpg"
+  ],
+  "Urocerus gigas": [
+    "Insecta/Hymenoptera/Urocerus_gigas___Riesenholzwespe/Urocerus_gigas_1.jpg",
+    "Insecta/Hymenoptera/Urocerus_gigas___Riesenholzwespe/Urocerus_gigas_2.jpg",
+    "Insecta/Hymenoptera/Urocerus_gigas___Riesenholzwespe/Urocerus_gigas_3.jpg"
+  ],
+  "Vespula germanica": [
+    "Insecta/Hymenoptera/Vespula_germanica___Deutsche_Wespe/Vespula_germanica_1.jpg",
+    "Insecta/Hymenoptera/Vespula_germanica___Deutsche_Wespe/Vespula_germanica_2.jpg",
+    "Insecta/Hymenoptera/Vespula_germanica___Deutsche_Wespe/Vespula_germanica_3.jpg",
+    "Insecta/Hymenoptera/Vespula_germanica___Deutsche_Wespe/Vespula_germanica_4.jpg"
+  ],
+  "Aglais urticae": [
+    "Insecta/Lepidoptera/Aglais_urticae___Kleiner_Fuchs/Aglais_urticae_1.jpg",
+    "Insecta/Lepidoptera/Aglais_urticae___Kleiner_Fuchs/Aglais_urticae_2.jpg",
+    "Insecta/Lepidoptera/Aglais_urticae___Kleiner_Fuchs/Aglais_urticae_3.jpg",
+    "Insecta/Lepidoptera/Aglais_urticae___Kleiner_Fuchs/Aglais_urticae_4.jpg"
+  ],
+  "Aporia crategi": [
+    "Insecta/Lepidoptera/Aporia_crategi___BaumWeißling/Aporia_crategi_1.jpg",
+    "Insecta/Lepidoptera/Aporia_crategi___BaumWeißling/Aporia_crategi_2.jpg",
+    "Insecta/Lepidoptera/Aporia_crategi___BaumWeißling/Aporia_crategi_3.jpg",
+    "Insecta/Lepidoptera/Aporia_crategi___BaumWeißling/Aporia_crategi_4.jpg"
+  ],
+  "Autographa gamma": [
+    "Insecta/Lepidoptera/Autographa_gamma___Gammaeule/Autographa_gamma_1.jpg",
+    "Insecta/Lepidoptera/Autographa_gamma___Gammaeule/Autographa_gamma_2.jpg",
+    "Insecta/Lepidoptera/Autographa_gamma___Gammaeule/Autographa_gamma_3.jpg",
+    "Insecta/Lepidoptera/Autographa_gamma___Gammaeule/Autographa_gamma_4.jpg"
+  ],
+  "Cameraria ohridella": [
+    "Insecta/Lepidoptera/Cameraria_ohridella___RosskastanienMiniermo/Cameraria_ohridella_1.jpg",
+    "Insecta/Lepidoptera/Cameraria_ohridella___RosskastanienMiniermo/Cameraria_ohridella_2.jpg",
+    "Insecta/Lepidoptera/Cameraria_ohridella___RosskastanienMiniermo/Cameraria_ohridella_3.jpg",
+    "Insecta/Lepidoptera/Cameraria_ohridella___RosskastanienMiniermo/Cameraria_ohridella_4.jpg"
+  ],
+  "Colias palaeno": [
+    "Insecta/Lepidoptera/Colias_palaeno___HochmoorGelbling/Colias_palaeno_1.jpg",
+    "Insecta/Lepidoptera/Colias_palaeno___HochmoorGelbling/Colias_palaeno_2.jpg",
+    "Insecta/Lepidoptera/Colias_palaeno___HochmoorGelbling/Colias_palaeno_3.jpg"
+  ],
+  "Gonopteryx rhamni": [
+    "Insecta/Lepidoptera/Gonopteryx_rhamni___Zitronenfalter/Gonopteryx_rhamni_1.jpg",
+    "Insecta/Lepidoptera/Gonopteryx_rhamni___Zitronenfalter/Gonopteryx_rhamni_2.jpg",
+    "Insecta/Lepidoptera/Gonopteryx_rhamni___Zitronenfalter/Gonopteryx_rhamni_3.jpg"
+  ],
+  "Macroglossum stellatarum": [
+    "Insecta/Lepidoptera/Macroglossum_stellatarum___Taubenschwanzchen/Macroglossum_stellatarum_1.jpg",
+    "Insecta/Lepidoptera/Macroglossum_stellatarum___Taubenschwanzchen/Macroglossum_stellatarum_2.jpg",
+    "Insecta/Lepidoptera/Macroglossum_stellatarum___Taubenschwanzchen/Macroglossum_stellatarum_3.jpg"
+  ],
+  "Phengaris alcon": [
+    "Insecta/Lepidoptera/Phengaris_alcon___EnzianAmeisenblauling/Phengaris_alcon_1.jpg",
+    "Insecta/Lepidoptera/Phengaris_alcon___EnzianAmeisenblauling/Phengaris_alcon_2.jpg",
+    "Insecta/Lepidoptera/Phengaris_alcon___EnzianAmeisenblauling/Phengaris_alcon_3.jpg",
+    "Insecta/Lepidoptera/Phengaris_alcon___EnzianAmeisenblauling/Phengaris_alcon_4.jpg",
+    "Insecta/Lepidoptera/Phengaris_alcon___EnzianAmeisenblauling/Phengaris_alcon_5.jpg"
+  ],
+  "Pieris rapae": [
+    "Insecta/Lepidoptera/Pieris_rapae___Kleiner_Kohlweißling/Pieris_rapae_1.jpg",
+    "Insecta/Lepidoptera/Pieris_rapae___Kleiner_Kohlweißling/Pieris_rapae_2.jpg",
+    "Insecta/Lepidoptera/Pieris_rapae___Kleiner_Kohlweißling/Pieris_rapae_3.jpg",
+    "Insecta/Lepidoptera/Pieris_rapae___Kleiner_Kohlweißling/Pieris_rapae_4.jpg"
+  ],
+  "Plodia interpunctella": [
+    "Insecta/Lepidoptera/Plodia_interpunctella___Dorrobstmotte/Plodia_interpunctella_1.jpg",
+    "Insecta/Lepidoptera/Plodia_interpunctella___Dorrobstmotte/Plodia_interpunctella_2.jpg"
+  ],
+  "Pseudopanthera macularia": [
+    "Insecta/Lepidoptera/Pseudopanthera_macularia___Pantherspanner/Pseudopanthera_macularia_1.jpg",
+    "Insecta/Lepidoptera/Pseudopanthera_macularia___Pantherspanner/Pseudopanthera_macularia_2.jpg",
+    "Insecta/Lepidoptera/Pseudopanthera_macularia___Pantherspanner/Pseudopanthera_macularia_3.jpg",
+    "Insecta/Lepidoptera/Pseudopanthera_macularia___Pantherspanner/Pseudopanthera_macularia_4.jpg",
+    "Insecta/Lepidoptera/Pseudopanthera_macularia___Pantherspanner/Pseudopanthera_macularia_5.jpg"
+  ],
+  "Saturnia pavonia": [
+    "Insecta/Lepidoptera/Saturnia_pavonia___Kleines_Nachtpfauenauge/Saturnia_pavonia_1.jpg",
+    "Insecta/Lepidoptera/Saturnia_pavonia___Kleines_Nachtpfauenauge/Saturnia_pavonia_2.jpg",
+    "Insecta/Lepidoptera/Saturnia_pavonia___Kleines_Nachtpfauenauge/Saturnia_pavonia_3.jpg",
+    "Insecta/Lepidoptera/Saturnia_pavonia___Kleines_Nachtpfauenauge/Saturnia_pavonia_4.jpg"
+  ],
+  "Vanessa cardui": [
+    "Insecta/Lepidoptera/Vanessa_cardui___Distelfalter/Vanessa_cardui_1.jpg",
+    "Insecta/Lepidoptera/Vanessa_cardui___Distelfalter/Vanessa_cardui_2.jpg",
+    "Insecta/Lepidoptera/Vanessa_cardui___Distelfalter/Vanessa_cardui_3.jpg",
+    "Insecta/Lepidoptera/Vanessa_cardui___Distelfalter/Vanessa_cardui_4.jpg",
+    "Insecta/Lepidoptera/Vanessa_cardui___Distelfalter/Vanessa_cardui_5.jpg"
+  ],
+  "Zygaena filipendulae": [
+    "Insecta/Lepidoptera/Zygaena_filipendulae___SechsfleckWidderchen/Zygaena_filipendulae_1.jpg",
+    "Insecta/Lepidoptera/Zygaena_filipendulae___SechsfleckWidderchen/Zygaena_filipendulae_2.jpg",
+    "Insecta/Lepidoptera/Zygaena_filipendulae___SechsfleckWidderchen/Zygaena_filipendulae_3.jpg"
+  ],
+  "Mantis religiosa": [
+    "Insecta/Mantodea/Mantis_religiosa___Gottesanbeterin/Mantis_religiosa_1.jpg",
+    "Insecta/Mantodea/Mantis_religiosa___Gottesanbeterin/Mantis_religiosa_2.jpg",
+    "Insecta/Mantodea/Mantis_religiosa___Gottesanbeterin/Mantis_religiosa_3.jpg",
+    "Insecta/Mantodea/Mantis_religiosa___Gottesanbeterin/Mantis_religiosa_4.jpg",
+    "Insecta/Mantodea/Mantis_religiosa___Gottesanbeterin/Mantis_religiosa_5.jpg"
+  ],
+  "Boreus westwoodi": [
+    "Insecta/Mecoptera/Boreus_westwoodi/Boreus_westwoodi_1.jpg",
+    "Insecta/Mecoptera/Boreus_westwoodi/Boreus_westwoodi_2.jpg",
+    "Insecta/Mecoptera/Boreus_westwoodi/Boreus_westwoodi_3.jpg",
+    "Insecta/Mecoptera/Boreus_westwoodi/Boreus_westwoodi_4.jpg",
+    "Insecta/Mecoptera/Boreus_westwoodi/Boreus_westwoodi_5.jpg"
+  ],
+  "Panorpa communis": [
+    "Insecta/Mecoptera/Panorpa_communis___Gemeine_Skorpionsfliege/Panorpa_communis_1.jpg",
+    "Insecta/Mecoptera/Panorpa_communis___Gemeine_Skorpionsfliege/Panorpa_communis_2.jpg",
+    "Insecta/Mecoptera/Panorpa_communis___Gemeine_Skorpionsfliege/Panorpa_communis_3.jpg"
+  ],
+  "Chrysopa perla": [
+    "Insecta/Neuroptera/Chrysopa_perla___Blaugrune_Florfliege/Chrysopa_perla_1.jpg",
+    "Insecta/Neuroptera/Chrysopa_perla___Blaugrune_Florfliege/Chrysopa_perla_2.jpg",
+    "Insecta/Neuroptera/Chrysopa_perla___Blaugrune_Florfliege/Chrysopa_perla_3.jpg",
+    "Insecta/Neuroptera/Chrysopa_perla___Blaugrune_Florfliege/Chrysopa_perla_4.jpg"
+  ],
+  "Myrmeleon formicarius": [
+    "Insecta/Neuroptera/Myrmeleon_formicarius___GewohnlAmeisenjungfe/Myrmeleon_formicarius_1.jpg",
+    "Insecta/Neuroptera/Myrmeleon_formicarius___GewohnlAmeisenjungfe/Myrmeleon_formicarius_2.jpg",
+    "Insecta/Neuroptera/Myrmeleon_formicarius___GewohnlAmeisenjungfe/Myrmeleon_formicarius_4.jpg"
+  ],
+  "Sisyra nigra": [
+    "Insecta/Neuroptera/Sisyra_nigra/Sisyra_nigra_1.jpg",
+    "Insecta/Neuroptera/Sisyra_nigra/Sisyra_nigra_2.jpg"
+  ],
+  "Aeshna cyanea": [
+    "Insecta/Odonata/Aeshna_cyanea___Blaugrune_Mosaikjungfer/Aeshna_cyanea_1.jpg",
+    "Insecta/Odonata/Aeshna_cyanea___Blaugrune_Mosaikjungfer/Aeshna_cyanea_2.jpg",
+    "Insecta/Odonata/Aeshna_cyanea___Blaugrune_Mosaikjungfer/Aeshna_cyanea_3.jpg"
+  ],
+  "Anax imperator": [
+    "Insecta/Odonata/Anax_imperator___Gr_Konigslibelle/Anax_imperator_1.png",
+    "Insecta/Odonata/Anax_imperator___Gr_Konigslibelle/Anax_imperator_2.png",
+    "Insecta/Odonata/Anax_imperator___Gr_Konigslibelle/Anax_imperator_3.png",
+    "Insecta/Odonata/Anax_imperator___Gr_Konigslibelle/Anax_imperator_4.png",
+    "Insecta/Odonata/Anax_imperator___Gr_Konigslibelle/Anax_imperator_5.png",
+    "Insecta/Odonata/Anax_imperator___Gr_Konigslibelle/Anax_imperator_6.png",
+    "Insecta/Odonata/Anax_imperator___Gr_Konigslibelle/Anax_imperator_7.png",
+    "Insecta/Odonata/Anax_imperator___Gr_Konigslibelle/Anax_imperator_8.png",
+    "Insecta/Odonata/Anax_imperator___Gr_Konigslibelle/Anax_imperator_9.png"
+  ],
+  "Calopteryx virgo": [
+    "Insecta/Odonata/Calopteryx_virgo___BlauflugelPrachtlibelle/Calopteryx_virgo_1.jpg",
+    "Insecta/Odonata/Calopteryx_virgo___BlauflugelPrachtlibelle/Calopteryx_virgo_2.jpg",
+    "Insecta/Odonata/Calopteryx_virgo___BlauflugelPrachtlibelle/Calopteryx_virgo_3.jpg",
+    "Insecta/Odonata/Calopteryx_virgo___BlauflugelPrachtlibelle/Calopteryx_virgo_4.jpg"
+  ],
+  "Ischnura elegans": [
+    "Insecta/Odonata/Ischnura_elegans/Ischnura_elegans_1.png",
+    "Insecta/Odonata/Ischnura_elegans/Ischnura_elegans_2.png",
+    "Insecta/Odonata/Ischnura_elegans/Ischnura_elegans_3.png",
+    "Insecta/Odonata/Ischnura_elegans/Ischnura_elegans_4.png",
+    "Insecta/Odonata/Ischnura_elegans/Ischnura_elegans_5.png"
+  ],
+  "Libellula depressa": [
+    "Insecta/Odonata/Libellula_depressa___Plattbauch/Libellula_depressa_1.jpg",
+    "Insecta/Odonata/Libellula_depressa___Plattbauch/Libellula_depressa_2.jpg",
+    "Insecta/Odonata/Libellula_depressa___Plattbauch/Libellula_depressa_3.jpg",
+    "Insecta/Odonata/Libellula_depressa___Plattbauch/Libellula_depressa_4.jpg",
+    "Insecta/Odonata/Libellula_depressa___Plattbauch/Libellula_depressa_5.jpg"
+  ],
+  "Pediculus humanus": [
+    "Insecta/Phthiraptera/Pediculus_humanus___Menschenlaus/Pediculus_humanus_1.jpg",
+    "Insecta/Phthiraptera/Pediculus_humanus___Menschenlaus/Pediculus_humanus_2.jpg"
+  ],
+  "Leuctra geniculata": [
+    "Insecta/Plecoptera/Leuctra_geniculata/Leuctra_geniculata_1.png",
+    "Insecta/Plecoptera/Leuctra_geniculata/Leuctra_geniculata_2.png",
+    "Insecta/Plecoptera/Leuctra_geniculata/Leuctra_geniculata_3.png",
+    "Insecta/Plecoptera/Leuctra_geniculata/Leuctra_geniculata_4.png",
+    "Insecta/Plecoptera/Leuctra_geniculata/Leuctra_geniculata_5.png",
+    "Insecta/Plecoptera/Leuctra_geniculata/Leuctra_geniculata_6.png",
+    "Insecta/Plecoptera/Leuctra_geniculata/Leuctra_geniculata_7.png",
+    "Insecta/Plecoptera/Leuctra_geniculata/Leuctra_geniculata_8.png",
+    "Insecta/Plecoptera/Leuctra_geniculata/Leuctra_geniculata_9.png"
+  ],
+  "Taeniopteryx kuehtreiberi": [
+    "Insecta/Plecoptera/Taeniopteryx_kuehtreiberi/Taeniopteryx_kuehtreiberi_1.jpg",
+    "Insecta/Plecoptera/Taeniopteryx_kuehtreiberi/Taeniopteryx_kuehtreiberi_2.jpg",
+    "Insecta/Plecoptera/Taeniopteryx_kuehtreiberi/Taeniopteryx_kuehtreiberi_3.jpg"
+  ],
+  "Psococerastis gibbosa": [
+    "Insecta/Psocoptera/Psococerastis_gibbosa/Psococerastis_gibbosa_1.jpg",
+    "Insecta/Psocoptera/Psococerastis_gibbosa/Psococerastis_gibbosa_2.jpg",
+    "Insecta/Psocoptera/Psococerastis_gibbosa/Psococerastis_gibbosa_3.jpg"
+  ],
+  "P. notata": [
+    "Insecta/Raphidiidae/Phaestigma_notata___Kenntliche_Kamelhalsfliege/P._notata_3.jpg"
+  ],
+  "Phaestigma notata": [
+    "Insecta/Raphidiidae/Phaestigma_notata___Kenntliche_Kamelhalsfliege/Phaestigma_notata_1.jpg",
+    "Insecta/Raphidiidae/Phaestigma_notata___Kenntliche_Kamelhalsfliege/Phaestigma_notata_2.jpg",
+    "Insecta/Raphidiidae/Phaestigma_notata___Kenntliche_Kamelhalsfliege/Phaestigma_notata_4.jpg"
+  ],
+  "Hystrichopsylla talpae": [
+    "Insecta/Siphonaptera/Hystrichopsylla_talpae___Maulwurfsfloh/Hystrichopsylla_talpae_1.jpg",
+    "Insecta/Siphonaptera/Hystrichopsylla_talpae___Maulwurfsfloh/Hystrichopsylla_talpae_4.jpg"
+  ],
+  "Xenos vesparum": [
+    "Insecta/Strepsiptera/Xenos_vesparum/Xenos_vesparum_1.jpg",
+    "Insecta/Strepsiptera/Xenos_vesparum/Xenos_vesparum_2.jpg",
+    "Insecta/Strepsiptera/Xenos_vesparum/Xenos_vesparum_3.jpg",
+    "Insecta/Strepsiptera/Xenos_vesparum/Xenos_vesparum_4.jpg"
+  ],
+  "Drusus discolor": [
+    "Insecta/Trichoptera/Drusus_discolor/Drusus_discolor_1.jpg",
+    "Insecta/Trichoptera/Drusus_discolor/Drusus_discolor_2.jpg",
+    "Insecta/Trichoptera/Drusus_discolor/Drusus_discolor_3.jpg",
+    "Insecta/Trichoptera/Drusus_discolor/Drusus_discolor_4.jpg",
+    "Insecta/Trichoptera/Drusus_discolor/Drusus_discolor_5.png"
+  ],
+  "Oligotricha striata": [
+    "Insecta/Trichoptera/Oligotricha_striata/Oligotricha_striata_1.jpg",
+    "Insecta/Trichoptera/Oligotricha_striata/Oligotricha_striata_2.jpg"
+  ],
+  "Ctenolepisma longicaudatum": [
+    "Insecta/Zygentoma/Ctenolepisma_longicaudatum___Papierfischchen/Ctenolepisma_longicaudatum_1.png",
+    "Insecta/Zygentoma/Ctenolepisma_longicaudatum___Papierfischchen/Ctenolepisma_longicaudatum_2.png"
+  ],
+  "Lepisma sacchinarum": [
+    "Insecta/Zygentoma/Lepisma_sacchinarum___Silberfischchen/Lepisma_sacchinarum_1.jpg",
+    "Insecta/Zygentoma/Lepisma_sacchinarum___Silberfischchen/Lepisma_sacchinarum_2.jpg",
+    "Insecta/Zygentoma/Lepisma_sacchinarum___Silberfischchen/Lepisma_sacchinarum_3.jpg"
+  ],
+  "Gammarus fossarum": [
+    "Malacostraca/Amphipoda/Gammarus_fossarum___Bachflohkrebs/Gammarus_fossarum_1.jpg",
+    "Malacostraca/Amphipoda/Gammarus_fossarum___Bachflohkrebs/Gammarus_fossarum_2.jpg",
+    "Malacostraca/Amphipoda/Gammarus_fossarum___Bachflohkrebs/Gammarus_fossarum_3.jpg"
+  ],
+  "A. torrentium": [
+    "Malacostraca/Decapoda/Austropotamobius_torrentium__Steinkrebs/A._torrentium_1.jpg",
+    "Malacostraca/Decapoda/Austropotamobius_torrentium__Steinkrebs/A._torrentium_2.jpg",
+    "Malacostraca/Decapoda/Austropotamobius_torrentium__Steinkrebs/A._torrentium_3.jpg",
+    "Malacostraca/Decapoda/Austropotamobius_torrentium__Steinkrebs/A._torrentium_4.jpg",
+    "Malacostraca/Decapoda/Austropotamobius_torrentium__Steinkrebs/A._torrentium_5.png",
+    "Malacostraca/Decapoda/Austropotamobius_torrentium__Steinkrebs/A._torrentium_6.png",
+    "Malacostraca/Decapoda/Austropotamobius_torrentium__Steinkrebs/A._torrentium_7.png"
+  ],
+  "Pacifastacus leniusculus": [
+    "Malacostraca/Decapoda/Pacifastacus_leniusculus__Signalkrebs/Pacifastacus_leniusculus_1.png",
+    "Malacostraca/Decapoda/Pacifastacus_leniusculus__Signalkrebs/Pacifastacus_leniusculus_2.png"
+  ],
+  "Armadillidium versicolor": [
+    "Malacostraca/Isopoda/Armadillidium_versicolor/Armadillidium_versicolor_1.jpg",
+    "Malacostraca/Isopoda/Armadillidium_versicolor/Armadillidium_versicolor_2.jpg",
+    "Malacostraca/Isopoda/Armadillidium_versicolor/Armadillidium_versicolor_3.jpg"
+  ],
+  "Asellus aquaticus": [
+    "Malacostraca/Isopoda/Asellus_aquaticus___Wasserassel/Asellus_aquaticus_1.jpg",
+    "Malacostraca/Isopoda/Asellus_aquaticus___Wasserassel/Asellus_aquaticus_2.jpg",
+    "Malacostraca/Isopoda/Asellus_aquaticus___Wasserassel/Asellus_aquaticus_3.jpg"
+  ],
+  "Rupicapra rupicapra": [
+    "Mammalia/Artiodactyla/Rupicapra_rupicapra___Gamse/Rupicapra_rupicapra_1.jpg",
+    "Mammalia/Artiodactyla/Rupicapra_rupicapra___Gamse/Rupicapra_rupicapra_2.jpg",
+    "Mammalia/Artiodactyla/Rupicapra_rupicapra___Gamse/Rupicapra_rupicapra_3.jpg",
+    "Mammalia/Artiodactyla/Rupicapra_rupicapra___Gamse/Rupicapra_rupicapra_4.jpg"
+  ],
+  "Lutra lutra": [
+    "Mammalia/Carnivora/Lutra_lutra___Fischotter/Lutra_lutra_1.jpg",
+    "Mammalia/Carnivora/Lutra_lutra___Fischotter/Lutra_lutra_2.jpg",
+    "Mammalia/Carnivora/Lutra_lutra___Fischotter/Lutra_lutra_3.jpg",
+    "Mammalia/Carnivora/Lutra_lutra___Fischotter/Lutra_lutra_4.jpg",
+    "Mammalia/Carnivora/Lutra_lutra___Fischotter/Lutra_lutra_5.jpg"
+  ],
+  "Martes foina": [
+    "Mammalia/Carnivora/Martes_foina___Steinmarder/Martes_foina_1.jpg",
+    "Mammalia/Carnivora/Martes_foina___Steinmarder/Martes_foina_2.jpg",
+    "Mammalia/Carnivora/Martes_foina___Steinmarder/Martes_foina_3.jpg",
+    "Mammalia/Carnivora/Martes_foina___Steinmarder/Martes_foina_4.jpg",
+    "Mammalia/Carnivora/Martes_foina___Steinmarder/Martes_foina_5.jpg"
+  ],
+  "Vulpes vulpes": [
+    "Mammalia/Carnivora/Vulpes_vulpes___Rotfuchs/Vulpes_vulpes_1.jpg",
+    "Mammalia/Carnivora/Vulpes_vulpes___Rotfuchs/Vulpes_vulpes_2.jpg",
+    "Mammalia/Carnivora/Vulpes_vulpes___Rotfuchs/Vulpes_vulpes_3.jpg",
+    "Mammalia/Carnivora/Vulpes_vulpes___Rotfuchs/Vulpes_vulpes_4.jpg"
+  ],
+  "Pipistrellus pipistrellus": [
+    "Mammalia/Chiroptera/Pipistrellus_pipistrellus___Zwergfledermaus/Pipistrellus_pipistrellus_1.jpg",
+    "Mammalia/Chiroptera/Pipistrellus_pipistrellus___Zwergfledermaus/Pipistrellus_pipistrellus_2.jpg",
+    "Mammalia/Chiroptera/Pipistrellus_pipistrellus___Zwergfledermaus/Pipistrellus_pipistrellus_3.jpg",
+    "Mammalia/Chiroptera/Pipistrellus_pipistrellus___Zwergfledermaus/Pipistrellus_pipistrellus_4.jpg",
+    "Mammalia/Chiroptera/Pipistrellus_pipistrellus___Zwergfledermaus/Pipistrellus_pipistrellus_5.jpg"
+  ],
+  "Erinaceus europaeus": [
+    "Mammalia/Insectivora/Erinaceus_europaeus___Braunbrustigel/Erinaceus_europaeus_1.jpg",
+    "Mammalia/Insectivora/Erinaceus_europaeus___Braunbrustigel/Erinaceus_europaeus_2.jpg",
+    "Mammalia/Insectivora/Erinaceus_europaeus___Braunbrustigel/Erinaceus_europaeus_3.jpg",
+    "Mammalia/Insectivora/Erinaceus_europaeus___Braunbrustigel/Erinaceus_europaeus_4.jpg"
+  ],
+  "Sorex alpinus": [
+    "Mammalia/Insectivora/Sorex_alpinus___Alpenspitzmaus/Sorex_alpinus_1.jpg",
+    "Mammalia/Insectivora/Sorex_alpinus___Alpenspitzmaus/Sorex_alpinus_2.jpg"
+  ],
+  "Talpa europaea": [
+    "Mammalia/Insectivora/Talpa_europaea___Europaischer_Maulwurf/Talpa_europaea_1.jpg",
+    "Mammalia/Insectivora/Talpa_europaea___Europaischer_Maulwurf/Talpa_europaea_2.jpg",
+    "Mammalia/Insectivora/Talpa_europaea___Europaischer_Maulwurf/Talpa_europaea_3.jpg"
+  ],
+  "Lepus timidus": [
+    "Mammalia/Lagomorpha/Lepus_timidus___Schneehase/Lepus_timidus_1.jpg",
+    "Mammalia/Lagomorpha/Lepus_timidus___Schneehase/Lepus_timidus_2.jpg",
+    "Mammalia/Lagomorpha/Lepus_timidus___Schneehase/Lepus_timidus_3.jpg"
+  ],
+  "Apodemus flavicollis": [
+    "Mammalia/Rodentia/Apodemus_flavicollis___Gelbhalsmaus/Apodemus_flavicollis_1.jpg",
+    "Mammalia/Rodentia/Apodemus_flavicollis___Gelbhalsmaus/Apodemus_flavicollis_2.jpg",
+    "Mammalia/Rodentia/Apodemus_flavicollis___Gelbhalsmaus/Apodemus_flavicollis_3.jpg",
+    "Mammalia/Rodentia/Apodemus_flavicollis___Gelbhalsmaus/Apodemus_flavicollis_4.jpg",
+    "Mammalia/Rodentia/Apodemus_flavicollis___Gelbhalsmaus/Apodemus_flavicollis_5.jpg"
+  ],
+  "Castor fiber": [
+    "Mammalia/Rodentia/Castor_fiber___Europaischer_Biber/Castor_fiber_1.jpg",
+    "Mammalia/Rodentia/Castor_fiber___Europaischer_Biber/Castor_fiber_2.jpg",
+    "Mammalia/Rodentia/Castor_fiber___Europaischer_Biber/Castor_fiber_3.jpg",
+    "Mammalia/Rodentia/Castor_fiber___Europaischer_Biber/Castor_fiber_4.jpg",
+    "Mammalia/Rodentia/Castor_fiber___Europaischer_Biber/Castor_fiber_5.jpg"
+  ],
+  "Chionomys nivalis": [
+    "Mammalia/Rodentia/Chionomys_nivalis___Schneemaus/Chionomys_nivalis_1.png",
+    "Mammalia/Rodentia/Chionomys_nivalis___Schneemaus/Chionomys_nivalis_2.png",
+    "Mammalia/Rodentia/Chionomys_nivalis___Schneemaus/Chionomys_nivalis_3.png",
+    "Mammalia/Rodentia/Chionomys_nivalis___Schneemaus/Chionomys_nivalis_4.png",
+    "Mammalia/Rodentia/Chionomys_nivalis___Schneemaus/Chionomys_nivalis_5.png",
+    "Mammalia/Rodentia/Chionomys_nivalis___Schneemaus/Chionomys_nivalis_6.png",
+    "Mammalia/Rodentia/Chionomys_nivalis___Schneemaus/Chionomys_nivalis_7.png",
+    "Mammalia/Rodentia/Chionomys_nivalis___Schneemaus/Chionomys_nivalis_8.png",
+    "Mammalia/Rodentia/Chionomys_nivalis___Schneemaus/Chionomys_nivalis_9.png"
+  ],
+  "Glis glis": [
+    "Mammalia/Rodentia/Glis_glis___Siebenschlafer/Glis_glis_1.jpg",
+    "Mammalia/Rodentia/Glis_glis___Siebenschlafer/Glis_glis_2.jpg",
+    "Mammalia/Rodentia/Glis_glis___Siebenschlafer/Glis_glis_3.jpg",
+    "Mammalia/Rodentia/Glis_glis___Siebenschlafer/Glis_glis_4.jpg"
+  ],
+  "Marmota marmota": [
+    "Mammalia/Rodentia/Marmota_marmota___Alpenmurmeltier/Marmota_marmota_1.jpg",
+    "Mammalia/Rodentia/Marmota_marmota___Alpenmurmeltier/Marmota_marmota_2.jpg",
+    "Mammalia/Rodentia/Marmota_marmota___Alpenmurmeltier/Marmota_marmota_3.jpg",
+    "Mammalia/Rodentia/Marmota_marmota___Alpenmurmeltier/Marmota_marmota_4.jpg",
+    "Mammalia/Rodentia/Marmota_marmota___Alpenmurmeltier/Marmota_marmota_5.jpg"
+  ],
+  "E. mariae": [
+    "Petromyzontida/Petromyzontiformes/Eudontomyzon_mariae___Ukr_Bachneunaug/E._mariae_1.jpg",
+    "Petromyzontida/Petromyzontiformes/Eudontomyzon_mariae___Ukr_Bachneunaug/E._mariae_2.jpg",
+    "Petromyzontida/Petromyzontiformes/Eudontomyzon_mariae___Ukr_Bachneunaug/E._mariae_3.jpg"
+  ],
+  "Carassius gibelio": [
+    "Pisces/Cypriniformes/Carassius_gibelio___Giebel/Carassius_gibelio_1.jpg",
+    "Pisces/Cypriniformes/Carassius_gibelio___Giebel/Carassius_gibelio_2.jpg"
+  ],
+  "Cyprinus carpio": [
+    "Pisces/Cypriniformes/Cyprinus_carpio___Karpfen/Cyprinus_carpio_1.jpg",
+    "Pisces/Cypriniformes/Cyprinus_carpio___Karpfen/Cyprinus_carpio_2.jpg"
+  ],
+  "Esox lucius": [
+    "Pisces/Esociformes/Esox_lucius___Hecht/Esox_lucius_1.jpg",
+    "Pisces/Esociformes/Esox_lucius___Hecht/Esox_lucius_2.jpg",
+    "Pisces/Esociformes/Esox_lucius___Hecht/Esox_lucius_3.jpg"
+  ],
+  "Cottus gobio": [
+    "Pisces/Perciformes/Cottus_gobio___Koppe/Cottus_gobio_1.jpg",
+    "Pisces/Perciformes/Cottus_gobio___Koppe/Cottus_gobio_2.jpg",
+    "Pisces/Perciformes/Cottus_gobio___Koppe/Cottus_gobio_3.jpg",
+    "Pisces/Perciformes/Cottus_gobio___Koppe/Cottus_gobio_4.jpg",
+    "Pisces/Perciformes/Cottus_gobio___Koppe/Cottus_gobio_5.jpg"
+  ],
+  "Thymallus thymallus": [
+    "Pisces/Salmoniformes/Thymallus_thymallus___Europaische_Asche/Thymallus_thymallus_1.jpg",
+    "Pisces/Salmoniformes/Thymallus_thymallus___Europaische_Asche/Thymallus_thymallus_2.jpg",
+    "Pisces/Salmoniformes/Thymallus_thymallus___Europaische_Asche/Thymallus_thymallus_3.jpg"
+  ],
+  "Anguis fragilis": [
+    "Reptilia/Squamata/Anguis_fragilis/Anguis_fragilis_1.jpg",
+    "Reptilia/Squamata/Anguis_fragilis/Anguis_fragilis_2.jpg",
+    "Reptilia/Squamata/Anguis_fragilis/Anguis_fragilis_3.jpg",
+    "Reptilia/Squamata/Anguis_fragilis/Anguis_fragilis_4.jpg"
+  ],
+  "Coronella austriaca": [
+    "Reptilia/Squamata/Coronella_austriaca___Schlingnatter/Coronella_austriaca_1.jpg",
+    "Reptilia/Squamata/Coronella_austriaca___Schlingnatter/Coronella_austriaca_2.jpg",
+    "Reptilia/Squamata/Coronella_austriaca___Schlingnatter/Coronella_austriaca_3.jpg",
+    "Reptilia/Squamata/Coronella_austriaca___Schlingnatter/Coronella_austriaca_4.jpg"
+  ],
+  "Lacerta agilis": [
+    "Reptilia/Squamata/Lacerta_agilis___Zauneidechse/Lacerta_agilis_1.png",
+    "Reptilia/Squamata/Lacerta_agilis___Zauneidechse/Lacerta_agilis_2.png",
+    "Reptilia/Squamata/Lacerta_agilis___Zauneidechse/Lacerta_agilis_3.png"
+  ],
+  "Podarcis muralis": [
+    "Reptilia/Squamata/Podarcis_muralis___Mauereidechse/Podarcis_muralis_1.png",
+    "Reptilia/Squamata/Podarcis_muralis___Mauereidechse/Podarcis_muralis_2.png",
+    "Reptilia/Squamata/Podarcis_muralis___Mauereidechse/Podarcis_muralis_3.png"
+  ],
+  "Vipera berus": [
+    "Reptilia/Squamata/Vipera_berus___Kreuzotter/Vipera_berus_1.png",
+    "Reptilia/Squamata/Vipera_berus___Kreuzotter/Vipera_berus_2.png",
+    "Reptilia/Squamata/Vipera_berus___Kreuzotter/Vipera_berus_3.png",
+    "Reptilia/Squamata/Vipera_berus___Kreuzotter/Vipera_berus_4.png"
+  ],
+  "Zootoca vivipara": [
+    "Reptilia/Squamata/Zootoca_vivipara___Bergeidechse/Zootoca_vivipara_1.jpg",
+    "Reptilia/Squamata/Zootoca_vivipara___Bergeidechse/Zootoca_vivipara_2.jpg"
+  ],
+  "Crenobia alpina": [
+    "Turbellaria/Tricladida/Crenobia_alpina___Alpenstrudelwurm/Crenobia_alpina_1.jpg",
+    "Turbellaria/Tricladida/Crenobia_alpina___Alpenstrudelwurm/Crenobia_alpina_2.jpg",
+    "Turbellaria/Tricladida/Crenobia_alpina___Alpenstrudelwurm/Crenobia_alpina_3.jpg"
+  ],
+  "Dugesia gonocephala": [
+    "Turbellaria/Tricladida/Dugesia_gonocephala___Dreieckstrudelwurm/Dugesia_gonocephala_1.jpg",
+    "Turbellaria/Tricladida/Dugesia_gonocephala___Dreieckstrudelwurm/Dugesia_gonocephala_2.jpg",
+    "Turbellaria/Tricladida/Dugesia_gonocephala___Dreieckstrudelwurm/Dugesia_gonocephala_3.jpg"
+  ]
+}

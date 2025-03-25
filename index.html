@@ -198,6 +198,19 @@
             max-height: 80vh;
         }
 
+        #start-button {
+            font-size: 1.5rem;
+            padding: 15px 30px;
+            margin: 20px 0;
+        }
+
+        .checkbox-container {
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
         @media (max-width: 480px) {
             h1 {
                 font-size: 1.5rem;
@@ -238,10 +251,16 @@
     </div>
 
     <main>
-        <input type="text" id="answer" name="answer" placeholder="Antwort eingeben">
-        <img id="image" src="favicon.png" width="500" height="500" alt="Taxa Bild" onerror="this.src='favicon.png';">
-        <p id="attribution"></p>
-        <a id="link" target="_blank">Link zur Beobachtung</a>
+        <input type="text" id="answer" name="answer" placeholder="Antwort eingeben" style="display: none;">
+        <button id="start-button">Quiz starten</button>
+        <div class="checkbox-container">
+            <input type="checkbox" id="random-inaturalist" name="random-inaturalist">
+            <label for="random-inaturalist">Zufällige iNaturalist Bilder</label>
+        </div>
+        <img id="image" src="favicon.png" width="500" height="500" alt="Taxa Bild" onerror="this.src='favicon.png';"
+            style="display: none;">
+        <p id="attribution" style="display:none"></p>
+        <a id="link" target="_blank" style="display:none">Link zur Beobachtung</a>
     </main>
 
     <img id="imageCache" src="" style="display: none;" alt="Cache">
@@ -309,6 +328,9 @@
     const attribution = document.getElementById("attribution");
     const link = document.getElementById("link");
     const input = document.getElementById("answer");
+    const startButton = document.getElementById("start-button");
+    const randomInaturalist = document.getElementById("random-inaturalist");
+    const checkboxContainer = document.querySelector(".checkbox-container");
 
     /**** FILE SELECTION ****/
     const files = [
@@ -331,9 +353,23 @@
     selectFiles.addEventListener("change", () => {
         loadCSV(selectFiles.value).then(() => {
             stats.total = taxa.length;
-            next(true);
+            showStartButton();
         });
     });
+
+    /*** IMAGE MAPPING ***/
+    /** @type {Object<string, string[]>} */
+    let mappingFile = {};
+    fetch(window.location.href + "/files/mapping.json")
+        .then(async (response) => {
+            const res = await response.json();
+            mappingFile = res;
+        })
+        .catch(error => {
+            console.error("Error loading mapping file", error);
+            return {};
+        });
+
 
     /**** RESULT DIALOG ****/
     const buttonResultClose = document.querySelector("#dialog-result-ok");
@@ -411,6 +447,53 @@
         focusInput();
     });
 
+    /**** START BUTTON FUNCTIONALITY ****/
+    startButton.addEventListener("click", () => {
+        startQuiz();
+    });
+
+    function showStartButton () {
+        /* Hide the image and show the start button */
+        image.style.display = "none";
+        link.style.display = "none";
+        attribution.style.display = "none";
+        input.style.display = "none";
+
+        /* Show the start button and checkbox */
+        startButton.style.display = "block";
+        checkboxContainer.style.display = "flex";
+
+        /* Disable the navigation buttons until quiz starts */
+        disableButtons(true);
+    }
+
+    function startQuiz () {
+        /* Hide the start button and show the image */
+        startButton.style.display = "none";
+        checkboxContainer.style.display = "none";
+
+        /* Show quiz elements */
+        image.style.display = "block";
+        input.style.display = "block";
+
+        if (randomInaturalist.checked) {
+            link.style.display = "inline-block";
+            attribution.style.display = "block";
+        }
+
+        /* Enable navigation buttons */
+        disableButtons(false);
+
+        next(true);
+    }
+
+    function disableButtons (disabled) {
+        buttonNext.disabled = disabled;
+        buttonSkip.disabled = disabled;
+        buttonLarge.disabled = disabled;
+        buttonSolution.disabled = disabled;
+    }
+
     /**** NAVIGATION ****/
     document.addEventListener("keydown", function (event) {
         if (["1", "2", "3", "4"].includes(event.key) && document.activeElement === input) {
@@ -460,6 +543,7 @@
     let cacheTaxon = null;
     let cacheData = null;
     let cacheLoading = false;
+    let cacheRandomInt = null;
 
     /** @type {boolean}  throttle next spaming */
     let nextLoading = false;
@@ -525,17 +609,57 @@
         return taxon;
     }
 
+    async function fetchData (taxon) {
+        if (randomInaturalist.checked) {
+            return fetchObs(taxon.taxonId);
+        }
+        return fetchFromMapping(taxon);
+    }
+
+    function fetchFromMapping (taxon) {
+        let mapping = mappingFile[taxon.scientificName];
+        if (!mapping) {
+            /* Checks special case if genus is shortened */
+            const parts = taxon.scientificName.split(" ");
+            if (parts.length > 1) {
+                const key = parts[0][0] + ". " + parts[1];
+                mapping = mappingFile[key];
+            }
+        }
+        if(!mapping){
+            return null;
+        }
+        const imagePathPrefix = window.location.href + "/files/images/";
+        return {
+            image: imagePathPrefix + mapping[Math.floor(Math.random() * mapping.length)],
+            images: mapping.map(image => imagePathPrefix + image),
+            attribution: undefined,
+            link: undefined
+        }
+    }
+
     /**
-     * Fetches observation from iNaturalist#
-     * @param {string} id - The taxon ID to fetch observations for
-     * @returns {Promise<ApiResponse>} The observation data
+     * Fetches observation from iNaturalist
      */
     async function fetchObs (id) {
         /* place_id=97391 is Europe */
         const url = "https://api.inaturalist.org/v2/observations?photo_license=cc-by,cc-by-nc,cc0&photo_licensed=true&place_id=97391&quality_grade=research&per_page=1&order_by=random&fields=(id:!t,photos:(attribution:!t,url:!t))&taxon_id=" + id;
         const response = await fetch(url);
+        /** @type {ApiResponse} */
         const data = await response.json();
-        return data;
+        if (!data.results || !data.results.length) {
+            return null;
+        }
+
+        const photo = data.results[0].photos[0];
+        const image = photo.url.replace("square", "medium");
+        const images = data.results[0].photos.map(photo => photo.url);
+        const attribution = photo.attribution;
+        const link = "https://www.inaturalist.org/observations/" + data.results[0].id;
+
+        return {
+            image, images, attribution, link
+        }
     }
 
 
@@ -620,18 +744,17 @@
             cacheData = null;
         } else {
             currentTaxon = randomTaxon();
-            data = await fetchObs(currentTaxon.taxonId);
+            data = await fetchData(currentTaxon);
         }
 
         render(data);
         if (taxa.length > 0) {
             cacheLoading = true;
             cacheTaxon = randomTaxon();
-            fetchObs(cacheTaxon.taxonId).then((data) => {
+            fetchData(cacheTaxon).then((data) => {
                 cacheData = data;
-                if (data.results && data.results.length) {
-                    const photo = data.results[0].photos[0];
-                    imageCache.src = photo.url.replace("square", "medium");
+                if (data) {
+                    imageCache.src = data.image;
                 }
                 cacheLoading = false;
             });
@@ -646,25 +769,25 @@
         image.classList.add("transparent");
 
         if (!data) {
-            alert(`Fehler beim Laden der Beobachtung: ${currentTaxon.scientificName}`);
-            return;
-        }
-        if (data.status === "422" || !data.results.length) {
             missingTaxa.push(currentTaxon);
             alert(`Keine Beobachtung gefunden für ${currentTaxon.scientificName}, lade nächste...`);
             nextLoading = false;
             next(true);
             return;
         }
-        const photo = data.results[0].photos[0];
-        currentImages.push(data.results[0].photos.map(photo => photo.url));
 
+        currentImages.push(data.images);
+        image.src = data.image;
+        if (data.attribution) {
+            attribution.textContent = data.attribution;
+        }
+        if (data.link) {
+            link.href = data.link;
+        }
+
+        image.classList.remove("transparent");
         input.disabled = false;
         focusInput();
-        image.classList.remove("transparent");
-        image.src = photo.url.replace("square", "medium");
-        attribution.textContent = photo.attribution;
-        link.href = "https://www.inaturalist.org/observations/" + data.results[0].id;
 
     }
 
@@ -737,7 +860,7 @@
     /*** INITIALIZATION ***/
     loadCSV(files[0].value).then(() => {
         stats.total = taxa.length;
-        next(true);
+        showStartButton();
     });
 
     document.addEventListener("keydown", (event) => {
