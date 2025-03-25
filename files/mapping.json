@@ -103,6 +103,10 @@
     "Aves/Passeriformes/Nucifraga_caryocatactes___Tannenhaher/Nucifraga_caryocatactes_2.jpg",
     "Aves/Passeriformes/Nucifraga_caryocatactes___Tannenhaher/Nucifraga_caryocatactes_3.jpg"
   ],
+  "Passer domesticus": [
+    "Aves/Passeriformes/Passer_domesticus___Haussperling/Passer_domesticus__1.jpg",
+    "Aves/Passeriformes/Passer_domesticus___Haussperling/Passer_domesticus__2.jpg"
+  ],
   "Passer montanus": [
     "Aves/Passeriformes/Passer_montanus___Feldsperling/Passer_montanus_1.jpg",
     "Aves/Passeriformes/Passer_montanus___Feldsperling/Passer_montanus_2.jpg"
@@ -333,6 +337,11 @@
     "Clitellata/Oligochaeta/Lumbricus_rubellus___Roter_Laubwurm/Lumbricus_rubellus_3.jpg",
     "Clitellata/Oligochaeta/Lumbricus_rubellus___Roter_Laubwurm/Lumbricus_rubellus_4.jpg",
     "Clitellata/Oligochaeta/Lumbricus_rubellus___Roter_Laubwurm/Lumbricus_rubellus_5.jpg"
+  ],
+  "Lumbricus terrestris": [
+    "Clitellata/Oligochaeta/Lumbricus_terrestris___Tauwurm/Lumbricus_terrestris__1.jpg",
+    "Clitellata/Oligochaeta/Lumbricus_terrestris___Tauwurm/Lumbricus_terrestris__2.jpg",
+    "Clitellata/Oligochaeta/Lumbricus_terrestris___Tauwurm/Lumbricus_terrestris__3.jpg"
   ],
   "Desoria saltans": [
     "Collembola/Entomobryomorpha/Desoria_saltans___Gletscherfloh/Desoria_saltans_1.jpg",
@@ -1046,6 +1055,13 @@
     "Insecta/Hymenoptera/Vespula_germanica___Deutsche_Wespe/Vespula_germanica_3.jpg",
     "Insecta/Hymenoptera/Vespula_germanica___Deutsche_Wespe/Vespula_germanica_4.jpg"
   ],
+  "Xylocopa violacea": [
+    "Insecta/Hymenoptera/Xylocopa_violacea___Blauschwarze_Holzbiene/Xylocopa_violacea__1.jpg",
+    "Insecta/Hymenoptera/Xylocopa_violacea___Blauschwarze_Holzbiene/Xylocopa_violacea__2.jpg",
+    "Insecta/Hymenoptera/Xylocopa_violacea___Blauschwarze_Holzbiene/Xylocopa_violacea__3.jpg",
+    "Insecta/Hymenoptera/Xylocopa_violacea___Blauschwarze_Holzbiene/Xylocopa_violacea__4.jpg",
+    "Insecta/Hymenoptera/Xylocopa_violacea___Blauschwarze_Holzbiene/Xylocopa_violacea__5.jpg"
+  ],
   "Aglais urticae": [
     "Insecta/Lepidoptera/Aglais_urticae___Kleiner_Fuchs/Aglais_urticae_1.jpg",
     "Insecta/Lepidoptera/Aglais_urticae___Kleiner_Fuchs/Aglais_urticae_2.jpg",
@@ -1232,7 +1248,9 @@
   ],
   "Hystrichopsylla talpae": [
     "Insecta/Siphonaptera/Hystrichopsylla_talpae___Maulwurfsfloh/Hystrichopsylla_talpae_1.jpg",
-    "Insecta/Siphonaptera/Hystrichopsylla_talpae___Maulwurfsfloh/Hystrichopsylla_talpae_4.jpg"
+    "Insecta/Siphonaptera/Hystrichopsylla_talpae___Maulwurfsfloh/Hystrichopsylla_talpae_4.jpg",
+    "Insecta/Siphonaptera/Hystrichopsylla_talpae___Maulwurfsfloh/Hystrichopsylla_talpae__2.jpg",
+    "Insecta/Siphonaptera/Hystrichopsylla_talpae___Maulwurfsfloh/Hystrichopsylla_talpae__3.jpg"
   ],
   "Xenos vesparum": [
     "Insecta/Strepsiptera/Xenos_vesparum/Xenos_vesparum_1.jpg",
@@ -1294,6 +1312,12 @@
     "Mammalia/Artiodactyla/Rupicapra_rupicapra___Gamse/Rupicapra_rupicapra_3.jpg",
     "Mammalia/Artiodactyla/Rupicapra_rupicapra___Gamse/Rupicapra_rupicapra_4.jpg"
   ],
+  "Canis lupus": [
+    "Mammalia/Carnivora/Canis_lupus___Wolf/Canis_lupus__1.jpg",
+    "Mammalia/Carnivora/Canis_lupus___Wolf/Canis_lupus__2.jpg",
+    "Mammalia/Carnivora/Canis_lupus___Wolf/Canis_lupus__3.jpg",
+    "Mammalia/Carnivora/Canis_lupus___Wolf/Canis_lupus__4.jpg"
+  ],
   "Lutra lutra": [
     "Mammalia/Carnivora/Lutra_lutra___Fischotter/Lutra_lutra_1.jpg",
     "Mammalia/Carnivora/Lutra_lutra___Fischotter/Lutra_lutra_2.jpg",
@@ -1320,6 +1344,13 @@
     "Mammalia/Chiroptera/Pipistrellus_pipistrellus___Zwergfledermaus/Pipistrellus_pipistrellus_3.jpg",
     "Mammalia/Chiroptera/Pipistrellus_pipistrellus___Zwergfledermaus/Pipistrellus_pipistrellus_4.jpg",
     "Mammalia/Chiroptera/Pipistrellus_pipistrellus___Zwergfledermaus/Pipistrellus_pipistrellus_5.jpg"
+  ],
+  "Rhinolophus hipposideros": [
+    "Mammalia/Chiroptera/Rhinolophus_hipposideros___Kl_Hufeisennase/Rhinolophus_hipposideros__1.jpg",
+    "Mammalia/Chiroptera/Rhinolophus_hipposideros___Kl_Hufeisennase/Rhinolophus_hipposideros__2.jpg",
+    "Mammalia/Chiroptera/Rhinolophus_hipposideros___Kl_Hufeisennase/Rhinolophus_hipposideros__3.jpg",
+    "Mammalia/Chiroptera/Rhinolophus_hipposideros___Kl_Hufeisennase/Rhinolophus_hipposideros__4.jpg",
+    "Mammalia/Chiroptera/Rhinolophus_hipposideros___Kl_Hufeisennase/Rhinolophus_hipposideros__5.jpg"
   ],
   "Erinaceus europaeus": [
     "Mammalia/Insectivora/Erinaceus_europaeus___Braunbrustigel/Erinaceus_europaeus_1.jpg",

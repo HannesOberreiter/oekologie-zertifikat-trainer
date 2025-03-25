@@ -14,7 +14,7 @@ if (files.length === 0) {
 files.forEach((file) => {
   if (!file.match(/\.(jpg|jpeg|png|gif)$/i)) return;
 
-  const match = file.match(/([a-zA-Z\.]+)_([a-zA-Z]+)_\d+\.(jpg|jpeg|png|gif)$/);
+const match = file.match(/([a-zA-Z\.]+(?:_[a-zA-Z\.]+)*)_([a-zA-Z]+(?:_[a-zA-Z]+)*)_+?\d+\.(jpg|jpeg|png|gif)$/);
   if (!match) return;
   const speciesName = match[1] + " " + match[2];
 
