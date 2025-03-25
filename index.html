@@ -680,6 +680,9 @@
         if (currentTaxon === null) {
             return undefined;
         }
+        if (input.value === "") {
+            return false;
+        }
 
         const distanceLat = LevenshteinDistance(input.value.toLowerCase(), currentTaxon.scientificName.toLowerCase());
         const distanceDe = LevenshteinDistance(input.value.toLowerCase(), currentTaxon.commonName.toLowerCase());
