@@ -617,16 +617,17 @@
     }
 
     function fetchFromMapping (taxon) {
-        let mapping = mappingFile[taxon.scientificName];
+        const name = taxon.scientificName.trim();
+        let mapping = mappingFile[name];
         if (!mapping) {
             /* Checks special case if genus is shortened */
-            const parts = taxon.scientificName.split(" ");
+            const parts = name.split(" ");
             if (parts.length > 1) {
                 const key = parts[0][0] + ". " + parts[1];
                 mapping = mappingFile[key];
             }
         }
-        if(!mapping){
+        if (!mapping) {
             return null;
         }
         const imagePathPrefix = window.location.href + "/files/images/";
@@ -684,8 +685,8 @@
             return false;
         }
 
-        const distanceLat = LevenshteinDistance(input.value.toLowerCase(), currentTaxon.scientificName.toLowerCase());
-        const distanceDe = LevenshteinDistance(input.value.toLowerCase(), currentTaxon.commonName.toLowerCase());
+        const distanceLat = LevenshteinDistance(input.value.toLowerCase(), currentTaxon.scientificName.toLowerCase().trim());
+        const distanceDe = LevenshteinDistance(input.value.toLowerCase(), currentTaxon.commonName.toLowerCase().trim());
         const distance = Math.min(distanceLat, distanceDe);
 
         console.log("input.value", input.value.toLowerCase())
