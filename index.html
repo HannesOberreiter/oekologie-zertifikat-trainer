@@ -651,7 +651,7 @@
      */
     async function fetchObs (id) {
         /* place_id=97391 is Europe */
-        const url = "https://api.inaturalist.org/v2/observations?photo_license=cc-by,cc-by-nc,cc0&photo_licensed=true&place_id=97391&quality_grade=research&per_page=1&order_by=random&fields=(id:!t,photos:(attribution:!t,url:!t))&taxon_id=" + id;
+        const url = "https://api.inaturalist.org/v2/observations?photo_license=cc-by,cc-by-nc,cc0&photo_licensed=true&place_id=97391&quality_grade=research&per_page=1&order_by=random&fields=(id:!t,photos:(attribution:!t,url:!t))&taxon_id=" + id + '&t=' + new Date().getTime();
         const response = await fetch(url);
         /** @type {ApiResponse} */
         const data = await response.json();
